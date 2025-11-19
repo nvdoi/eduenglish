@@ -42,25 +42,65 @@ mongoose
   });
 
 // ===== Middleware =====
-// CORS - Cho phép tất cả localhost
-app.use(cors({
-  origin: [
-    'http://localhost:3000',
-    'http://127.0.0.1:3000',
-    'http://localhost:3001',
-    'http://127.0.0.1:3001',
-    'http://localhost:5173', // Vite dev server
-    'http://127.0.0.1:5173'
-  ],
+// CORS - đọc từ biến môi trường ALLOWED_ORIGINS (phân tách bằng dấu phẩy)
+const defaultAllowed = [
+  'http://localhost:3000',
+  'http://127.0.0.1:3000',
+  'http://localhost:3001',
+  'http://127.0.0.1:3001',
+  'http://localhost:5173', // Vite dev server
+  'http://127.0.0.1:5173',
+  'http://localhost:5000',
+  'http://127.0.0.1:5000',
+  'http://localhost:5001',
+  'http://127.0.0.1:5001',
+  'https://eduenglish.vercel.app',
+  'https://eduenglish.onrender.com'
+];
+
+const allowedOrigins = (process.env.ALLOWED_ORIGINS || '')
+  .split(',')
+  .map((s) => s.trim())
+  .filter(Boolean);
+
+const originsWhitelist = allowedOrigins.length ? allowedOrigins : defaultAllowed;
+
+const corsOptions = {
+  origin: (origin, callback) => {
+    // Cho phép các request không có Origin (Postman, server-side, health checks)
+    if (!origin) {
+      return callback(null, true);
+    }
+
+    // Nếu nằm trong whitelist tĩnh hoặc cấu hình env
+    if (originsWhitelist.includes(origin)) {
+      return callback(null, true);
+    }
+
+    // Cho phép tất cả subdomain vercel (preview: *.vercel.app)
+    if (origin.endsWith('.vercel.app')) {
+      return callback(null, true);
+    }
+
+    // Cho phép toàn bộ localhost/127.0.0.1 với mọi port cho môi trường dev
+    if (origin.startsWith('http://localhost') || origin.startsWith('http://127.0.0.1')) {
+      return callback(null, true);
+    }
+
+    console.warn(`CORS blocked for origin: ${origin}`);
+    return callback(new Error('Not allowed by CORS'));
+  },
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS', 'PATCH'],
   allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With', 'Accept', 'Origin', 'Cache-Control'],
   exposedHeaders: ['Content-Length', 'X-Requested-With'],
   optionsSuccessStatus: 200 // Some legacy browsers choke on 204
-}));
+};
+
+app.use(cors(corsOptions));
 
 // Thêm middleware để handle preflight requests
-app.options('*', cors());
+app.options('*', cors(corsOptions));
 
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
