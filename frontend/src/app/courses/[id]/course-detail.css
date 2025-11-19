@@ -1,0 +1,640 @@
+/* Course Detail Custom Styles */
+
+/* Smooth transitions for all interactive elements */
+.course-detail * {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Tab navigation animations */
+.tab-indicator {
+  position: relative;
+  overflow: hidden;
+}
+
+.tab-indicator::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, #8b5cf6, #3b82f6);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.tab-indicator.active::after {
+  transform: scaleX(1);
+}
+
+/* Card hover animations */
+.vocab-card {
+  transform: translateY(0);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.vocab-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Grammar section expand animation */
+.grammar-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.grammar-content.expanded {
+  max-height: 1000px;
+  transition: max-height 0.5s ease-in;
+}
+
+/* Exercise option animations */
+.exercise-option {
+  position: relative;
+  overflow: hidden;
+}
+
+.exercise-option::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(139, 92, 246, 0.1), transparent);
+  transition: left 0.5s ease;
+}
+
+.exercise-option:hover::before {
+  left: 100%;
+}
+
+/* Progress bars */
+.progress-bar {
+  background: linear-gradient(90deg, #8b5cf6, #3b82f6);
+  height: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #10b981, #059669);
+  border-radius: 4px;
+  transition: width 0.8s ease-out;
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+  .tab-navigation {
+    padding: 0 1rem;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  
+  .tab-navigation::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .vocab-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .exercise-container {
+    padding: 1rem;
+  }
+
+  /* Flashcard mobile optimizations */
+  .flashcard-container {
+    height: 280px;
+  }
+
+  .flashcard-word {
+    font-size: 2rem;
+    margin-bottom: 2px;
+  }
+
+  .flashcard-pronunciation {
+    font-size: 1rem;
+    letter-spacing: -0.3px;
+  }
+
+  .flashcard-meaning {
+    font-size: 1.25rem;
+  }
+
+  .flashcard-example {
+    font-size: 1rem;
+  }
+
+  .study-stats {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .flashcard-actions {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .action-btn {
+    width: 100%;
+    padding: 16px 24px;
+  }
+
+  .flashcard-controls {
+    gap: 12px;
+  }
+
+  .flashcard-nav-btn {
+    width: 44px;
+    height: 44px;
+  }
+
+  .flashcard-mode-toggle {
+    width: 100%;
+    padding: 16px 24px;
+  }
+
+  /* Audio button mobile optimizations */
+  .audio-button {
+    width: 36px;
+    height: 36px;
+    font-size: 1rem;
+  }
+
+  .flashcard-audio {
+    top: 12px;
+    right: 12px;
+  }
+}
+
+/* Tablet optimizations */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .vocab-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Desktop optimizations */
+@media (min-width: 1025px) {
+  .vocab-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Loading animations */
+.loading-shimmer {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+/* Accessibility improvements */
+.focus-visible {
+  outline: 2px solid #8b5cf6;
+  outline-offset: 2px;
+}
+
+/* Print styles */
+@media print {
+  .tab-navigation,
+  .interactive-buttons {
+    display: none;
+  }
+  
+  .course-content {
+    box-shadow: none;
+    border: 1px solid #ccc;
+  }
+}
+
+/* Dark mode support (future enhancement) */
+@media (prefers-color-scheme: dark) {
+  .course-detail {
+    --bg-primary: #1f2937;
+    --bg-secondary: #374151;
+    --text-primary: #f9fafb;
+    --text-secondary: #d1d5db;
+    --border-color: #4b5563;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .course-detail {
+    --border-width: 2px;
+    --text-weight: 600;
+  }
+}
+
+/* Flashcard Styles */
+.flashcard-container {
+  perspective: 1000px;
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+
+.flashcard {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s cubic-bezier(0.4, 0.0, 0.2, 1);
+  cursor: pointer;
+}
+
+.flashcard.flipped {
+  transform: rotateY(180deg);
+}
+
+.flashcard-front,
+.flashcard-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border: 2px solid transparent;
+  background: linear-gradient(white, white) padding-box,
+              linear-gradient(135deg, #8b5cf6, #3b82f6) border-box;
+}
+
+.flashcard-front {
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+}
+
+.flashcard-back {
+  background: linear-gradient(135deg, #8b5cf6 0%, #3b82f6 100%);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flashcard-word {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 4px;
+  background: linear-gradient(135deg, #8b5cf6, #3b82f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.flashcard-pronunciation {
+  font-size: 1.1rem;
+  color: #6b7280;
+  font-family: 'Courier New', monospace;
+  margin-bottom: 12px;
+  margin-top: 0px;
+  letter-spacing: -0.5px;
+}
+
+.flashcard-pos {
+  background: rgba(139, 92, 246, 0.1);
+  color: #8b5cf6;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.flashcard-meaning {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.flashcard-example {
+  font-size: 1.1rem;
+  font-style: italic;
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+/* Flashcard Controls */
+.flashcard-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.flashcard-nav-btn {
+  background: white;
+  border: 2px solid #e5e7eb;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 1.25rem;
+}
+
+.flashcard-nav-btn:hover {
+  border-color: #8b5cf6;
+  background: #f3f4f6;
+  transform: scale(1.05);
+}
+
+.flashcard-nav-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.flashcard-progress {
+  background: white;
+  border: 2px solid #e5e7eb;
+  border-radius: 24px;
+  padding: 8px 16px;
+  font-weight: 600;
+  color: #374151;
+  min-width: 80px;
+}
+
+.flashcard-mode-toggle {
+  background: linear-gradient(135deg, #8b5cf6, #3b82f6);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 24px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-bottom: 24px;
+}
+
+.flashcard-mode-toggle:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(139, 92, 246, 0.3);
+}
+
+/* Study Mode Styles */
+.study-mode {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.study-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.study-stat {
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  border: 1px solid #e5e7eb;
+}
+
+.study-stat-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.study-stat-label {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+/* Audio/Speaker Button */
+.audio-button {
+  background: linear-gradient(135deg, #8b5cf6, #3b82f6);
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 8px rgba(139, 92, 246, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Audio button tooltip */
+.audio-button::after {
+  content: attr(data-voice);
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 10px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  z-index: 1000;
+}
+
+.audio-button:hover::after {
+  opacity: 1;
+}
+
+.audio-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 15px rgba(139, 92, 246, 0.4);
+}
+
+.audio-button:active {
+  transform: scale(0.95);
+}
+
+.audio-button.playing {
+  animation: pulse-audio 1.5s infinite;
+}
+
+@keyframes pulse-audio {
+  0%, 100% {
+    box-shadow: 0 2px 8px rgba(139, 92, 246, 0.3);
+  }
+  50% {
+    box-shadow: 0 4px 20px rgba(139, 92, 246, 0.6), 
+                0 0 0 8px rgba(139, 92, 246, 0.1);
+  }
+}
+
+/* Audio waves animation */
+.audio-button::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: radial-gradient(circle, transparent 40%, rgba(255, 255, 255, 0.1) 41%, rgba(255, 255, 255, 0.1) 60%, transparent 61%);
+  transform: translate(-50%, -50%) scale(0);
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.audio-button.playing::before {
+  transform: translate(-50%, -50%) scale(1.5);
+  opacity: 1;
+}
+
+/* Speaker icon styles */
+.speaker-icon {
+  position: relative;
+  display: inline-block;
+}
+
+.speaker-icon::after {
+  content: '🔊';
+  font-size: inherit;
+}
+
+.audio-button.playing .speaker-icon::after {
+  content: '🔉';
+  animation: speaker-bounce 0.6s ease-in-out infinite alternate;
+}
+
+@keyframes speaker-bounce {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.1); }
+}
+
+/* Audio loading state */
+.audio-button.loading {
+  background: linear-gradient(135deg, #6b7280, #9ca3af);
+  cursor: wait;
+}
+
+.audio-button.loading .speaker-icon::after {
+  content: '⏳';
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Audio error state */
+.audio-button.error {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  animation: shake 0.5s ease-in-out;
+}
+
+.audio-button.error .speaker-icon::after {
+  content: '🔇';
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-2px); }
+  75% { transform: translateX(2px); }
+}
+
+/* Flashcard audio button positioning */
+.flashcard-audio {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  z-index: 10;
+  background: transparent;
+  border: none;
+}
+
+/* Action Buttons */
+.flashcard-actions {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.action-btn {
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 2px solid;
+}
+
+.action-btn.know {
+  background: #10b981;
+  border-color: #10b981;
+  color: white;
+}
+
+.action-btn.know:hover {
+  background: #059669;
+  transform: translateY(-2px);
+}
+
+.action-btn.dont-know {
+  background: #ef4444;
+  border-color: #ef4444;
+  color: white;
+}
+
+.action-btn.dont-know:hover {
+  background: #dc2626;
+  transform: translateY(-2px);
+}
+
+.action-btn.skip {
+  background: transparent;
+  border-color: #6b7280;
+  color: #6b7280;
+}
+
+.action-btn.skip:hover {
+  background: #f3f4f6;
+  border-color: #374151;
+  color: #374151;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .course-detail * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  .flashcard {
+    transition: none;
+  }
+}
