@@ -1,0 +1,3002 @@
+[
+  {
+    "question": "Làm sao để học từ vựng tiếng Anh hiệu quả?",
+    "answer": "Học từ vựng theo chủ đề, sử dụng flashcards, đọc sách và xem phim tiếng Anh có phụ đề. Nên học 10-15 từ mới mỗi ngày và ôn tập thường xuyên.",
+    "category": "vocabulary",
+    "tags": ["từ vựng", "flashcards", "học hiệu quả"]
+  },
+  {
+    "question": "Tôi nên bắt đầu học tiếng Anh từ đâu?",
+    "answer": "Bắt đầu với bảng chữ cái, phát âm cơ bản, 1000 từ vựng thông dụng nhất và ngữ pháp cơ bản như thì hiện tại đơn.",
+    "category": "beginner",
+    "tags": ["bắt đầu", "cơ bản", "người mới"]
+  },
+  {
+    "question": "Phân biệt thì hiện tại đơn và hiện tại tiếp diễn?",
+    "answer": "Hiện tại đơn diễn tả thói quen, sự thật (I work). Hiện tại tiếp diễn diễn tả hành động đang xảy ra (I am working).",
+    "category": "grammar",
+    "tags": ["thì", "hiện tại đơn", "hiện tại tiếp diễn"]
+  },
+  {
+    "question": "Cách phát âm âm /th/ trong tiếng Anh?",
+    "answer": "Đặt lưỡi giữa răng trên và dưới, thổi nhẹ. /θ/ như 'think', /ð/ như 'this' có rung thanh quản.",
+    "category": "pronunciation",
+    "tags": ["phát âm", "th", "thanh quản"]
+  },
+  {
+    "question": "Làm sao để cải thiện kỹ năng nghe tiếng Anh?",
+    "answer": "Nghe podcast, xem phim có phụ đề, nghe nhạc tiếng Anh và luyện tập shadowing (lặp lại theo).",
+    "category": "listening",
+    "tags": ["nghe", "podcast", "shadowing"]
+  },
+  {
+    "question": "Cách học ngữ pháp tiếng Anh không nhàm chán?",
+    "answer": "Học ngữ pháp qua câu chuyện, bài hát, game và áp dụng ngay vào giao tiếp thực tế thay vì học thuộc lòng quy tắc.",
+    "category": "grammar",
+    "tags": ["ngữ pháp", "thú vị", "thực tế"]
+  },
+  {
+    "question": "Tại sao tôi hiểu được nhưng không nói được tiếng Anh?",
+    "answer": "Đây là hiện tượng bình thường. Cần luyện tập nói nhiều hơn, bắt đầu với những câu đơn giản và tự tin hơn.",
+    "category": "speaking",
+    "tags": ["nói", "tự tin", "luyện tập"]
+  },
+  {
+    "question": "Làm sao để nhớ từ vựng lâu hơn?",
+    "answer": "Sử dụng phương pháp spaced repetition, tạo câu với từ mới, và liên kết từ với hình ảnh hoặc tình huống cụ thể.",
+    "category": "vocabulary",
+    "tags": ["nhớ lâu", "spaced repetition", "liên kết"]
+  },
+  {
+    "question": "Khi nào dùng 'a' và khi nào dùng 'an'?",
+    "answer": "Dùng 'a' trước phụ âm (a book), dùng 'an' trước nguyên âm (an apple). Chú ý âm đầu chứ không phải chữ cái đầu.",
+    "category": "grammar",
+    "tags": ["a", "an", "mạo từ"]
+  },
+  {
+    "question": "Cách cải thiện khả năng đọc hiểu tiếng Anh?",
+    "answer": "Đọc từ dễ đến khó, đoán nghĩa từ ngữ cảnh, không tra từ điển ngay mà đọc hết đoạn trước.",
+    "category": "reading",
+    "tags": ["đọc hiểu", "ngữ cảnh", "từ điển"]
+  },
+  {
+    "question": "Phân biệt 'do' và 'make' trong tiếng Anh?",
+    "answer": "'Do' dùng cho hoạt động chung (do homework), 'make' dùng cho tạo ra thứ gì đó (make a cake). Học thuộc các cụm từ cố định.",
+    "category": "vocabulary",
+    "tags": ["do", "make", "cụm từ"]
+  },
+  {
+    "question": "Cách viết email tiếng Anh chuyên nghiệp?",
+    "answer": "Bắt đầu với Dear/Hi, nội dung rõ ràng, lịch sự, kết thúc với Best regards/Sincerely. Tránh viết tắt và emoji.",
+    "category": "writing",
+    "tags": ["email", "chuyên nghiệp", "lịch sự"]
+  },
+  {
+    "question": "Tại sao phải học phrasal verbs?",
+    "answer": "Phrasal verbs rất phổ biến trong giao tiếp hàng ngày. Ví dụ: turn on, give up, look after. Giúp nói tiếng Anh tự nhiên hơn.",
+    "category": "vocabulary",
+    "tags": ["phrasal verbs", "giao tiếp", "tự nhiên"]
+  },
+  {
+    "question": "Làm sao để phát âm tiếng Anh chuẩn?",
+    "answer": "Luyện tập với IPA (International Phonetic Alphabet), nghe và bắt chước người bản ngữ, ghi âm giọng mình để so sánh.",
+    "category": "pronunciation",
+    "tags": ["IPA", "người bản ngữ", "ghi âm"]
+  },
+  {
+    "question": "Khi nào dùng thì quá khứ đơn và quá khứ tiếp diễn?",
+    "answer": "Quá khứ đơn cho hành động đã hoàn thành (I ate). Quá khứ tiếp diễn cho hành động đang diễn ra trong quá khứ (I was eating).",
+    "category": "grammar",
+    "tags": ["quá khứ đơn", "quá khứ tiếp diễn", "thì"]
+  },
+  {
+    "question": "Cách học tiếng Anh qua phim hiệu quả?",
+    "answer": "Xem có phụ đề tiếng Anh, tạm dừng để ghi chú từ mới, xem lại nhiều lần và bắt chước cách nói của nhân vật.",
+    "category": "listening",
+    "tags": ["phim", "phụ đề", "bắt chước"]
+  },
+  {
+    "question": "Tại sao cần học collocation trong tiếng Anh?",
+    "answer": "Collocation là cách từ kết hợp tự nhiên (strong coffee, not powerful coffee). Giúp nói tiếng Anh như người bản ngữ.",
+    "category": "vocabulary",
+    "tags": ["collocation", "tự nhiên", "bản ngữ"]
+  },
+  {
+    "question": "Cách khắc phục sợ nói tiếng Anh?",
+    "answer": "Bắt đầu nói với bản thân, luyện tập với bạn bè, tham gia nhóm học, nhớ rằng sai lầm là bình thường khi học.",
+    "category": "speaking",
+    "tags": ["sợ nói", "tự tin", "luyện tập"]
+  },
+  {
+    "question": "Phân biệt 'some' và 'any' trong tiếng Anh?",
+    "answer": "'Some' dùng trong câu khẳng định và lời mời (I have some books). 'Any' dùng trong câu phủ định và nghi vấn (Do you have any books?).",
+    "category": "grammar",
+    "tags": ["some", "any", "khẳng định", "phủ định"]
+  },
+  {
+    "question": "Cách học tiếng Anh giao tiếp hàng ngày?",
+    "answer": "Học các cụm từ thông dụng, luyện tập tình huống thực tế, xem video YouTube về daily conversation và tham gia speaking club.",
+    "category": "speaking",
+    "tags": ["giao tiếp", "hàng ngày", "thực tế"]
+  },
+  {
+    "question": "Tại sao phải học cách sử dụng preposition?",
+    "answer": "Preposition (giới từ) rất quan trọng trong tiếng Anh. Sai preposition có thể làm thay đổi nghĩa hoàn toàn (interested in vs interested at).",
+    "category": "grammar",
+    "tags": ["preposition", "giới từ", "quan trọng"]
+  },
+  {
+    "question": "Làm sao để viết essay tiếng Anh hay?",
+    "answer": "Có cấu trúc rõ ràng (introduction-body-conclusion), sử dụng linking words, ví dụ cụ thể và kiểm tra lại ngữ pháp, chính tả.",
+    "category": "writing",
+    "tags": ["essay", "cấu trúc", "linking words"]
+  },
+  {
+    "question": "Cách học idioms tiếng Anh hiệu quả?",
+    "answer": "Học theo chủ đề, hiểu nghĩa gốc của idiom, tạo câu ví dụ và sử dụng trong ngữ cảnh thực tế. Ví dụ: 'break a leg' = good luck.",
+    "category": "vocabulary",
+    "tags": ["idioms", "thành ngữ", "ngữ cảnh"]
+  },
+  {
+    "question": "Khi nào dùng 'will' và 'going to'?",
+    "answer": "'Will' cho quyết định tức thời và dự đoán (I will help you). 'Going to' cho kế hoạch đã định và dự đoán có bằng chứng (It's going to rain).",
+    "category": "grammar",
+    "tags": ["will", "going to", "tương lai"]
+  },
+  {
+    "question": "Cách cải thiện kỹ năng viết tiếng Anh?",
+    "answer": "Đọc nhiều để học cấu trúc câu, viết nhật ký bằng tiếng Anh hàng ngày, nhờ người khác sửa bài và học từ lỗi sai.",
+    "category": "writing",
+    "tags": ["viết", "nhật ký", "sửa bài"]
+  },
+  {
+    "question": "Tại sao accent tiếng Anh quan trọng?",
+    "answer": "Accent giúp giao tiếp rõ ràng hơn, tạo ấn tượng tốt và tự tin khi nói. Không cần accent hoàn hảo, chỉ cần rõ ràng và dễ hiểu.",
+    "category": "pronunciation",
+    "tags": ["accent", "giao tiếp", "tự tin"]
+  },
+  {
+    "question": "Cách học từ vựng academic English?",
+    "answer": "Đọc báo, tạp chí khoa học, học Academic Word List, luyện tập viết formal writing và tham gia các khóa học IELTS/TOEFL.",
+    "category": "vocabulary",
+    "tags": ["academic", "formal", "IELTS"]
+  },
+  {
+    "question": "Phân biệt 'used to' và 'be used to'?",
+    "answer": "'Used to' diễn tả thói quen trong quá khứ (I used to smoke). 'Be used to' diễn tả quen với việc gì đó (I'm used to working late).",
+    "category": "grammar",
+    "tags": ["used to", "be used to", "thói quen"]
+  },
+  {
+    "question": "Làm sao để luyện thi IELTS Speaking hiệu quả?",
+    "answer": "Luyện tập 3 parts, ghi âm bản thân, học vocabulary theo chủ đề, luyện với đồng hồ và tìm speaking partner.",
+    "category": "test_prep",
+    "tags": ["IELTS", "speaking", "luyện thi"]
+  },
+  {
+    "question": "Cách sử dụng conditional sentences?",
+    "answer": "Type 0: sự thật (If you heat water, it boils). Type 1: có thể xảy ra (If it rains, I'll stay home). Type 2: không có thật (If I were rich, I would travel).",
+    "category": "grammar",
+    "tags": ["conditional", "câu điều kiện", "type"]
+  },
+  {
+    "question": "Tại sao cần học business English?",
+    "answer": "Giúp giao tiếp trong môi trường công sở, viết email chuyên nghiệp, thuyết trình và tăng cơ hội thăng tiến trong sự nghiệp.",
+    "category": "business",
+    "tags": ["business", "công sở", "sự nghiệp"]
+  },
+  {
+    "question": "Cách phân biệt 'hear' và 'listen'?",
+    "answer": "'Hear' là nghe thấy tự nhiên (I hear music). 'Listen' là nghe có chủ ý (I listen to music). Tương tự 'see' và 'look/watch'.",
+    "category": "vocabulary",
+    "tags": ["hear", "listen", "see", "look"]
+  },
+  {
+    "question": "Làm sao để nhớ irregular verbs?",
+    "answer": "Học theo nhóm có quy luật (sing-sang-sung), tạo câu chuyện, sử dụng flashcards và luyện tập thường xuyên.",
+    "category": "grammar",
+    "tags": ["irregular verbs", "động từ bất quy tắc", "nhớ"]
+  },
+  {
+    "question": "Cách cải thiện intonation trong tiếng Anh?",
+    "answer": "Nghe và bắt chước native speakers, luyện tập với câu hỏi (lên giọng cuối câu), câu khẳng định (xuống giọng cuối câu).",
+    "category": "pronunciation",
+    "tags": ["intonation", "ngữ điệu", "native speakers"]
+  },
+  {
+    "question": "Tại sao cần học word formation?",
+    "answer": "Giúp mở rộng từ vựng từ một gốc từ (happy → happiness, unhappy, happily). Rất hữu ích cho reading và writing.",
+    "category": "vocabulary",
+    "tags": ["word formation", "từ vựng", "gốc từ"]
+  },
+  {
+    "question": "Cách sử dụng articles (a, an, the) đúng?",
+    "answer": "A/an cho danh từ chưa xác định lần đầu nhắc. The cho danh từ đã xác định. Không dùng article với danh từ số nhiều chung chung.",
+    "category": "grammar",
+    "tags": ["articles", "a", "an", "the"]
+  },
+  {
+    "question": "Làm sao để học tiếng Anh qua podcast?",
+    "answer": "Chọn podcast phù hợp trình độ, nghe nhiều lần, ghi chú từ mới, tóm tắt nội dung và thảo luận với người khác.",
+    "category": "listening",
+    "tags": ["podcast", "nghe", "ghi chú"]
+  },
+  {
+    "question": "Phân biệt 'say', 'tell', 'speak', 'talk'?",
+    "answer": "Say + words (He said hello). Tell + person + information (Tell me the truth). Speak + language (Speak English). Talk + about/to (Talk about work).",
+    "category": "vocabulary",
+    "tags": ["say", "tell", "speak", "talk"]
+  },
+  {
+    "question": "Cách luyện pronunciation với tongue twisters?",
+    "answer": "Bắt đầu chậm, tập trung vào từng âm, tăng tốc dần và lặp lại nhiều lần. Ví dụ: 'She sells seashells by the seashore'.",
+    "category": "pronunciation",
+    "tags": ["tongue twisters", "pronunciation", "luyện tập"]
+  },
+  {
+    "question": "Tại sao cần học về British vs American English?",
+    "answer": "Hiểu sự khác biệt về từ vựng (lift/elevator), phát âm (can't) và spelling (colour/color) để giao tiếp phù hợp.",
+    "category": "general",
+    "tags": ["British", "American", "khác biệt"]
+  },
+  {
+    "question": "Cách học grammar qua context?",
+    "answer": "Đọc câu trong ngữ cảnh thực tế, chú ý cách sử dụng thay vì học quy tắc khô khan, tạo câu ví dụ của riêng mình.",
+    "category": "grammar",
+    "tags": ["context", "ngữ cảnh", "thực tế"]
+  },
+  {
+    "question": "Làm sao để cải thiện fluency?",
+    "answer": "Nói nhiều hơn, không sợ sai, sử dụng fillers (well, you know), luyện tập shadowing và tham gia conversation groups.",
+    "category": "speaking",
+    "tags": ["fluency", "trôi chảy", "fillers"]
+  },
+  {
+    "question": "Cách học tiếng Anh cho trẻ em hiệu quả?",
+    "answer": "Sử dụng games, songs, stories, flashcards có hình ảnh và tạo môi trường học vui vẻ, không áp lực.",
+    "category": "kids",
+    "tags": ["trẻ em", "games", "vui vẻ"]
+  },
+  {
+    "question": "Tại sao cần học về register trong tiếng Anh?",
+    "answer": "Register giúp sử dụng ngôn ngữ phù hợp với tình huống (formal/informal). Ví dụ: 'Hi' vs 'Good morning, Sir'.",
+    "category": "general",
+    "tags": ["register", "formal", "informal"]
+  },
+  {
+    "question": "Cách sử dụng modal verbs đúng?",
+    "answer": "Can (khả năng), could (lịch sự/quá khứ), may (cho phép), might (có thể), must (bắt buộc), should (nên), would (sẽ/lịch sự).",
+    "category": "grammar",
+    "tags": ["modal verbs", "can", "must", "should"]
+  },
+  {
+    "question": "Làm sao để học tiếng Anh qua music?",
+    "answer": "Chọn bài hát yêu thích, đọc lyrics, hát theo, học từ vựng mới và chú ý cách phát âm, nhấn mạnh.",
+    "category": "listening",
+    "tags": ["music", "lyrics", "phát âm"]
+  },
+  {
+    "question": "Phân biệt 'borrow' và 'lend'?",
+    "answer": "'Borrow' là mượn (I borrow a book from you). 'Lend' là cho mượn (You lend me a book). Nhớ: borrow FROM, lend TO.",
+    "category": "vocabulary",
+    "tags": ["borrow", "lend", "mượn"]
+  },
+  {
+    "question": "Cách chuẩn bị cho TOEFL Writing?",
+    "answer": "Luyện tập cả Independent và Integrated tasks, học cấu trúc essay, mở rộng từ vựng academic và quản lý thời gian.",
+    "category": "test_prep",
+    "tags": ["TOEFL", "writing", "essay"]
+  },
+  {
+    "question": "Tại sao stress trong từ quan trọng?",
+    "answer": "Stress sai có thể thay đổi nghĩa hoặc gây hiểu lầm. Ví dụ: 'REcord (danh từ) vs reCORD (động từ)'.",
+    "category": "pronunciation",
+    "tags": ["stress", "nhấn âm", "nghĩa"]
+  },
+  {
+    "question": "Cách học vocabulary theo word families?",
+    "answer": "Học cùng lúc các từ cùng họ: work (v), worker (n), working (adj), workable (adj). Giúp nhớ lâu và sử dụng linh hoạt.",
+    "category": "vocabulary",
+    "tags": ["word families", "họ từ", "linh hoạt"]
+  },
+  {
+    "question": "Làm sao để hiểu English humor?",
+    "answer": "Học về văn hóa, xem comedy shows, hiểu wordplay và puns. Humor phản ánh văn hóa và cách suy nghĩ.",
+    "category": "culture",
+    "tags": ["humor", "văn hóa", "comedy"]
+  },
+  {
+    "question": "Cách sử dụng passive voice đúng?",
+    "answer": "Dùng khi không biết/không quan trọng ai làm hành động, hoặc muốn nhấn mạnh đối tượng bị tác động. Cấu trúc: be + past participle.",
+    "category": "grammar",
+    "tags": ["passive voice", "bị động", "past participle"]
+  },
+  {
+    "question": "Tại sao cần học về English slang?",
+    "answer": "Slang giúp hiểu văn hóa đại chúng, phim ảnh, mạng xã hội. Nhưng cần biết khi nào dùng phù hợp (không dùng trong formal context).",
+    "category": "vocabulary",
+    "tags": ["slang", "văn hóa", "informal"]
+  },
+  {
+    "question": "Cách luyện listening với TED Talks?",
+    "answer": "Chọn chủ đề yêu thích, xem có subtitle, ghi chú key points, học vocabulary mới và thảo luận nội dung.",
+    "category": "listening",
+    "tags": ["TED Talks", "subtitle", "key points"]
+  },
+  {
+    "question": "Phân biệt 'advice' và 'advise'?",
+    "answer": "'Advice' là danh từ không đếm được (Give me some advice). 'Advise' là động từ (I advise you to study).",
+    "category": "vocabulary",
+    "tags": ["advice", "advise", "danh từ", "động từ"]
+  },
+  {
+    "question": "Cách học English through immersion?",
+    "answer": "Tạo môi trường tiếng Anh: đổi ngôn ngữ điện thoại, xem phim không phụ đề, nghe radio, suy nghĩ bằng tiếng Anh.",
+    "category": "general",
+    "tags": ["immersion", "môi trường", "suy nghĩ"]
+  },
+  {
+    "question": "Làm sao để master English tenses?",
+    "answer": "Hiểu logic thời gian (past/present/future) và aspect (simple/continuous/perfect). Luyện tập với timeline và ngữ cảnh thực tế.",
+    "category": "grammar",
+    "tags": ["tenses", "thì", "timeline"]
+  },
+  {
+    "question": "Cách cải thiện English confidence?",
+    "answer": "Bắt đầu với những gì biết, chấp nhận sai lầm, tìm cơ hội thực hành, khen ngợi bản thân khi tiến bộ.",
+    "category": "speaking",
+    "tags": ["confidence", "tự tin", "sai lầm"]
+  },
+  {
+    "question": "Tại sao cần học về English etymology?",
+    "answer": "Hiểu gốc gác từ giúp đoán nghĩa từ mới, nhớ spelling và hiểu mối liên hệ giữa các từ. Ví dụ: 'tele' = xa (telephone, television).",
+    "category": "vocabulary",
+    "tags": ["etymology", "gốc gác", "spelling"]
+  },
+  {
+    "question": "Cách sử dụng reported speech?",
+    "answer": "Thay đổi tense lùi một bậc (present → past), đổi pronouns và time expressions. 'He said he was busy' (từ 'I am busy').",
+    "category": "grammar",
+    "tags": ["reported speech", "tense", "pronouns"]
+  },
+  {
+    "question": "Làm sao để học English idioms hiệu quả?",
+    "answer": "Học theo chủ đề (animals, colors), hiểu origin story, tạo visual images và sử dụng trong conversation.",
+    "category": "vocabulary",
+    "tags": ["idioms", "chủ đề", "visual"]
+  },
+  {
+    "question": "Cách luyện IELTS Reading hiệu quả?",
+    "answer": "Luyện skimming và scanning, học paraphrasing, quản lý thời gian và làm quen với các dạng câu hỏi khác nhau.",
+    "category": "test_prep",
+    "tags": ["IELTS", "reading", "skimming", "scanning"]
+  },
+  {
+    "question": "Phân biệt 'affect' và 'effect'?",
+    "answer": "'Affect' là động từ (The rain affects my mood). 'Effect' là danh từ (The effect of rain on my mood). Nhớ: Affect = Action, Effect = End result.",
+    "category": "vocabulary",
+    "tags": ["affect", "effect", "động từ", "danh từ"]
+  },
+  {
+    "question": "Cách học English through social media?",
+    "answer": "Follow English accounts, đọc comments, tham gia discussions, học internet slang và trending topics phù hợp.",
+    "category": "general",
+    "tags": ["social media", "discussions", "slang"]
+  },
+  {
+    "question": "Tại sao cần học về English punctuation?",
+    "answer": "Punctuation thay đổi nghĩa câu hoàn toàn. Ví dụ: 'Let's eat, Grandma!' vs 'Let's eat Grandma!'. Quan trọng cho writing.",
+    "category": "writing",
+    "tags": ["punctuation", "dấu câu", "nghĩa"]
+  },
+  {
+    "question": "Cách sử dụng gerunds và infinitives?",
+    "answer": "Gerund (-ing) sau prepositions và một số động từ (enjoy doing). Infinitive (to + verb) sau adjectives và một số động từ (want to go).",
+    "category": "grammar",
+    "tags": ["gerunds", "infinitives", "prepositions"]
+  },
+  {
+    "question": "Làm sao để học English culture?",
+    "answer": "Đọc về lịch sử, truyền thống, xem documentaries, hiểu humor và social norms của các nước nói tiếng Anh.",
+    "category": "culture",
+    "tags": ["culture", "lịch sử", "social norms"]
+  },
+  {
+    "question": "Cách cải thiện English spelling?",
+    "answer": "Học spelling rules, sử dụng mnemonics, đọc nhiều, viết tay và kiểm tra từ điển thường xuyên.",
+    "category": "writing",
+    "tags": ["spelling", "rules", "mnemonics"]
+  },
+  {
+    "question": "Phân biệt 'lay' và 'lie'?",
+    "answer": "'Lay' cần object (I lay the book on the table). 'Lie' không cần object (I lie on the bed). Past: laid/lay, lain.",
+    "category": "vocabulary",
+    "tags": ["lay", "lie", "object", "past"]
+  },
+  {
+    "question": "Cách học English qua news?",
+    "answer": "Đọc headlines trước, chọn articles ngắn, học vocabulary theo chủ đề và thảo luận current events.",
+    "category": "reading",
+    "tags": ["news", "headlines", "current events"]
+  },
+  {
+    "question": "Tại sao cần học về English discourse markers?",
+    "answer": "Discourse markers (however, therefore, meanwhile) giúp liên kết ý tưởng, làm cho speech/writing mạch lạc và professional hơn.",
+    "category": "vocabulary",
+    "tags": ["discourse markers", "liên kết", "professional"]
+  },
+  {
+    "question": "Cách luyện English presentation skills?",
+    "answer": "Chuẩn bị outline rõ ràng, luyện tập trước gương, sử dụng body language và tương tác với audience.",
+    "category": "speaking",
+    "tags": ["presentation", "outline", "body language"]
+  },
+  {
+    "question": "Làm sao để học English expressions?",
+    "answer": "Học theo tình huống (greeting, thanking, apologizing), ghi nhớ context sử dụng và luyện tập trong conversation.",
+    "category": "vocabulary",
+    "tags": ["expressions", "tình huống", "context"]
+  },
+  {
+    "question": "Cách sử dụng question tags đúng?",
+    "answer": "Positive statement + negative tag (You're coming, aren't you?). Negative statement + positive tag (You aren't coming, are you?).",
+    "category": "grammar",
+    "tags": ["question tags", "positive", "negative"]
+  },
+  {
+    "question": "Tại sao cần học về English pragmatics?",
+    "answer": "Pragmatics giúp hiểu ý nghĩa thật sự đằng sau lời nói, context và cultural implications. Ví dụ: 'Can you pass the salt?' = request, not question.",
+    "category": "general",
+    "tags": ["pragmatics", "context", "implications"]
+  },
+  {
+    "question": "Cách học English qua games?",
+    "answer": "Chơi word games (Scrabble, crosswords), video games có dialogue, board games với friends và online English games.",
+    "category": "general",
+    "tags": ["games", "Scrabble", "dialogue"]
+  },
+  {
+    "question": "Phân biệt 'who' và 'whom'?",
+    "answer": "'Who' là subject (Who is coming?). 'Whom' là object (To whom are you talking?). Trick: thay bằng he/him - he=who, him=whom.",
+    "category": "grammar",
+    "tags": ["who", "whom", "subject", "object"]
+  },
+  {
+    "question": "Cách cải thiện English memory retention?",
+    "answer": "Sử dụng spaced repetition, tạo associations, visual mnemonics, review thường xuyên và apply ngay vào thực tế.",
+    "category": "general",
+    "tags": ["memory", "spaced repetition", "mnemonics"]
+  },
+  {
+    "question": "Làm sao để học English prefixes và suffixes?",
+    "answer": "Học meaning của common prefixes (un-, re-, pre-) và suffixes (-tion, -ly, -ness). Giúp đoán nghĩa từ mới.",
+    "category": "vocabulary",
+    "tags": ["prefixes", "suffixes", "meaning"]
+  },
+  {
+    "question": "Cách sử dụng English conjunctions?",
+    "answer": "Coordinating (and, but, or), subordinating (because, although, when), correlative (either...or, not only...but also).",
+    "category": "grammar",
+    "tags": ["conjunctions", "coordinating", "subordinating"]
+  },
+  {
+    "question": "Website học tiếng Anh này có gì?",
+    "answer": "Website cung cấp chatbot AI hỗ trợ học tiếng Anh, giải đáp thắc mắc về ngữ pháp, từ vựng, phát âm và các kỹ năng tiếng Anh khác.",
+    "category": "website",
+    "tags": ["website", "chatbot", "AI", "hỗ trợ"]
+  },
+  {
+    "question": "Tôi có thể hỏi gì với chatbot này?",
+    "answer": "Bạn có thể hỏi về ngữ pháp, từ vựng, phát âm, kỹ năng nghe-nói-đọc-viết, luyện thi IELTS/TOEFL, và mọi thắc mắc về học tiếng Anh.",
+    "category": "website",
+    "tags": ["chatbot", "hỏi đáp", "ngữ pháp", "kỹ năng"]
+  },
+  {
+    "question": "Chatbot có thể sửa bài viết tiếng Anh không?",
+    "answer": "Có, tôi có thể giúp kiểm tra ngữ pháp, từ vựng, cấu trúc câu và đưa ra gợi ý cải thiện bài viết của bạn.",
+    "category": "website",
+    "tags": ["sửa bài", "kiểm tra", "cải thiện"]
+  },
+  {
+    "question": "Làm sao để sử dụng website này hiệu quả?",
+    "answer": "Hãy hỏi câu hỏi cụ thể, cung cấp context khi cần, thực hành theo gợi ý và đặt câu hỏi follow-up để hiểu sâu hơn.",
+    "category": "website",
+    "tags": ["sử dụng", "hiệu quả", "câu hỏi"]
+  },
+  {
+    "question": "Website có miễn phí không?",
+    "answer": "Có, website hoàn toàn miễn phí để hỗ trợ mọi người học tiếng Anh tốt hơn.",
+    "category": "website",
+    "tags": ["miễn phí", "hỗ trợ", "học tiếng Anh"]
+  },
+  {
+    "question": "Tôi không hiểu câu trả lời, phải làm sao?",
+    "answer": "Hãy hỏi lại với cách diễn đạt khác, yêu cầu giải thích đơn giản hơn hoặc đưa ra ví dụ cụ thể để tôi có thể hỗ trợ tốt hơn.",
+    "category": "website",
+    "tags": ["không hiểu", "hỏi lại", "giải thích"]
+  },
+  {
+    "question": "Chatbot có thể dạy phát âm không?",
+    "answer": "Tôi có thể hướng dẫn cách phát âm, giải thích IPA, đưa ra tips luyện tập, nhưng bạn cần luyện tập thực tế với audio/video.",
+    "category": "website",
+    "tags": ["phát âm", "IPA", "hướng dẫn"]
+  },
+  {
+    "question": "Tôi có thể học từ vựng qua website này không?",
+    "answer": "Có, tôi có thể giải thích nghĩa từ, cách sử dụng, đưa ra ví dụ, phân biệt từ đồng nghĩa và gợi ý cách học từ vựng hiệu quả.",
+    "category": "website",
+    "tags": ["từ vựng", "nghĩa từ", "ví dụ"]
+  },
+  {
+    "question": "Website có hỗ trợ luyện thi IELTS không?",
+    "answer": "Có, tôi có thể hướng dẫn cấu trúc đề thi, chiến lược làm bài, sửa writing, luyện speaking và đưa ra tips cụ thể cho từng kỹ năng.",
+    "category": "website",
+    "tags": ["IELTS", "luyện thi", "chiến lược"]
+  },
+  {
+    "question": "Cách học English collocations hiệu quả?",
+    "answer": "Học theo chủ đề, ghi nhớ các cặp từ thường đi cùng nhau (make a decision, take a break), đọc nhiều và chú ý context.",
+    "category": "vocabulary",
+    "tags": ["collocations", "chủ đề", "context"]
+  },
+  {
+    "question": "Phân biệt 'its' và 'it's'?",
+    "answer": "'Its' là tính từ sở hữu (The dog wagged its tail). 'It's' là viết tắt của 'it is' hoặc 'it has' (It's raining).",
+    "category": "grammar",
+    "tags": ["its", "it's", "sở hữu", "viết tắt"]
+  },
+  {
+    "question": "Cách luyện English listening với YouTube?",
+    "answer": "Chọn kênh phù hợp trình độ, bật subtitle, tăng tốc độ dần, ghi chú từ mới và xem lại nhiều lần.",
+    "category": "listening",
+    "tags": ["YouTube", "subtitle", "tốc độ"]
+  },
+  {
+    "question": "Tại sao cần học về English register?",
+    "answer": "Register giúp sử dụng ngôn ngữ phù hợp với hoàn cảnh: formal (academic, business), informal (friends, family), neutral (everyday).",
+    "category": "general",
+    "tags": ["register", "formal", "informal", "neutral"]
+  },
+  {
+    "question": "Cách sử dụng relative clauses?",
+    "answer": "Who (người), which (vật), that (cả hai), where (nơi chốn), when (thời gian), whose (sở hữu). Defining vs non-defining clauses.",
+    "category": "grammar",
+    "tags": ["relative clauses", "who", "which", "that"]
+  },
+  {
+    "question": "Làm sao để học English through reading?",
+    "answer": "Chọn sách phù hợp trình độ, đọc extensive (nhiều, dễ) và intensive (ít, khó), ghi chú vocabulary và discuss với others.",
+    "category": "reading",
+    "tags": ["reading", "extensive", "intensive", "vocabulary"]
+  },
+  {
+    "question": "Cách cải thiện English intonation?",
+    "answer": "Nghe native speakers, luyện tập với câu hỏi (rising intonation), câu khẳng định (falling intonation), và emotional expressions.",
+    "category": "pronunciation",
+    "tags": ["intonation", "rising", "falling", "emotional"]
+  },
+  {
+    "question": "Phân biệt 'then' và 'than'?",
+    "answer": "'Then' chỉ thời gian (First study, then play). 'Than' dùng để so sánh (Taller than me). Nhớ: theN = time, thaN = compare.",
+    "category": "vocabulary",
+    "tags": ["then", "than", "thời gian", "so sánh"]
+  },
+  {
+    "question": "Cách học English qua apps hiệu quả?",
+    "answer": "Sử dụng đa dạng apps (Duolingo, Anki, HelloTalk), set daily goals, combine với methods khác, và focus on weak areas.",
+    "category": "general",
+    "tags": ["apps", "Duolingo", "goals", "weak areas"]
+  },
+  {
+    "question": "Tại sao cần học về English rhythm?",
+    "answer": "English có stress-timed rhythm, không phải syllable-timed như tiếng Việt. Hiểu rhythm giúp nói tự nhiên và nghe hiểu tốt hơn.",
+    "category": "pronunciation",
+    "tags": ["rhythm", "stress-timed", "syllable-timed", "tự nhiên"]
+  },
+  {
+    "question": "Cách sử dụng English quantifiers?",
+    "answer": "Much/many (nhiều), little/few (ít), some/any (một số), all/every (tất cả). Chú ý countable vs uncountable nouns.",
+    "category": "grammar",
+    "tags": ["quantifiers", "much", "many", "countable"]
+  },
+  {
+    "question": "Làm sao để overcome English plateau?",
+    "answer": "Thay đổi learning methods, challenge yourself với harder materials, focus on weak skills, và set new specific goals.",
+    "category": "general",
+    "tags": ["plateau", "challenge", "methods", "goals"]
+  },
+  {
+    "question": "Cách học English through storytelling?",
+    "answer": "Đọc/nghe stories, retell bằng own words, create own stories, focus on narrative tenses và descriptive language.",
+    "category": "speaking",
+    "tags": ["storytelling", "retell", "narrative", "descriptive"]
+  },
+  {
+    "question": "Phân biệt 'lose' và 'loose'?",
+    "answer": "'Lose' là động từ, mất (I lose my keys). 'Loose' là tính từ, lỏng lẻo (Loose clothes). Pronunciation khác nhau.",
+    "category": "vocabulary",
+    "tags": ["lose", "loose", "động từ", "tính từ"]
+  },
+  {
+    "question": "Cách chuẩn bị cho English job interview?",
+    "answer": "Luyện common questions, prepare STAR method answers, learn company vocabulary, practice pronunciation và body language.",
+    "category": "business",
+    "tags": ["job interview", "STAR method", "company", "body language"]
+  },
+  {
+    "question": "Tại sao cần học về English discourse?",
+    "answer": "Discourse giúp hiểu cách organize ideas, connect sentences, maintain coherence và achieve communicative purposes effectively.",
+    "category": "general",
+    "tags": ["discourse", "organize", "coherence", "communicative"]
+  },
+  {
+    "question": "Cách sử dụng English adverbs đúng?",
+    "answer": "Adverbs modify verbs (run quickly), adjectives (very tall), other adverbs (quite slowly). Position matters: before/after verb.",
+    "category": "grammar",
+    "tags": ["adverbs", "modify", "position", "quickly"]
+  },
+  {
+    "question": "Làm sao để maintain English motivation?",
+    "answer": "Set realistic goals, track progress, celebrate achievements, find English-speaking friends, và connect learning to personal interests.",
+    "category": "general",
+    "tags": ["motivation", "goals", "progress", "friends"]
+  },
+  {
+    "question": "Cách học English academic writing?",
+    "answer": "Master essay structure, learn formal vocabulary, practice paraphrasing, understand citation styles và develop critical thinking.",
+    "category": "writing",
+    "tags": ["academic writing", "essay", "formal", "citation"]
+  },
+  {
+    "question": "Phân biệt 'there', 'their', 'they're'?",
+    "answer": "'There' chỉ nơi chốn (over there). 'Their' là sở hữu (their book). 'They're' = they are (they're happy).",
+    "category": "vocabulary",
+    "tags": ["there", "their", "they're", "sở hữu"]
+  },
+  {
+    "question": "Cách luyện English shadowing hiệu quả?",
+    "answer": "Chọn audio phù hợp tốc độ, nghe và lặp lại đồng thời, focus on rhythm và intonation, luyện tập daily 15-30 phút.",
+    "category": "listening",
+    "tags": ["shadowing", "rhythm", "intonation", "daily"]
+  },
+  {
+    "question": "Tại sao cần học về English pragmatics?",
+    "answer": "Pragmatics giúp hiểu implied meaning, context, cultural nuances và appropriate responses trong real communication.",
+    "category": "general",
+    "tags": ["pragmatics", "implied meaning", "cultural", "communication"]
+  },
+  {
+    "question": "Cách sử dụng English comparatives và superlatives?",
+    "answer": "Short adjectives: -er/-est (bigger, biggest). Long adjectives: more/most (more beautiful, most beautiful). Irregular: good-better-best.",
+    "category": "grammar",
+    "tags": ["comparatives", "superlatives", "adjectives", "irregular"]
+  },
+  {
+    "question": "Làm sao để học English through immersion tại nhà?",
+    "answer": "Change device language, think in English, talk to yourself, watch English content, listen to English radio/podcasts constantly.",
+    "category": "general",
+    "tags": ["immersion", "device language", "think", "content"]
+  },
+  {
+    "question": "Cách cải thiện English critical thinking?",
+    "answer": "Question assumptions, analyze arguments, evaluate evidence, consider multiple perspectives và practice debate/discussion.",
+    "category": "general",
+    "tags": ["critical thinking", "assumptions", "arguments", "perspectives"]
+  },
+  {
+    "question": "Phân biệt 'accept' và 'except'?",
+    "answer": "'Accept' là nhận, chấp nhận (I accept your offer). 'Except' là ngoại trừ (Everyone except John came).",
+    "category": "vocabulary",
+    "tags": ["accept", "except", "nhận", "ngoại trừ"]
+  },
+  {
+    "question": "Cách học English through drama/theater?",
+    "answer": "Read plays, analyze characters, practice dialogue delivery, understand emotions và cultural context behind performances.",
+    "category": "culture",
+    "tags": ["drama", "theater", "characters", "emotions"]
+  },
+  {
+    "question": "Tại sao cần học về English sentence patterns?",
+    "answer": "Sentence patterns (SVO, SVC, etc.) giúp construct correct sentences, understand grammar structure và improve writing clarity.",
+    "category": "grammar",
+    "tags": ["sentence patterns", "SVO", "structure", "clarity"]
+  },
+  {
+    "question": "Cách luyện English debate skills?",
+    "answer": "Learn argument structure, practice presenting evidence, develop counterarguments, improve logical reasoning và public speaking confidence.",
+    "category": "speaking",
+    "tags": ["debate", "arguments", "evidence", "reasoning"]
+  },
+  {
+    "question": "Làm sao để học English etymology hiệu quả?",
+    "answer": "Study word roots (Latin, Greek), understand prefixes/suffixes, learn word families và connect to modern usage.",
+    "category": "vocabulary",
+    "tags": ["etymology", "roots", "Latin", "Greek"]
+  },
+  {
+    "question": "Cách sử dụng English subjunctive mood?",
+    "answer": "Used for hypothetical situations (If I were rich...), suggestions (I suggest he go), wishes (I wish I were there).",
+    "category": "grammar",
+    "tags": ["subjunctive", "hypothetical", "suggestions", "wishes"]
+  },
+  {
+    "question": "Phân biệt 'principal' và 'principle'?",
+    "answer": "'Principal' là hiệu trưởng hoặc chính (principal reason). 'Principle' là nguyên tắc (moral principles).",
+    "category": "vocabulary",
+    "tags": ["principal", "principle", "hiệu trưởng", "nguyên tắc"]
+  },
+  {
+    "question": "Cách học English through cooking shows?",
+    "answer": "Learn cooking vocabulary, follow instructions, understand imperative mood, practice describing processes và cultural food knowledge.",
+    "category": "listening",
+    "tags": ["cooking shows", "vocabulary", "imperative", "processes"]
+  },
+  {
+    "question": "Tại sao cần học về English sociolinguistics?",
+    "answer": "Understand how language varies by social class, region, age, gender và how to adapt language appropriately in different contexts.",
+    "category": "general",
+    "tags": ["sociolinguistics", "social class", "region", "contexts"]
+  },
+  {
+    "question": "Cách cải thiện English analytical skills?",
+    "answer": "Practice breaking down complex texts, identify main ideas, analyze cause-effect relationships và synthesize information.",
+    "category": "reading",
+    "tags": ["analytical", "complex texts", "cause-effect", "synthesize"]
+  },
+  {
+    "question": "Làm sao để học English slang appropriately?",
+    "answer": "Understand context of use, know your audience, learn from native speakers, avoid in formal situations và stay updated.",
+    "category": "vocabulary",
+    "tags": ["slang", "context", "audience", "formal"]
+  },
+  {
+    "question": "Cách sử dụng English ellipsis đúng?",
+    "answer": "Ellipsis (...) shows omitted words, pauses in speech, trailing thoughts. Use sparingly in formal writing.",
+    "category": "writing",
+    "tags": ["ellipsis", "omitted", "pauses", "formal writing"]
+  },
+  {
+    "question": "Phân biệt 'complement' và 'compliment'?",
+    "answer": "'Complement' là bổ sung (This wine complements the meal). 'Compliment' là khen ngợi (He gave me a compliment).",
+    "category": "vocabulary",
+    "tags": ["complement", "compliment", "bổ sung", "khen ngợi"]
+  },
+  {
+    "question": "Cách học English through travel experiences?",
+    "answer": "Learn travel vocabulary, practice asking directions, order food in English, interact with locals và document experiences in English.",
+    "category": "general",
+    "tags": ["travel", "directions", "locals", "experiences"]
+  },
+  {
+    "question": "Tại sao cần học về English phonetics?",
+    "answer": "Phonetics giúp understand sound system, improve pronunciation accuracy, learn IPA symbols và distinguish similar sounds.",
+    "category": "pronunciation",
+    "tags": ["phonetics", "sound system", "IPA", "accuracy"]
+  },
+  {
+    "question": "Cách sử dụng English interjections?",
+    "answer": "Interjections express emotions: Wow! (surprise), Ouch! (pain), Hmm (thinking), Oh! (realization). Use appropriately in context.",
+    "category": "vocabulary",
+    "tags": ["interjections", "emotions", "surprise", "context"]
+  },
+  {
+    "question": "Làm sao để học English through volunteering?",
+    "answer": "Join English-speaking volunteer groups, help international visitors, practice explaining tasks và build meaningful connections.",
+    "category": "general",
+    "tags": ["volunteering", "international", "explaining", "connections"]
+  },
+  {
+    "question": "Phân biệt 'stationary' và 'stationery'?",
+    "answer": "'Stationary' là đứng yên (The car is stationary). 'Stationery' là văn phòng phẩm (I need stationery for school).",
+    "category": "vocabulary",
+    "tags": ["stationary", "stationery", "đứng yên", "văn phòng phẩm"]
+  },
+  {
+    "question": "Cách cải thiện English metacognitive skills?",
+    "answer": "Reflect on learning process, monitor comprehension, adjust strategies, set learning goals và evaluate progress regularly.",
+    "category": "general",
+    "tags": ["metacognitive", "reflect", "monitor", "strategies"]
+  },
+  {
+    "question": "Tại sao cần học về English corpus linguistics?",
+    "answer": "Corpus linguistics shows real language usage patterns, frequency of words/phrases, collocations và authentic examples.",
+    "category": "general",
+    "tags": ["corpus linguistics", "patterns", "frequency", "authentic"]
+  },
+  {
+    "question": "Cách học English through environmental topics?",
+    "answer": "Learn environmental vocabulary, discuss climate change, practice persuasive language, understand scientific texts và current issues.",
+    "category": "vocabulary",
+    "tags": ["environmental", "climate change", "persuasive", "scientific"]
+  },
+  {
+    "question": "Làm sao để master English conditionals?",
+    "answer": "Practice all types (0,1,2,3), understand time relationships, use in real situations, mix conditionals và learn common mistakes.",
+    "category": "grammar",
+    "tags": ["conditionals", "time relationships", "real situations", "mistakes"]
+  },
+  {
+    "question": "Cách sử dụng English discourse markers hiệu quả?",
+    "answer": "Learn categories: addition (furthermore), contrast (however), sequence (firstly), result (therefore). Practice in writing/speaking.",
+    "category": "vocabulary",
+    "tags": ["discourse markers", "addition", "contrast", "sequence"]
+  },
+  {
+    "question": "Phân biệt 'desert' và 'dessert'?",
+    "answer": "'Desert' là sa mạc (Sahara desert). 'Dessert' là món tráng miệng (chocolate dessert). Nhớ: dessert có 2 s = sweet.",
+    "category": "vocabulary",
+    "tags": ["desert", "dessert", "sa mạc", "tráng miệng"]
+  },
+  {
+    "question": "Cách học English through technology topics?",
+    "answer": "Learn tech vocabulary, follow tech news, understand digital trends, practice explaining processes và discuss innovation.",
+    "category": "vocabulary",
+    "tags": ["technology", "tech news", "digital trends", "innovation"]
+  },
+  {
+    "question": "Tại sao cần học về English register variation?",
+    "answer": "Different situations require different language levels: academic, professional, casual, intimate. Adapt appropriately for effectiveness.",
+    "category": "general",
+    "tags": ["register variation", "academic", "professional", "effectiveness"]
+  },
+  {
+    "question": "Cách cải thiện English cross-cultural communication?",
+    "answer": "Learn cultural norms, understand indirect communication, respect differences, avoid stereotypes và practice empathy.",
+    "category": "culture",
+    "tags": ["cross-cultural", "norms", "indirect", "empathy"]
+  },
+  {
+    "question": "Làm sao để học English through health topics?",
+    "answer": "Learn medical vocabulary, understand health articles, practice describing symptoms, discuss wellness và prevention strategies.",
+    "category": "vocabulary",
+    "tags": ["health", "medical", "symptoms", "wellness"]
+  },
+  {
+    "question": "Cách sử dụng English hedging language?",
+    "answer": "Hedging softens statements: perhaps, might, tend to, it seems. Important for academic writing và polite communication.",
+    "category": "vocabulary",
+    "tags": ["hedging", "softens", "academic", "polite"]
+  },
+  {
+    "question": "Phân biệt 'breath' và 'breathe'?",
+    "answer": "'Breath' là danh từ (Take a deep breath). 'Breathe' là động từ (I can't breathe). Pronunciation khác nhau.",
+    "category": "vocabulary",
+    "tags": ["breath", "breathe", "danh từ", "động từ"]
+  },
+  {
+    "question": "Cách học English through sports commentary?",
+    "answer": "Learn sports vocabulary, understand fast speech, follow live action descriptions, practice present continuous và excitement expressions.",
+    "category": "listening",
+    "tags": ["sports", "fast speech", "live action", "excitement"]
+  },
+  {
+    "question": "Tại sao cần học về English psycholinguistics?",
+    "answer": "Understand how brain processes language, memory in language learning, cognitive load và optimize learning strategies.",
+    "category": "general",
+    "tags": ["psycholinguistics", "brain", "memory", "cognitive"]
+  },
+  {
+    "question": "Cách cải thiện English emotional intelligence?",
+    "answer": "Recognize emotions in language, express feelings appropriately, understand others' emotions, manage communication conflicts.",
+    "category": "general",
+    "tags": ["emotional intelligence", "feelings", "conflicts", "communication"]
+  },
+  {
+    "question": "Làm sao để học English through financial topics?",
+    "answer": "Learn financial vocabulary, understand economic news, practice explaining investments, discuss budgeting và money management.",
+    "category": "vocabulary",
+    "tags": ["financial", "economic", "investments", "budgeting"]
+  },
+  {
+    "question": "Cách sử dụng English intensifiers đúng?",
+    "answer": "Very (very good), extremely (extremely hot), quite (quite nice), rather (rather difficult). Match intensity to context.",
+    "category": "vocabulary",
+    "tags": ["intensifiers", "very", "extremely", "intensity"]
+  },
+  {
+    "question": "Phân biệt 'council' và 'counsel'?",
+    "answer": "'Council' là hội đồng (city council). 'Counsel' là tư vấn (legal counsel) hoặc động từ tư vấn.",
+    "category": "vocabulary",
+    "tags": ["council", "counsel", "hội đồng", "tư vấn"]
+  },
+  {
+    "question": "Cách học English through art và design?",
+    "answer": "Learn artistic vocabulary, describe visual elements, understand creative processes, discuss aesthetics và cultural significance.",
+    "category": "vocabulary",
+    "tags": ["art", "design", "visual", "aesthetics"]
+  },
+  {
+    "question": "Tại sao cần học về English pragmatic competence?",
+    "answer": "Pragmatic competence giúp sử dụng ngôn ngữ phù hợp với context, hiểu implicit meaning và giao tiếp hiệu quả trong văn hóa.",
+    "category": "general",
+    "tags": ["pragmatic competence", "context", "implicit", "văn hóa"]
+  },
+  {
+    "question": "Cách luyện English pronunciation với minimal pairs?",
+    "answer": "Practice với cặp từ khác nhau một âm (ship/sheep, bit/beat). Giúp phân biệt và phát âm chính xác các âm tương tự.",
+    "category": "pronunciation",
+    "tags": ["minimal pairs", "ship", "sheep", "chính xác"]
+  },
+  {
+    "question": "Làm sao để học English through psychology topics?",
+    "answer": "Learn psychology vocabulary, understand research articles, discuss human behavior, practice analytical thinking và scientific language.",
+    "category": "vocabulary",
+    "tags": ["psychology", "research", "behavior", "analytical"]
+  },
+  {
+    "question": "Phân biệt 'emigrate' và 'immigrate'?",
+    "answer": "'Emigrate' là rời khỏi đất nước (emigrate from Vietnam). 'Immigrate' là đến đất nước mới (immigrate to America).",
+    "category": "vocabulary",
+    "tags": ["emigrate", "immigrate", "rời khỏi", "đến"]
+  },
+  {
+    "question": "Cách sử dụng English tag questions hiệu quả?",
+    "answer": "Tag questions confirm information hoặc start conversation. Rising intonation = real question, falling = confirmation.",
+    "category": "grammar",
+    "tags": ["tag questions", "confirm", "rising", "falling"]
+  },
+  {
+    "question": "Tại sao cần học về English code-switching?",
+    "answer": "Code-switching giúp hiểu khi nào mix languages appropriately, especially trong multilingual communities và informal settings.",
+    "category": "general",
+    "tags": ["code-switching", "mix languages", "multilingual", "informal"]
+  },
+  {
+    "question": "Cách học English through history topics?",
+    "answer": "Learn historical vocabulary, understand chronological language, practice past tenses, discuss cause-effect relationships.",
+    "category": "vocabulary",
+    "tags": ["history", "chronological", "past tenses", "cause-effect"]
+  },
+  {
+    "question": "Làm sao để master English word stress patterns?",
+    "answer": "Learn common patterns: noun stress (REcord), verb stress (reCORD), compound stress (BLACKboard), practice với rhythm.",
+    "category": "pronunciation",
+    "tags": ["word stress", "noun", "verb", "compound"]
+  },
+  {
+    "question": "Cách cải thiện English negotiation skills?",
+    "answer": "Learn persuasive language, practice compromise expressions, understand cultural differences, develop win-win solutions.",
+    "category": "business",
+    "tags": ["negotiation", "persuasive", "compromise", "win-win"]
+  },
+  {
+    "question": "Phân biệt 'elicit' và 'illicit'?",
+    "answer": "'Elicit' là gợi ra, thu được (elicit information). 'Illicit' là bất hợp pháp (illicit activities).",
+    "category": "vocabulary",
+    "tags": ["elicit", "illicit", "gợi ra", "bất hợp pháp"]
+  },
+  {
+    "question": "Cách học English through philosophy topics?",
+    "answer": "Learn abstract vocabulary, practice logical arguments, understand complex concepts, discuss ethical issues và critical thinking.",
+    "category": "vocabulary",
+    "tags": ["philosophy", "abstract", "logical", "ethical"]
+  },
+  {
+    "question": "Tại sao cần học về English genre analysis?",
+    "answer": "Genre analysis giúp hiểu cấu trúc của different text types: emails, reports, essays, stories và adapt writing accordingly.",
+    "category": "writing",
+    "tags": ["genre analysis", "text types", "emails", "adapt"]
+  },
+  {
+    "question": "Cách sử dụng English euphemisms appropriately?",
+    "answer": "Euphemisms soften harsh realities: pass away (die), let go (fire), restroom (toilet). Use sensitively trong appropriate contexts.",
+    "category": "vocabulary",
+    "tags": ["euphemisms", "soften", "pass away", "sensitively"]
+  },
+  {
+    "question": "Làm sao để học English through science topics?",
+    "answer": "Learn scientific vocabulary, understand research methodology, practice hypothesis language, discuss experiments và data analysis.",
+    "category": "vocabulary",
+    "tags": ["science", "methodology", "hypothesis", "experiments"]
+  },
+  {
+    "question": "Cách cải thiện English listening với accents?",
+    "answer": "Expose yourself to various English accents: British, American, Australian, Indian. Practice với diverse speakers regularly.",
+    "category": "listening",
+    "tags": ["accents", "British", "American", "diverse"]
+  },
+  {
+    "question": "Phân biệt 'farther' và 'further'?",
+    "answer": "'Farther' cho khoảng cách vật lý (farther away). 'Further' cho abstract concepts (further discussion) hoặc additional.",
+    "category": "vocabulary",
+    "tags": ["farther", "further", "vật lý", "abstract"]
+  },
+  {
+    "question": "Cách học English through literature analysis?",
+    "answer": "Read classic works, analyze themes, understand literary devices, discuss character development và cultural contexts.",
+    "category": "reading",
+    "tags": ["literature", "themes", "literary devices", "character"]
+  },
+  {
+    "question": "Tại sao cần học về English semantic fields?",
+    "answer": "Semantic fields group related words (colors, emotions, food). Giúp organize vocabulary learning và understand word relationships.",
+    "category": "vocabulary",
+    "tags": ["semantic fields", "related words", "organize", "relationships"]
+  },
+  {
+    "question": "Cách sử dụng English modal perfect forms?",
+    "answer": "Must have (certainty about past), might have (possibility), should have (advice about past), could have (past ability).",
+    "category": "grammar",
+    "tags": ["modal perfect", "must have", "might have", "past"]
+  },
+  {
+    "question": "Làm sao để học English through current events?",
+    "answer": "Follow news daily, learn topical vocabulary, practice summarizing, discuss opinions và understand different perspectives.",
+    "category": "general",
+    "tags": ["current events", "news", "topical", "perspectives"]
+  },
+  {
+    "question": "Cách cải thiện English empathetic communication?",
+    "answer": "Practice active listening, use empathetic language, understand emotional cues, validate others' feelings appropriately.",
+    "category": "general",
+    "tags": ["empathetic", "active listening", "emotional cues", "validate"]
+  },
+  {
+    "question": "Phân biệt 'imply' và 'infer'?",
+    "answer": "'Imply' là gợi ý (The speaker implies). 'Infer' là suy luận (The listener infers). Speaker implies, listener infers.",
+    "category": "vocabulary",
+    "tags": ["imply", "infer", "gợi ý", "suy luận"]
+  },
+  {
+    "question": "Cách học English through entrepreneurship topics?",
+    "answer": "Learn business vocabulary, understand startup language, practice pitching ideas, discuss innovation và market analysis.",
+    "category": "business",
+    "tags": ["entrepreneurship", "startup", "pitching", "innovation"]
+  },
+  {
+    "question": "Tại sao cần học về English stylistics?",
+    "answer": "Stylistics analyzes language choices for effect, helps understand author's purpose, improve writing style và appreciate literature.",
+    "category": "writing",
+    "tags": ["stylistics", "language choices", "purpose", "appreciate"]
+  },
+  {
+    "question": "Cách sử dụng English cleft sentences?",
+    "answer": "Cleft sentences emphasize information: 'It was John who called' (emphasizes John), 'What I need is help' (emphasizes help).",
+    "category": "grammar",
+    "tags": ["cleft sentences", "emphasize", "John", "help"]
+  },
+  {
+    "question": "Làm sao để học English through social media effectively?",
+    "answer": "Follow educational accounts, join English groups, practice commenting, learn internet vocabulary, avoid misinformation.",
+    "category": "general",
+    "tags": ["social media", "educational", "commenting", "misinformation"]
+  },
+  {
+    "question": "Cách cải thiện English persuasive speaking?",
+    "answer": "Structure arguments clearly, use evidence, appeal to emotions appropriately, anticipate counterarguments, practice delivery.",
+    "category": "speaking",
+    "tags": ["persuasive", "arguments", "evidence", "counterarguments"]
+  },
+  {
+    "question": "Phân biệt 'alternately' và 'alternatively'?",
+    "answer": "'Alternately' là luân phiên (alternately hot and cold). 'Alternatively' là thay vào đó (alternatively, we could walk).",
+    "category": "vocabulary",
+    "tags": ["alternately", "alternatively", "luân phiên", "thay vào đó"]
+  },
+  {
+    "question": "Cách học English through cultural studies?",
+    "answer": "Study cultural practices, understand social norms, compare cultures, learn cultural vocabulary, develop intercultural competence.",
+    "category": "culture",
+    "tags": ["cultural studies", "practices", "norms", "intercultural"]
+  },
+  {
+    "question": "Tại sao cần học về English morphology?",
+    "answer": "Morphology studies word formation, helps understand prefixes/suffixes, build vocabulary systematically, analyze word structure.",
+    "category": "vocabulary",
+    "tags": ["morphology", "word formation", "systematically", "structure"]
+  },
+  {
+    "question": "Cách sử dụng English subjunctive correctly?",
+    "answer": "Subjunctive expresses hypothetical: 'If I were you', 'I wish he were here', 'It's important that he be on time'.",
+    "category": "grammar",
+    "tags": ["subjunctive", "hypothetical", "if I were", "be on time"]
+  },
+  {
+    "question": "Làm sao để master English collocations?",
+    "answer": "Learn word partnerships (strong coffee, heavy rain), use collocation dictionaries, notice patterns in reading, practice regularly.",
+    "category": "vocabulary",
+    "tags": ["collocations", "partnerships", "dictionaries", "patterns"]
+  },
+  {
+    "question": "Cách cải thiện English intercultural awareness?",
+    "answer": "Learn about different cultures, understand communication styles, respect diversity, avoid cultural assumptions, practice sensitivity.",
+    "category": "culture",
+    "tags": ["intercultural", "communication styles", "diversity", "sensitivity"]
+  },
+  {
+    "question": "Phân biệt 'historic' và 'historical'?",
+    "answer": "'Historic' là có ý nghĩa lịch sử (historic event). 'Historical' là liên quan đến lịch sử (historical research).",
+    "category": "vocabulary",
+    "tags": ["historic", "historical", "ý nghĩa", "liên quan"]
+  },
+  {
+    "question": "Cách học English through interdisciplinary approaches?",
+    "answer": "Combine English với other subjects, use English in math/science, practice cross-curricular vocabulary, develop academic language.",
+    "category": "general",
+    "tags": ["interdisciplinary", "cross-curricular", "academic language", "subjects"]
+  },
+  {
+    "question": "Tại sao cần học về English discourse analysis?",
+    "answer": "Discourse analysis examines language in context, helps understand power relations, communication patterns, social meanings.",
+    "category": "general",
+    "tags": ["discourse analysis", "power relations", "patterns", "social meanings"]
+  },
+  {
+    "question": "Cách sử dụng English inversion structures?",
+    "answer": "Inversion for emphasis: 'Never have I seen...', 'Only then did he realize...', 'So tired was she...'",
+    "category": "grammar",
+    "tags": ["inversion", "emphasis", "never have", "only then"]
+  },
+  {
+    "question": "Làm sao để develop English critical literacy?",
+    "answer": "Question texts critically, analyze bias, understand author's agenda, evaluate sources, develop independent thinking.",
+    "category": "reading",
+    "tags": ["critical literacy", "bias", "agenda", "independent thinking"]
+  },
+  {
+    "question": "Cách cải thiện English multimodal communication?",
+    "answer": "Combine text với images, understand visual literacy, use gestures appropriately, integrate technology effectively.",
+    "category": "general",
+    "tags": ["multimodal", "visual literacy", "gestures", "technology"]
+  },
+  {
+    "question": "Phân biệt 'continual' và 'continuous'?",
+    "answer": "'Continual' là lặp lại với breaks (continual interruptions). 'Continuous' là không ngừng (continuous noise).",
+    "category": "vocabulary",
+    "tags": ["continual", "continuous", "lặp lại", "không ngừng"]
+  },
+  {
+    "question": "Cách học English through global citizenship?",
+    "answer": "Understand global issues, practice international communication, develop cultural sensitivity, learn diplomatic language.",
+    "category": "culture",
+    "tags": ["global citizenship", "international", "diplomatic", "sensitivity"]
+  },
+  {
+    "question": "Tại sao cần học về English corpus-based learning?",
+    "answer": "Corpus shows authentic language use, frequency patterns, real collocations, helps learn natural expressions.",
+    "category": "general",
+    "tags": ["corpus-based", "authentic", "frequency", "natural expressions"]
+  },
+  {
+    "question": "Cách sử dụng English participle clauses?",
+    "answer": "Present participle (Walking home, I met John). Past participle (Broken by the fall, the vase...). Reduces wordiness.",
+    "category": "grammar",
+    "tags": ["participle clauses", "walking", "broken", "wordiness"]
+  },
+  {
+    "question": "Làm sao để achieve English native-like fluency?",
+    "answer": "Immerse constantly, think in English, automate grammar, develop intuition, practice extensively với native materials.",
+    "category": "general",
+    "tags": ["native-like", "immerse", "automate", "intuition"]
+  },
+  {
+    "question": "Cách integrate English learning với daily life?",
+    "answer": "Label household items, narrate activities, set English goals, use English apps, practice với family/friends.",
+    "category": "general",
+    "tags": ["integrate", "household", "narrate", "daily life"]
+  },
+  {
+    "question": "Xin lỗi, tôi không hiểu câu hỏi của bạn.",
+    "answer": "Bạn có thể hỏi tôi về ngữ pháp tiếng Anh, từ vựng, phát âm, kỹ năng học, luyện thi IELTS/TOEFL hoặc bất kỳ thắc mắc nào về học tiếng Anh nhé!",
+    "category": "website",
+    "tags": ["fallback", "xin lỗi", "không hiểu", "thắc mắc"]
+  },
+  {
+    "question": "Cách phát âm từ 'comfortable' /ˈkʌmftəbl/?",
+    "answer": "Từ 'comfortable' có 3 âm tiết, trọng âm rơi vào âm tiết đầu. Chú ý âm /f/ và /t/ liền nhau, âm cuối là /bl/ không phải /bəl/.",
+    "category": "pronunciation",
+    "tags": ["comfortable", "IPA", "trọng âm", "âm tiết"]
+  },
+  {
+    "question": "Phân biệt 'economic' và 'economical'?",
+    "answer": "'Economic' liên quan đến kinh tế (economic crisis). 'Economical' có nghĩa là tiết kiệm (an economical car - xe tiết kiệm nhiên liệu).",
+    "category": "vocabulary",
+    "tags": ["economic", "economical", "kinh tế", "tiết kiệm"]
+  },
+  {
+    "question": "Cách sử dụng 'neither...nor' trong câu?",
+    "answer": "'Neither...nor' dùng để phủ định cả hai: 'Neither John nor Mary came' (Cả John và Mary đều không đến). Động từ chia theo chủ ngữ gần nhất.",
+    "category": "grammar",
+    "tags": ["neither nor", "phủ định", "chủ ngữ gần nhất"]
+  },
+  {
+    "question": "Từ 'schedule' phát âm như thế nào?",
+    "answer": "Phát âm Mỹ: /ˈskedʒuːl/, phát âm Anh: /ˈʃedjuːl/. Cả hai đều đúng, tùy thuộc vào accent bạn muốn học.",
+    "category": "pronunciation",
+    "tags": ["schedule", "phát âm Mỹ", "phát âm Anh", "accent"]
+  },
+  {
+    "question": "Phân biệt 'raise', 'rise' và 'arise'?",
+    "answer": "'Raise' cần tân ngữ (raise your hand). 'Rise' không cần tân ngữ (the sun rises). 'Arise' có nghĩa xuất hiện, phát sinh (problems arise).",
+    "category": "vocabulary",
+    "tags": ["raise", "rise", "arise", "tân ngữ"]
+  },
+  {
+    "question": "Cách sử dụng 'have been doing' (present perfect continuous)?",
+    "answer": "Diễn tả hành động bắt đầu trong quá khứ, tiếp tục đến hiện tại: 'I have been studying English for 3 years' (Tôi đã học tiếng Anh được 3 năm rồi).",
+    "category": "grammar",
+    "tags": ["present perfect continuous", "have been doing", "tiếp tục"]
+  },
+  {
+    "question": "Từ 'pronunciation' có bao nhiêu âm tiết?",
+    "answer": "Từ 'pronunciation' /prəˌnʌnsiˈeɪʃn/ có 5 âm tiết: pro-nun-ci-a-tion. Trọng âm chính ở âm tiết thứ 4 (-a-).",
+    "category": "pronunciation",
+    "tags": ["pronunciation", "5 âm tiết", "trọng âm", "IPA"]
+  },
+  {
+    "question": "Phân biệt 'sensible' và 'sensitive'?",
+    "answer": "'Sensible' có nghĩa là hợp lý, khôn ngoan (a sensible decision). 'Sensitive' có nghĩa là nhạy cảm (sensitive skin, sensitive person).",
+    "category": "vocabulary",
+    "tags": ["sensible", "sensitive", "hợp lý", "nhạy cảm"]
+  },
+  {
+    "question": "Khi nào dùng 'should have done' và 'could have done'?",
+    "answer": "'Should have done' thể hiện điều lẽ ra nên làm (You should have called me). 'Could have done' thể hiện khả năng trong quá khứ (I could have helped you).",
+    "category": "grammar",
+    "tags": ["should have", "could have", "lẽ ra nên", "khả năng quá khứ"]
+  },
+  {
+    "question": "Cách phát âm từ 'February' /ˈfebruəri/?",
+    "answer": "Từ 'February' thường được phát âm là /ˈfebruəri/ (bỏ âm 'r' đầu tiên) trong tiếng Anh hiện đại, mặc dù cách phát âm đầy đủ là /ˈfebruˌeri/.",
+    "category": "pronunciation",
+    "tags": ["February", "bỏ âm r", "phát âm hiện đại"]
+  },
+  {
+    "question": "Phân biệt 'affect', 'effect' và 'efficient'?",
+    "answer": "'Affect' là động từ (ảnh hưởng). 'Effect' là danh từ (tác động). 'Efficient' là tính từ (hiệu quả). Ví dụ: Rain affects my mood (effect on mood) efficiently.",
+    "category": "vocabulary",
+    "tags": ["affect", "effect", "efficient", "động từ danh từ"]
+  },
+  {
+    "question": "Cách sử dụng 'wish' với các thì khác nhau?",
+    "answer": "Wish + past simple (hiện tại): I wish I had money. Wish + past perfect (quá khứ): I wish I had studied harder. Wish + would (tương lai): I wish it would stop raining.",
+    "category": "grammar",
+    "tags": ["wish", "past simple", "past perfect", "would"]
+  },
+  {
+    "question": "Từ 'vegetable' phát âm thế nào?",
+    "answer": "Từ 'vegetable' /ˈvedʒtəbl/ có 3 âm tiết: veg-e-table, nhưng thường được phát âm như 'vedge-table' (bỏ âm tiết giữa).",
+    "category": "pronunciation",
+    "tags": ["vegetable", "3 âm tiết", "bỏ âm tiết giữa"]
+  },
+  {
+    "question": "Phân biệt 'historic' và 'historical'?",
+    "answer": "'Historic' có ý nghĩa quan trọng trong lịch sử (a historic moment). 'Historical' chỉ liên quan đến lịch sử (historical research, historical novel).",
+    "category": "vocabulary",
+    "tags": ["historic", "historical", "quan trọng", "liên quan"]
+  },
+  {
+    "question": "Cách sử dụng 'as if' và 'as though'?",
+    "answer": "'As if' và 'as though' có nghĩa giống nhau, dùng để diễn tả giả định: 'He acts as if/as though he knows everything' (Anh ta hành động như thể biết mọi thứ).",
+    "category": "grammar",
+    "tags": ["as if", "as though", "giả định", "như thể"]
+  },
+  {
+    "question": "Từ 'Wednesday' tại sao phát âm /ˈwenzdeɪ/?",
+    "answer": "Từ 'Wednesday' có gốc từ tiếng Anglo-Saxon 'Wodnesdæg'. Âm 'd' đầu tiên không được phát âm trong tiếng Anh hiện đại, thành /ˈwenzdeɪ/.",
+    "category": "pronunciation",
+    "tags": ["Wednesday", "Anglo-Saxon", "âm d câm", "lịch sử ngôn ngữ"]
+  },
+  {
+    "question": "Phân biệt 'beside' và 'besides'?",
+    "answer": "'Beside' có nghĩa là bên cạnh (sit beside me). 'Besides' có nghĩa là ngoài ra, hơn nữa (Besides English, I speak French).",
+    "category": "vocabulary",
+    "tags": ["beside", "besides", "bên cạnh", "ngoài ra"]
+  },
+  {
+    "question": "Cách sử dụng 'no sooner...than'?",
+    "answer": "'No sooner...than' diễn tả hành động xảy ra ngay sau hành động khác: 'No sooner had I arrived than it started raining' (Vừa đến thì trời mưa).",
+    "category": "grammar",
+    "tags": ["no sooner than", "ngay sau", "past perfect", "inversion"]
+  },
+  {
+    "question": "Từ 'colonel' tại sao phát âm /ˈkɜːrnl/?",
+    "answer": "Từ 'colonel' có nguồn gốc từ tiếng Pháp 'coronel' và tiếng Ý 'colonnello'. Cách phát âm /ˈkɜːrnl/ giống 'kernel' là do ảnh hưởng lịch sử.",
+    "category": "pronunciation",
+    "tags": ["colonel", "kernel", "nguồn gốc Pháp", "lịch sử"]
+  },
+  {
+    "question": "Phân biệt 'classic' và 'classical'?",
+    "answer": "'Classic' có nghĩa là kinh điển, xuất sắc (a classic movie). 'Classical' liên quan đến cổ điển (classical music, classical literature).",
+    "category": "vocabulary",
+    "tags": ["classic", "classical", "kinh điển", "cổ điển"]
+  },
+  {
+    "question": "Cách sử dụng 'hardly...when' và 'scarcely...when'?",
+    "answer": "Cả hai đều có nghĩa 'vừa...thì': 'Hardly had I sat down when the phone rang' (Vừa ngồi xuống thì điện thoại reo). Dùng với past perfect và inversion.",
+    "category": "grammar",
+    "tags": ["hardly when", "scarcely when", "vừa thì", "past perfect"]
+  },
+  {
+    "question": "Từ 'often' có thể phát âm như thế nào?",
+    "answer": "Từ 'often' có hai cách phát âm: /ˈɔːfn/ (không phát âm 't') và /ˈɔːftən/ (có phát âm 't'). Cả hai đều được chấp nhận.",
+    "category": "pronunciation",
+    "tags": ["often", "âm t", "hai cách phát âm", "chấp nhận"]
+  },
+  {
+    "question": "Phân biệt 'principal' và 'principle'?",
+    "answer": "'Principal' là hiệu trưởng hoặc chính yếu (principal reason). 'Principle' là nguyên tắc, quy luật (moral principles, scientific principles).",
+    "category": "vocabulary",
+    "tags": ["principal", "principle", "hiệu trưởng", "nguyên tắc"]
+  },
+  {
+    "question": "Cách sử dụng 'it is/was...that/who' (cleft sentences)?",
+    "answer": "Cleft sentences nhấn mạnh thông tin: 'It was John who called' (nhấn mạnh John), 'It is tomorrow that we leave' (nhấn mạnh tomorrow).",
+    "category": "grammar",
+    "tags": ["cleft sentences", "it is that", "nhấn mạnh", "who"]
+  },
+  {
+    "question": "Từ 'comfortable' có weak form không?",
+    "answer": "Từ 'comfortable' trong speech nhanh thường được rút gọn thành /ˈkʌmftəbl/ hoặc thậm chí /ˈkʌmfbl/, bỏ một số âm tiết.",
+    "category": "pronunciation",
+    "tags": ["comfortable", "weak form", "rút gọn", "speech nhanh"]
+  },
+  {
+    "question": "Phân biệt 'continual' và 'continuous'?",
+    "answer": "'Continual' có nghĩa là lặp đi lặp lại (continual interruptions). 'Continuous' có nghĩa là liên tục không ngừng (continuous rain).",
+    "category": "vocabulary",
+    "tags": ["continual", "continuous", "lặp lại", "liên tục"]
+  },
+  {
+    "question": "Cách sử dụng 'not only...but also'?",
+    "answer": "'Not only...but also' nhấn mạnh cả hai ý: 'She is not only beautiful but also intelligent'. Có thể dùng inversion: 'Not only is she beautiful, but she is also intelligent'.",
+    "category": "grammar",
+    "tags": ["not only but also", "nhấn mạnh", "inversion", "cả hai"]
+  },
+  {
+    "question": "Từ 'library' phát âm thế nào?",
+    "answer": "Từ 'library' /ˈlaɪbreri/ có 3 âm tiết. Chú ý không phát âm thành 'li-berry', phải có âm 'r' đầu tiên: 'li-bra-ry'.",
+    "category": "pronunciation",
+    "tags": ["library", "3 âm tiết", "âm r", "không li-berry"]
+  },
+  {
+    "question": "Phân biệt 'lay', 'lie' và 'laid'?",
+    "answer": "'Lay' (đặt, để) cần tân ngữ: lay-laid-laid. 'Lie' (nằm) không cần tân ngữ: lie-lay-lain. 'Lie' (nói dối): lie-lied-lied.",
+    "category": "vocabulary",
+    "tags": ["lay", "lie", "laid", "irregular verbs"]
+  },
+  {
+    "question": "Cách sử dụng 'would rather' và 'had better'?",
+    "answer": "'Would rather' thể hiện sở thích (I'd rather stay home). 'Had better' thể hiện lời khuyên mạnh (You'd better hurry up).",
+    "category": "grammar",
+    "tags": ["would rather", "had better", "sở thích", "lời khuyên"]
+  },
+  {
+    "question": "Từ 'clothes' phát âm như thế nào?",
+    "answer": "Từ 'clothes' /kloʊðz/ có âm cuối là /ðz/, không phải /θs/. Chú ý phân biệt với 'cloth' /klɔːθ/ (số ít).",
+    "category": "pronunciation",
+    "tags": ["clothes", "cloth", "âm cuối", "số nhiều"]
+  },
+  {
+    "question": "Phân biệt 'remember' và 'remind'?",
+    "answer": "'Remember' là nhớ (I remember you). 'Remind' là nhắc nhở (Please remind me). Cấu trúc: remind sb of sth, remind sb to do sth.",
+    "category": "vocabulary",
+    "tags": ["remember", "remind", "nhớ", "nhắc nhở"]
+  },
+  {
+    "question": "Cách sử dụng 'even if' và 'even though'?",
+    "answer": "'Even if' diễn tả giả định (Even if it rains, we'll go). 'Even though' diễn tả sự thật (Even though it's raining, we're going).",
+    "category": "grammar",
+    "tags": ["even if", "even though", "giả định", "sự thật"]
+  },
+  {
+    "question": "Từ 'height' phát âm thế nào?",
+    "answer": "Từ 'height' /haɪt/ có âm cuối là /t/, không phải /θ/. Tương tự 'weight' /weɪt/, không có âm 'gh'.",
+    "category": "pronunciation",
+    "tags": ["height", "weight", "âm t", "không gh"]
+  },
+  {
+    "question": "Phân biệt 'advice' và 'advise'?",
+    "answer": "'Advice' /ədˈvaɪs/ là danh từ (lời khuyên). 'Advise' /ədˈvaɪz/ là động từ (khuyên). Chú ý phát âm khác nhau ở cuối từ.",
+    "category": "vocabulary",
+    "tags": ["advice", "advise", "danh từ", "động từ"]
+  },
+  {
+    "question": "Cách sử dụng 'in case' và 'in case of'?",
+    "answer": "'In case' + clause (Take an umbrella in case it rains). 'In case of' + noun (In case of fire, use stairs).",
+    "category": "grammar",
+    "tags": ["in case", "in case of", "clause", "noun"]
+  },
+  {
+    "question": "Từ 'island' tại sao có âm 's' câm?",
+    "answer": "Từ 'island' /ˈaɪlənd/ có âm 's' câm do ảnh hưởng từ tiếng Pháp 'isle'. Âm 's' được thêm vào sau này nhưng không phát âm.",
+    "category": "pronunciation",
+    "tags": ["island", "âm s câm", "isle", "ảnh hưởng Pháp"]
+  },
+  {
+    "question": "Phân biệt 'lose', 'loose' và 'loss'?",
+    "answer": "'Lose' /luːz/ là động từ (mất). 'Loose' /luːs/ là tính từ (lỏng). 'Loss' /lɔːs/ là danh từ (sự mất mát).",
+    "category": "vocabulary",
+    "tags": ["lose", "loose", "loss", "phát âm khác nhau"]
+  },
+  {
+    "question": "Cách sử dụng 'so that' và 'such that'?",
+    "answer": "'So that' + clause chỉ mục đích (I study hard so that I can pass). 'Such that' dùng trong ngữ cảnh formal hơn, chỉ kết quả.",
+    "category": "grammar",
+    "tags": ["so that", "such that", "mục đích", "kết quả"]
+  },
+  {
+    "question": "Từ 'business' phát âm như thế nào?",
+    "answer": "Từ 'business' /ˈbɪznəs/ có 2 âm tiết: 'biz-ness', không phải 3 âm tiết. Âm 'i' thứ hai không được phát âm.",
+    "category": "pronunciation",
+    "tags": ["business", "2 âm tiết", "bỏ âm i", "bizness"]
+  },
+  {
+    "question": "Phân biệt 'accept' và 'except'?",
+    "answer": "'Accept' /əkˈsept/ là động từ (chấp nhận). 'Except' /ɪkˈsept/ là giới từ (ngoại trừ). Chú ý phát âm khác nhau ở đầu từ.",
+    "category": "vocabulary",
+    "tags": ["accept", "except", "chấp nhận", "ngoại trừ"]
+  },
+  {
+    "question": "Cách sử dụng 'unless' và 'if not'?",
+    "answer": "'Unless' có nghĩa 'trừ khi, nếu không': 'Unless you study, you'll fail' = 'If you don't study, you'll fail'.",
+    "category": "grammar",
+    "tags": ["unless", "if not", "trừ khi", "điều kiện phủ định"]
+  },
+  {
+    "question": "Từ 'answer' có âm 'w' không?",
+    "answer": "Từ 'answer' /ˈænsər/ không có âm 'w'. Âm 'w' trong chữ viết là câm, chỉ phát âm 'an-ser'.",
+    "category": "pronunciation",
+    "tags": ["answer", "âm w câm", "an-ser", "chữ viết"]
+  },
+  {
+    "question": "Phân biệt 'emigrate', 'immigrate' và 'migrate'?",
+    "answer": "'Emigrate' là rời khỏi đất nước. 'Immigrate' là đến đất nước mới. 'Migrate' là di chuyển nói chung (người hoặc động vật).",
+    "category": "vocabulary",
+    "tags": ["emigrate", "immigrate", "migrate", "di chuyển"]
+  },
+  {
+    "question": "Cách sử dụng 'whether...or not'?",
+    "answer": "'Whether...or not' diễn tả lựa chọn: 'I don't know whether he'll come or not'. Có thể bỏ 'or not' trong một số trường hợp.",
+    "category": "grammar",
+    "tags": ["whether or not", "lựa chọn", "có thể bỏ", "không biết"]
+  },
+  {
+    "question": "Từ 'sword' tại sao phát âm /sɔːrd/?",
+    "answer": "Từ 'sword' /sɔːrd/ có âm 'w' câm do lịch sử ngôn ngữ. Trong tiếng Anh cổ, âm 'w' được phát âm nhưng sau này biến mất.",
+    "category": "pronunciation",
+    "tags": ["sword", "âm w câm", "lịch sử", "tiếng Anh cổ"]
+  },
+  {
+    "question": "Phân biệt 'stationary' và 'stationery'?",
+    "answer": "'Stationary' /ˈsteɪʃəneri/ là tính từ (đứng yên). 'Stationery' /ˈsteɪʃənəri/ là danh từ (văn phòng phẩm). Chú ý phát âm khác nhau.",
+    "category": "vocabulary",
+    "tags": ["stationary", "stationery", "đứng yên", "văn phòng phẩm"]
+  },
+  {
+    "question": "Cách sử dụng 'both...and', 'either...or', 'neither...nor'?",
+    "answer": "'Both...and' (cả hai): Both John and Mary came. 'Either...or' (hoặc): Either coffee or tea. 'Neither...nor' (không cái nào): Neither hot nor cold.",
+    "category": "grammar",
+    "tags": ["both and", "either or", "neither nor", "correlative conjunctions"]
+  },
+  {
+    "question": "Từ 'debt' tại sao có âm 'b' câm?",
+    "answer": "Từ 'debt' /det/ có âm 'b' câm do ảnh hưởng từ tiếng Latin 'debitum'. Âm 'b' được thêm vào chữ viết nhưng không phát âm.",
+    "category": "pronunciation",
+    "tags": ["debt", "âm b câm", "Latin", "debitum"]
+  },
+  {
+    "question": "Phân biệt 'complement' và 'compliment'?",
+    "answer": "'Complement' /ˈkɒmplɪmənt/ là bổ sung (This wine complements the meal). 'Compliment' /ˈkɒmplɪmənt/ là lời khen (He gave me a compliment).",
+    "category": "vocabulary",
+    "tags": ["complement", "compliment", "bổ sung", "lời khen"]
+  },
+  {
+    "question": "Cách sử dụng 'used to', 'be used to', 'get used to'?",
+    "answer": "'Used to' (thói quen quá khứ): I used to smoke. 'Be used to' (quen với): I'm used to cold weather. 'Get used to' (làm quen): I'm getting used to the new job.",
+    "category": "grammar",
+    "tags": ["used to", "be used to", "get used to", "thói quen"]
+  },
+  {
+    "question": "Từ 'psychology' phát âm như thế nào?",
+    "answer": "Từ 'psychology' /saɪˈkɒlədʒi/ có âm 'p' đầu câm. Phát âm bắt đầu bằng /saɪ/, không phải /psaɪ/.",
+    "category": "pronunciation",
+    "tags": ["psychology", "âm p câm", "sai-kology", "Greek origin"]
+  },
+  {
+    "question": "Phân biệt 'desert', 'dessert' và 'deserve'?",
+    "answer": "'Desert' /ˈdezərt/ là sa mạc. 'Dessert' /dɪˈzɜːrt/ là món tráng miệng. 'Deserve' /dɪˈzɜːrv/ là xứng đáng. Chú ý trọng âm khác nhau.",
+    "category": "vocabulary",
+    "tags": ["desert", "dessert", "deserve", "trọng âm"]
+  },
+  {
+    "question": "Cách sử dụng 'suppose', 'supposing', 'supposed to'?",
+    "answer": "'Suppose' (giả sử): Suppose it rains. 'Supposing' (nếu như): Supposing you win. 'Supposed to' (được cho là): You're supposed to be here at 9.",
+    "category": "grammar",
+    "tags": ["suppose", "supposing", "supposed to", "giả sử"]
+  },
+  {
+    "question": "Từ 'receipt' có phát âm âm 'p' không?",
+    "answer": "Từ 'receipt' /rɪˈsiːt/ có âm 'p' câm. Phát âm giống 'receive' /rɪˈsiːv/ nhưng có âm 't' cuối.",
+    "category": "pronunciation",
+    "tags": ["receipt", "âm p câm", "receive", "âm t cuối"]
+  },
+  {
+    "question": "Phân biệt 'personal' và 'personnel'?",
+    "answer": "'Personal' /ˈpɜːrsənl/ là cá nhân (personal information). 'Personnel' /ˌpɜːrsəˈnel/ là nhân sự (company personnel). Trọng âm khác nhau.",
+    "category": "vocabulary",
+    "tags": ["personal", "personnel", "cá nhân", "nhân sự"]
+  },
+  {
+    "question": "Cách sử dụng 'provided that', 'providing that'?",
+    "answer": "'Provided that' và 'providing that' đều có nghĩa 'với điều kiện là': 'I'll help you provided/providing that you ask nicely'.",
+    "category": "grammar",
+    "tags": ["provided that", "providing that", "điều kiện", "conditional"]
+  },
+  {
+    "question": "Từ 'muscle' phát âm thế nào?",
+    "answer": "Từ 'muscle' /ˈmʌsl/ có âm 'c' câm. Phát âm là 'mus-le', không có âm /k/.",
+    "category": "pronunciation",
+    "tags": ["muscle", "âm c câm", "mus-le", "không k"]
+  },
+  {
+    "question": "Phân biệt 'farther' và 'further'?",
+    "answer": "'Farther' dùng cho khoảng cách vật lý (farther away). 'Further' dùng cho abstract concepts (further discussion) hoặc additional (further information).",
+    "category": "vocabulary",
+    "tags": ["farther", "further", "vật lý", "abstract"]
+  },
+  {
+    "question": "Cách sử dụng 'as long as', 'so long as'?",
+    "answer": "'As long as' và 'so long as' đều có nghĩa 'miễn là': 'You can stay as long as you want'. Cũng có thể chỉ thời gian.",
+    "category": "grammar",
+    "tags": ["as long as", "so long as", "miễn là", "thời gian"]
+  },
+  {
+    "question": "Từ 'castle' có phát âm âm 't' không?",
+    "answer": "Từ 'castle' /ˈkæsl/ có âm 't' câm trong nhiều accent. Phát âm thành 'cas-le', đặc biệt trong British English.",
+    "category": "pronunciation",
+    "tags": ["castle", "âm t câm", "cas-le", "British"]
+  },
+  {
+    "question": "Phân biệt 'alternate' và 'alternative'?",
+    "answer": "'Alternate' /ˈɔːltərneɪt/ là luân phiên (alternate days). 'Alternative' /ɔːlˈtɜːrnətɪv/ là lựa chọn khác (alternative solution).",
+    "category": "vocabulary",
+    "tags": ["alternate", "alternative", "luân phiên", "lựa chọn"]
+  },
+  {
+    "question": "Cách sử dụng 'in order that', 'in order to'?",
+    "answer": "'In order that' + clause (I study hard in order that I may succeed). 'In order to' + infinitive (I study hard in order to succeed).",
+    "category": "grammar",
+    "tags": ["in order that", "in order to", "clause", "infinitive"]
+  },
+  {
+    "question": "Từ 'listen' có âm 't' câm không?",
+    "answer": "Từ 'listen' /ˈlɪsn/ có âm 't' câm. Phát âm thành 'lis-en', tương tự 'fasten', 'hasten'.",
+    "category": "pronunciation",
+    "tags": ["listen", "âm t câm", "lis-en", "fasten"]
+  },
+  {
+    "question": "Phân biệt 'moral' và 'morale'?",
+    "answer": "'Moral' /ˈmɔːrəl/ là đạo đức (moral values). 'Morale' /məˈræl/ là tinh thần (team morale). Phát âm và nghĩa khác nhau.",
+    "category": "vocabulary",
+    "tags": ["moral", "morale", "đạo đức", "tinh thần"]
+  },
+  {
+    "question": "Cách sử dụng 'lest' trong tiếng Anh?",
+    "answer": "'Lest' có nghĩa 'để khỏi, e rằng': 'Speak quietly lest you wake the baby'. Dùng với subjunctive mood, khá formal.",
+    "category": "grammar",
+    "tags": ["lest", "để khỏi", "subjunctive", "formal"]
+  },
+  {
+    "question": "Từ 'knee' tại sao có âm 'k' câm?",
+    "answer": "Từ 'knee' /niː/ có âm 'k' câm do lịch sử. Trong tiếng Anh cổ, âm 'k' được phát âm, nhưng sau này biến mất.",
+    "category": "pronunciation",
+    "tags": ["knee", "âm k câm", "tiếng Anh cổ", "lịch sử"]
+  },
+  {
+    "question": "Phân biệt 'principal' và 'principle'?",
+    "answer": "'Principal' /ˈprɪnsəpl/ là hiệu trưởng hoặc chính (principal reason). 'Principle' /ˈprɪnsəpl/ là nguyên tắc (moral principles).",
+    "category": "vocabulary",
+    "tags": ["principal", "principle", "hiệu trưởng", "nguyên tắc"]
+  },
+  {
+    "question": "Cách sử dụng 'for fear that', 'for fear of'?",
+    "answer": "'For fear that' + clause (I didn't go for fear that I might be late). 'For fear of' + noun/gerund (for fear of being late).",
+    "category": "grammar",
+    "tags": ["for fear that", "for fear of", "sợ rằng", "clause"]
+  },
+  {
+    "question": "Từ 'honest' có phát âm âm 'h' không?",
+    "answer": "Từ 'honest' /ˈɒnɪst/ có âm 'h' câm. Phát âm bắt đầu bằng nguyên âm, do đó dùng 'an honest person'.",
+    "category": "pronunciation",
+    "tags": ["honest", "âm h câm", "an honest", "nguyên âm"]
+  },
+  {
+    "question": "Phân biệt 'loose' và 'lose'?",
+    "answer": "'Loose' /luːs/ là tính từ (lỏng lẻo). 'Lose' /luːz/ là động từ (mất, thua). Chú ý phát âm /s/ và /z/ khác nhau.",
+    "category": "vocabulary",
+    "tags": ["loose", "lose", "lỏng lẻo", "mất"]
+  },
+  {
+    "question": "Cách sử dụng 'on condition that'?",
+    "answer": "'On condition that' có nghĩa 'với điều kiện là': 'I'll lend you money on condition that you pay me back next week'.",
+    "category": "grammar",
+    "tags": ["on condition that", "điều kiện", "conditional", "formal"]
+  },
+  {
+    "question": "Từ 'lamb' có phát âm âm 'b' không?",
+    "answer": "Từ 'lamb' /læm/ có âm 'b' câm. Tương tự 'thumb' /θʌm/, 'comb' /koʊm/, 'bomb' /bɒm/.",
+    "category": "pronunciation",
+    "tags": ["lamb", "âm b câm", "thumb", "comb"]
+  },
+  {
+    "question": "Phân biệt 'effect' và 'affect'?",
+    "answer": "'Effect' /ɪˈfekt/ là danh từ (tác động, hiệu ứng). 'Affect' /əˈfekt/ là động từ (ảnh hưởng). Nhớ: Affect = Action, Effect = End result.",
+    "category": "vocabulary",
+    "tags": ["effect", "affect", "danh từ", "động từ"]
+  },
+  {
+    "question": "Cách sử dụng 'but for' trong câu điều kiện?",
+    "answer": "'But for' có nghĩa 'nếu không có': 'But for your help, I would have failed' (Nếu không có sự giúp đỡ của bạn, tôi đã thất bại).",
+    "category": "grammar",
+    "tags": ["but for", "nếu không có", "conditional", "without"]
+  },
+  {
+    "question": "Từ 'yacht' phát âm như thế nào?",
+    "answer": "Từ 'yacht' /jɒt/ phát âm giống 'yot', không có âm 'ch'. Âm 'ch' trong chữ viết là câm.",
+    "category": "pronunciation",
+    "tags": ["yacht", "yot", "âm ch câm", "Dutch origin"]
+  },
+  {
+    "question": "Phân biệt 'breath' và 'breathe'?",
+    "answer": "'Breath' /breθ/ là danh từ (hơi thở). 'Breathe' /briːð/ là động từ (thở). Chú ý phát âm /θ/ và /ð/ khác nhau.",
+    "category": "vocabulary",
+    "tags": ["breath", "breathe", "danh từ", "động từ"]
+  },
+  {
+    "question": "Cách sử dụng 'dare' trong câu phủ định và nghi vấn?",
+    "answer": "'Dare' có thể là modal verb (Dare you go?) hoặc regular verb (Do you dare to go?). Trong phủ định: 'He daren't go' hoặc 'He doesn't dare to go'.",
+    "category": "grammar",
+    "tags": ["dare", "modal verb", "regular verb", "phủ định"]
+  },
+  {
+    "question": "Từ 'sign' có phát âm âm 'g' không?",
+    "answer": "Từ 'sign' /saɪn/ có âm 'g' câm. Tương tự 'design' /dɪˈzaɪn/, 'resign' /rɪˈzaɪn/.",
+    "category": "pronunciation",
+    "tags": ["sign", "âm g câm", "design", "resign"]
+  },
+  {
+    "question": "Phân biệt 'council', 'counsel' và 'consul'?",
+    "answer": "'Council' /ˈkaʊnsl/ là hội đồng. 'Counsel' /ˈkaʊnsl/ là lời khuyên/luật sư. 'Consul' /ˈkɒnsl/ là lãnh sự.",
+    "category": "vocabulary",
+    "tags": ["council", "counsel", "consul", "hội đồng"]
+  },
+  {
+    "question": "Cách sử dụng 'need' như modal verb?",
+    "answer": "'Need' như modal verb: 'Need I go?' (formal), 'You needn't worry'. Như regular verb: 'Do I need to go?', 'You don't need to worry'.",
+    "category": "grammar",
+    "tags": ["need", "modal verb", "needn't", "formal"]
+  },
+  {
+    "question": "Từ 'climb' có âm 'b' cuối không?",
+    "answer": "Từ 'climb' /klaɪm/ có âm 'b' câm. Tương tự 'tomb' /tuːm/, 'womb' /wuːm/.",
+    "category": "pronunciation",
+    "tags": ["climb", "âm b câm", "tomb", "womb"]
+  },
+  {
+    "question": "Phân biệt 'canvas' và 'canvass'?",
+    "answer": "'Canvas' /ˈkænvəs/ là vải bạt (canvas bag). 'Canvass' /ˈkænvəs/ là vận động, khảo sát (canvass for votes).",
+    "category": "vocabulary",
+    "tags": ["canvas", "canvass", "vải bạt", "vận động"]
+  },
+  {
+    "question": "Cách sử dụng 'ought to' trong câu phủ định?",
+    "answer": "'Ought to' trong phủ định: 'You ought not to smoke' hoặc 'You oughtn't to smoke'. Trong nghi vấn: 'Ought I to go?'",
+    "category": "grammar",
+    "tags": ["ought to", "oughtn't", "phủ định", "nghi vấn"]
+  },
+  {
+    "question": "Từ 'foreign' phát âm thế nào?",
+    "answer": "Từ 'foreign' /ˈfɒrən/ có âm 'g' câm. Phát âm thành 'for-en', không có âm /g/.",
+    "category": "pronunciation",
+    "tags": ["foreign", "âm g câm", "for-en", "không g"]
+  },
+  {
+    "question": "Phân biệt 'diary' và 'dairy'?",
+    "answer": "'Diary' /ˈdaɪəri/ là nhật ký. 'Dairy' /ˈdeəri/ là sản phẩm từ sữa. Chú ý phát âm /aɪ/ và /eə/ khác nhau.",
+    "category": "vocabulary",
+    "tags": ["diary", "dairy", "nhật ký", "sữa"]
+  },
+  {
+    "question": "Cách sử dụng 'had rather' và 'would rather'?",
+    "answer": "'Had rather' và 'would rather' đều có nghĩa 'thà...hơn': 'I'd rather stay home'. 'Had rather' formal hơn và ít dùng hơn.",
+    "category": "grammar",
+    "tags": ["had rather", "would rather", "thà hơn", "formal"]
+  },
+  {
+    "question": "Từ 'hour' có phát âm âm 'h' không?",
+    "answer": "Từ 'hour' /ˈaʊər/ có âm 'h' câm. Phát âm bắt đầu bằng nguyên âm, do đó dùng 'an hour'.",
+    "category": "pronunciation",
+    "tags": ["hour", "âm h câm", "an hour", "nguyên âm"]
+  },
+  {
+    "question": "Phân biệt 'cite', 'sight' và 'site'?",
+    "answer": "'Cite' /saɪt/ là trích dẫn. 'Sight' /saɪt/ là tầm nhìn. 'Site' /saɪt/ là địa điểm. Cả ba phát âm giống nhau.",
+    "category": "vocabulary",
+    "tags": ["cite", "sight", "site", "homophones"]
+  },
+  {
+    "question": "Cách sử dụng 'be to' để chỉ tương lai?",
+    "answer": "'Be to' chỉ kế hoạch chính thức hoặc mệnh lệnh: 'The meeting is to start at 9' (Cuộc họp sẽ bắt đầu lúc 9).",
+    "category": "grammar",
+    "tags": ["be to", "tương lai", "kế hoạch", "mệnh lệnh"]
+  },
+  {
+    "question": "Từ 'doubt' có phát âm âm 'b' không?",
+    "answer": "Từ 'doubt' /daʊt/ có âm 'b' câm. Phát âm thành 'dowt', tương tự 'subtle' /ˈsʌtl/.",
+    "category": "pronunciation",
+    "tags": ["doubt", "âm b câm", "dowt", "subtle"]
+  },
+  {
+    "question": "Phân biệt 'capital' và 'capitol'?",
+    "answer": "'Capital' /ˈkæpɪtl/ là thủ đô hoặc vốn. 'Capitol' /ˈkæpɪtl/ là tòa nhà quốc hội (chủ yếu ở Mỹ).",
+    "category": "vocabulary",
+    "tags": ["capital", "capitol", "thủ đô", "quốc hội"]
+  },
+  {
+    "question": "Cách sử dụng 'be about to'?",
+    "answer": "'Be about to' chỉ hành động sắp xảy ra ngay: 'I'm about to leave' (Tôi sắp đi). Không dùng với thời gian cụ thể.",
+    "category": "grammar",
+    "tags": ["be about to", "sắp xảy ra", "ngay lập tức", "không thời gian"]
+  },
+  {
+    "question": "Từ 'salmon' phát âm như thế nào?",
+    "answer": "Từ 'salmon' /ˈsæmən/ có âm 'l' câm. Phát âm thành 'sam-on', không có âm /l/.",
+    "category": "pronunciation",
+    "tags": ["salmon", "âm l câm", "sam-on", "fish"]
+  },
+  {
+    "question": "Phân biệt 'desert' và 'dessert'?",
+    "answer": "'Desert' /ˈdezərt/ là sa mạc (trọng âm đầu). 'Dessert' /dɪˈzɜːrt/ là món tráng miệng (trọng âm cuối). Nhớ: dessert có 2 s = sweet.",
+    "category": "vocabulary",
+    "tags": ["desert", "dessert", "sa mạc", "tráng miệng"]
+  },
+  {
+    "question": "Cách sử dụng 'be bound to'?",
+    "answer": "'Be bound to' có nghĩa 'chắc chắn sẽ': 'He's bound to be late' (Chắc chắn anh ấy sẽ muộn). Thể hiện sự chắc chắn cao.",
+    "category": "grammar",
+    "tags": ["be bound to", "chắc chắn", "probability", "certainty"]
+  },
+  {
+    "question": "Từ 'half' có phát âm âm 'l' không?",
+    "answer": "Từ 'half' /hæf/ có âm 'l' câm trong nhiều accent. Tương tự 'calf' /kæf/, 'behalf' /bɪˈhæf/.",
+    "category": "pronunciation",
+    "tags": ["half", "âm l câm", "calf", "behalf"]
+  },
+  {
+    "question": "Phân biệt 'lose' và 'loose'?",
+    "answer": "'Lose' /luːz/ là động từ (mất, thua). 'Loose' /luːs/ là tính từ (lỏng lẻo). Chú ý phát âm /z/ và /s/.",
+    "category": "vocabulary",
+    "tags": ["lose", "loose", "mất", "lỏng lẻo"]
+  },
+  {
+    "question": "Cách sử dụng 'be due to'?",
+    "answer": "'Be due to' có nghĩa 'dự kiến': 'The train is due to arrive at 3' (Tàu dự kiến đến lúc 3). Cũng có nghĩa 'do bởi'.",
+    "category": "grammar",
+    "tags": ["be due to", "dự kiến", "scheduled", "because of"]
+  },
+  {
+    "question": "Từ 'walk' có âm 'l' câm không?",
+    "answer": "Từ 'walk' /wɔːk/ có âm 'l' câm. Tương tự 'talk' /tɔːk/, 'chalk' /tʃɔːk/, 'folk' /foʊk/.",
+    "category": "pronunciation",
+    "tags": ["walk", "âm l câm", "talk", "chalk"]
+  },
+  {
+    "question": "Phân biệt 'weather' và 'whether'?",
+    "answer": "'Weather' /ˈweðər/ là thời tiết. 'Whether' /ˈweðər/ là liệu có...hay không. Phát âm giống nhau nhưng nghĩa khác.",
+    "category": "vocabulary",
+    "tags": ["weather", "whether", "thời tiết", "liệu có"]
+  },
+  {
+    "question": "Cách sử dụng 'be likely to'?",
+    "answer": "'Be likely to' có nghĩa 'có khả năng': 'It's likely to rain' (Có khả năng mưa). Thể hiện xác suất cao.",
+    "category": "grammar",
+    "tags": ["be likely to", "có khả năng", "probability", "high chance"]
+  },
+  {
+    "question": "Từ 'palm' có phát âm âm 'l' không?",
+    "answer": "Từ 'palm' /pɑːm/ có âm 'l' câm. Phát âm thành 'pam', tương tự 'calm' /kɑːm/, 'psalm' /sɑːm/.",
+    "category": "pronunciation",
+    "tags": ["palm", "âm l câm", "calm", "psalm"]
+  },
+  {
+    "question": "Phân biệt 'than' và 'then'?",
+    "answer": "'Than' /ðæn/ dùng để so sánh (taller than me). 'Then' /ðen/ chỉ thời gian (first...then). Phát âm khác nhau.",
+    "category": "vocabulary",
+    "tags": ["than", "then", "so sánh", "thời gian"]
+  },
+  {
+    "question": "Cách sử dụng 'be supposed to'?",
+    "answer": "'Be supposed to' có nghĩa 'được cho là phải': 'You're supposed to be here at 9' (Bạn phải có mặt ở đây lúc 9).",
+    "category": "grammar",
+    "tags": ["be supposed to", "phải", "expectation", "obligation"]
+  },
+  {
+    "question": "Từ 'knife' có phát âm âm 'k' không?",
+    "answer": "Từ 'knife' /naɪf/ có âm 'k' câm. Tương tự 'know' /noʊ/, 'knock' /nɒk/, 'knee' /niː/.",
+    "category": "pronunciation",
+    "tags": ["knife", "âm k câm", "know", "knock"]
+  },
+  {
+    "question": "Phân biệt 'principal' và 'principle'?",
+    "answer": "'Principal' /ˈprɪnsəpl/ là hiệu trưởng hoặc chính yếu. 'Principle' /ˈprɪnsəpl/ là nguyên tắc, quy luật.",
+    "category": "vocabulary",
+    "tags": ["principal", "principle", "hiệu trưởng", "nguyên tắc"]
+  },
+  {
+    "question": "Cách sử dụng 'be certain to'?",
+    "answer": "'Be certain to' có nghĩa 'chắc chắn sẽ': 'He's certain to pass the exam' (Chắc chắn anh ấy sẽ đậu kỳ thi).",
+    "category": "grammar",
+    "tags": ["be certain to", "chắc chắn", "certainty", "future"]
+  },
+  {
+    "question": "Từ 'wrist' có phát âm âm 'w' không?",
+    "answer": "Từ 'wrist' /rɪst/ có âm 'w' câm. Phát âm thành 'rist', tương tự 'write' /raɪt/, 'wrong' /rɒŋ/.",
+    "category": "pronunciation",
+    "tags": ["wrist", "âm w câm", "write", "wrong"]
+  },
+  {
+    "question": "Phân biệt 'compliment' và 'complement'?",
+    "answer": "'Compliment' /ˈkɒmplɪmənt/ là lời khen. 'Complement' /ˈkɒmplɪmənt/ là bổ sung, hoàn thiện.",
+    "category": "vocabulary",
+    "tags": ["compliment", "complement", "lời khen", "bổ sung"]
+  },
+  {
+    "question": "Cách sử dụng 'be sure to'?",
+    "answer": "'Be sure to' có nghĩa 'nhớ phải': 'Be sure to lock the door' (Nhớ khóa cửa). Thể hiện lời nhắc nhở.",
+    "category": "grammar",
+    "tags": ["be sure to", "nhớ phải", "reminder", "imperative"]
+  },
+  {
+    "question": "Từ 'thumb' có âm 'b' cuối không?",
+    "answer": "Từ 'thumb' /θʌm/ có âm 'b' câm. Tương tự 'numb' /nʌm/, 'dumb' /dʌm/, 'crumb' /krʌm/.",
+    "category": "pronunciation",
+    "tags": ["thumb", "âm b câm", "numb", "dumb"]
+  },
+  {
+    "question": "Phân biệt 'altar' và 'alter'?",
+    "answer": "'Altar' /ˈɔːltər/ là bàn thờ. 'Alter' /ˈɔːltər/ là thay đổi. Phát âm giống nhau nhưng nghĩa khác.",
+    "category": "vocabulary",
+    "tags": ["altar", "alter", "bàn thờ", "thay đổi"]
+  },
+  {
+    "question": "Cách sử dụng 'happen to'?",
+    "answer": "'Happen to' có nghĩa 'tình cờ': 'I happened to meet him yesterday' (Tôi tình cờ gặp anh ấy hôm qua).",
+    "category": "grammar",
+    "tags": ["happen to", "tình cờ", "coincidence", "chance"]
+  },
+  {
+    "question": "Từ 'Christmas' phát âm thế nào?",
+    "answer": "Từ 'Christmas' /ˈkrɪsməs/ có âm 't' câm. Phát âm thành 'Chris-mas', không có âm /t/.",
+    "category": "pronunciation",
+    "tags": ["Christmas", "âm t câm", "Chris-mas", "holiday"]
+  },
+  {
+    "question": "Phân biệt 'angel' và 'angle'?",
+    "answer": "'Angel' /ˈeɪndʒəl/ là thiên thần. 'Angle' /ˈæŋɡəl/ là góc. Chú ý phát âm /eɪ/ và /æ/ khác nhau.",
+    "category": "vocabulary",
+    "tags": ["angel", "angle", "thiên thần", "góc"]
+  },
+  {
+    "question": "Cách sử dụng 'tend to'?",
+    "answer": "'Tend to' có nghĩa 'có xu hướng': 'Children tend to be curious' (Trẻ em có xu hướng tò mò).",
+    "category": "grammar",
+    "tags": ["tend to", "xu hướng", "tendency", "habit"]
+  },
+  {
+    "question": "Từ 'autumn' có phát âm âm 'n' cuối không?",
+    "answer": "Từ 'autumn' /ˈɔːtəm/ có âm 'n' câm. Phát âm thành 'aw-tum', tương tự 'column' /ˈkɒləm/.",
+    "category": "pronunciation",
+    "tags": ["autumn", "âm n câm", "column", "season"]
+  },
+  {
+    "question": "Phân biệt 'brake' và 'break'?",
+    "answer": "'Brake' /breɪk/ là phanh xe. 'Break' /breɪk/ là nghỉ ngơi hoặc làm vỡ. Phát âm giống nhau.",
+    "category": "vocabulary",
+    "tags": ["brake", "break", "phanh", "nghỉ ngơi"]
+  },
+  {
+    "question": "Cách sử dụng 'seem to'?",
+    "answer": "'Seem to' có nghĩa 'có vẻ như': 'He seems to be tired' (Anh ấy có vẻ mệt). Thể hiện ấn tượng chủ quan.",
+    "category": "grammar",
+    "tags": ["seem to", "có vẻ", "appearance", "subjective"]
+  },
+  {
+    "question": "Từ 'guitar' có trọng âm ở đâu?",
+    "answer": "Từ 'guitar' /ɡɪˈtɑːr/ có trọng âm ở âm tiết thứ hai: gui-TAR. Không phải GU-itar.",
+    "category": "pronunciation",
+    "tags": ["guitar", "trọng âm", "âm tiết thứ hai", "instrument"]
+  },
+  {
+    "question": "Phân biệt 'board' và 'bored'?",
+    "answer": "'Board' /bɔːrd/ là tấm ván hoặc hội đồng. 'Bored' /bɔːrd/ là chán. Phát âm giống nhau nhưng nghĩa khác.",
+    "category": "vocabulary",
+    "tags": ["board", "bored", "tấm ván", "chán"]
+  },
+  {
+    "question": "Cách sử dụng 'appear to'?",
+    "answer": "'Appear to' có nghĩa 'có vẻ như': 'She appears to be happy' (Cô ấy có vẻ vui). Formal hơn 'seem to'.",
+    "category": "grammar",
+    "tags": ["appear to", "có vẻ", "formal", "observation"]
+  },
+  {
+    "question": "Từ 'iron' có phát âm âm 'r' không?",
+    "answer": "Từ 'iron' /ˈaɪərn/ có âm 'r' trong American English nhưng câm trong British English /ˈaɪən/.",
+    "category": "pronunciation",
+    "tags": ["iron", "American", "British", "âm r"]
+  },
+  {
+    "question": "Phân biệt 'cereal' và 'serial'?",
+    "answer": "'Cereal' /ˈsɪriəl/ là ngũ cốc. 'Serial' /ˈsɪriəl/ là nối tiếp, phim bộ. Phát âm giống nhau.",
+    "category": "vocabulary",
+    "tags": ["cereal", "serial", "ngũ cốc", "nối tiếp"]
+  },
+  {
+    "question": "Cách sử dụng 'prove to be'?",
+    "answer": "'Prove to be' có nghĩa 'hóa ra là': 'The plan proved to be successful' (Kế hoạch hóa ra thành công).",
+    "category": "grammar",
+    "tags": ["prove to be", "hóa ra", "result", "outcome"]
+  },
+  {
+    "question": "Từ 'cupboard' phát âm như thế nào?",
+    "answer": "Từ 'cupboard' /ˈkʌbərd/ phát âm thành 'cub-erd', không phải 'cup-board'. Âm 'p' câm.",
+    "category": "pronunciation",
+    "tags": ["cupboard", "cub-erd", "âm p câm", "furniture"]
+  },
+  {
+    "question": "Phân biệt 'desert' và 'dessert'?",
+    "answer": "'Desert' /ˈdezərt/ là sa mạc (trọng âm đầu). 'Dessert' /dɪˈzɜːrt/ là món tráng miệng (trọng âm cuối).",
+    "category": "vocabulary",
+    "tags": ["desert", "dessert", "sa mạc", "tráng miệng"]
+  },
+  {
+    "question": "Cách sử dụng 'turn out to be'?",
+    "answer": "'Turn out to be' có nghĩa 'hóa ra là': 'He turned out to be a good teacher' (Hóa ra anh ấy là giáo viên giỏi).",
+    "category": "grammar",
+    "tags": ["turn out to be", "hóa ra", "unexpected result", "discovery"]
+  },
+  {
+    "question": "Từ 'sandwich' có trọng âm ở đâu?",
+    "answer": "Từ 'sandwich' /ˈsænwɪtʃ/ có trọng âm ở âm tiết đầu: SAND-wich. Không phải sand-WICH.",
+    "category": "pronunciation",
+    "tags": ["sandwich", "trọng âm đầu", "SAND-wich", "food"]
+  },
+  {
+    "question": "Phân biệt 'flour' và 'flower'?",
+    "answer": "'Flour' /flaʊər/ là bột mì. 'Flower' /ˈflaʊər/ là hoa. Phát âm giống nhau nhưng nghĩa khác.",
+    "category": "vocabulary",
+    "tags": ["flour", "flower", "bột mì", "hoa"]
+  },
+  {
+    "question": "Cách sử dụng 'come to be'?",
+    "answer": "'Come to be' có nghĩa 'trở thành': 'How did this come to be?' (Làm sao điều này lại xảy ra?). Chỉ quá trình phát triển.",
+    "category": "grammar",
+    "tags": ["come to be", "trở thành", "development", "process"]
+  },
+  {
+    "question": "Từ 'vehicle' phát âm thế nào?",
+    "answer": "Từ 'vehicle' /ˈviːɪkəl/ có 3 âm tiết: VE-hi-cle. Chú ý âm đầu là /viː/, không phải /veɪ/.",
+    "category": "pronunciation",
+    "tags": ["vehicle", "3 âm tiết", "VE-hi-cle", "transport"]
+  },
+  {
+    "question": "Phân biệt 'hole' và 'whole'?",
+    "answer": "'Hole' /hoʊl/ là lỗ hổng. 'Whole' /hoʊl/ là toàn bộ. Phát âm giống nhau nhưng nghĩa khác.",
+    "category": "vocabulary",
+    "tags": ["hole", "whole", "lỗ hổng", "toàn bộ"]
+  },
+  {
+    "question": "Cách sử dụng 'get to be'?",
+    "answer": "'Get to be' có nghĩa 'trở nên': 'It's getting to be late' (Trời đang trở nên muộn). Informal hơn 'become'.",
+    "category": "grammar",
+    "tags": ["get to be", "trở nên", "informal", "gradual change"]
+  },
+  {
+    "question": "Từ 'knee' có phát âm âm 'k' không?",
+    "answer": "Từ 'knee' /niː/ có âm 'k' câm. Tương tự 'kneel' /niːl/, 'knot' /nɒt/, 'knuckle' /ˈnʌkəl/.",
+    "category": "pronunciation",
+    "tags": ["knee", "âm k câm", "kneel", "knot"]
+  },
+  {
+    "question": "Phân biệt 'mail' và 'male'?",
+    "answer": "'Mail' /meɪl/ là thư từ. 'Male' /meɪl/ là nam giới. Phát âm giống nhau nhưng nghĩa khác.",
+    "category": "vocabulary",
+    "tags": ["mail", "male", "thư từ", "nam giới"]
+  },
+  {
+    "question": "Cách sử dụng 'manage to'?",
+    "answer": "'Manage to' có nghĩa 'xoay sở được': 'I managed to finish the work' (Tôi đã xoay sở hoàn thành công việc).",
+    "category": "grammar",
+    "tags": ["manage to", "xoay sở", "succeed", "accomplish"]
+  },
+  {
+    "question": "Từ 'gnome' có phát âm âm 'g' không?",
+    "answer": "Từ 'gnome' /noʊm/ có âm 'g' câm. Tương tự 'gnat' /næt/, 'gnaw' /nɔː/.",
+    "category": "pronunciation",
+    "tags": ["gnome", "âm g câm", "gnat", "gnaw"]
+  },
+  {
+    "question": "Phân biệt 'pain' và 'pane'?",
+    "answer": "'Pain' /peɪn/ là đau đớn. 'Pane' /peɪn/ là tấm kính. Phát âm giống nhau nhưng nghĩa khác.",
+    "category": "vocabulary",
+    "tags": ["pain", "pane", "đau đớn", "tấm kính"]
+  },
+  {
+    "question": "Cách sử dụng 'fail to'?",
+    "answer": "'Fail to' có nghĩa 'không làm được': 'He failed to arrive on time' (Anh ấy không đến đúng giờ).",
+    "category": "grammar",
+    "tags": ["fail to", "không làm được", "unsuccessful", "negative"]
+  },
+  {
+    "question": "Từ 'pneumonia' phát âm thế nào?",
+    "answer": "Từ 'pneumonia' /nuːˈmoʊniə/ có âm 'p' câm. Phát âm bắt đầu bằng /nuː/, không có âm /p/.",
+    "category": "pronunciation",
+    "tags": ["pneumonia", "âm p câm", "medical", "Greek origin"]
+  },
+  {
+    "question": "Phân biệt 'rain' và 'reign'?",
+    "answer": "'Rain' /reɪn/ là mưa. 'Reign' /reɪn/ là trị vì. Phát âm giống nhau nhưng nghĩa khác.",
+    "category": "vocabulary",
+    "tags": ["rain", "reign", "mưa", "trị vì"]
+  },
+  {
+    "question": "Cách sử dụng 'refuse to'?",
+    "answer": "'Refuse to' có nghĩa 'từ chối': 'She refused to help' (Cô ấy từ chối giúp đỡ). Thể hiện sự không muốn.",
+    "category": "grammar",
+    "tags": ["refuse to", "từ chối", "unwilling", "rejection"]
+  },
+  {
+    "question": "Từ 'psychology' có âm 'p' đầu không?",
+    "answer": "Từ 'psychology' /saɪˈkɒlədʒi/ có âm 'p' câm. Phát âm bắt đầu bằng /saɪ/, tương tự 'psychiatry'.",
+    "category": "pronunciation",
+    "tags": ["psychology", "âm p câm", "psychiatry", "Greek"]
+  },
+  {
+    "question": "Phân biệt 'sale' và 'sail'?",
+    "answer": "'Sale' /seɪl/ là bán hàng. 'Sail' /seɪl/ là buồm hoặc đi thuyền. Phát âm giống nhau.",
+    "category": "vocabulary",
+    "tags": ["sale", "sail", "bán hàng", "buồm"]
+  },
+  {
+    "question": "Cách sử dụng 'agree to'?",
+    "answer": "'Agree to' có nghĩa 'đồng ý': 'I agree to help you' (Tôi đồng ý giúp bạn). Dùng với infinitive.",
+    "category": "grammar",
+    "tags": ["agree to", "đồng ý", "consent", "infinitive"]
+  },
+  {
+    "question": "Từ 'tomb' có âm 'b' cuối không?",
+    "answer": "Từ 'tomb' /tuːm/ có âm 'b' câm. Tương tự 'womb' /wuːm/, 'bomb' /bɒm/.",
+    "category": "pronunciation",
+    "tags": ["tomb", "âm b câm", "womb", "bomb"]
+  },
+  {
+    "question": "Phân biệt 'tail' và 'tale'?",
+    "answer": "'Tail' /teɪl/ là đuôi. 'Tale' /teɪl/ là câu chuyện. Phát âm giống nhau nhưng nghĩa khác.",
+    "category": "vocabulary",
+    "tags": ["tail", "tale", "đuôi", "câu chuyện"]
+  },
+  {
+    "question": "Cách sử dụng 'decide to'?",
+    "answer": "'Decide to' có nghĩa 'quyết định': 'We decided to go home' (Chúng tôi quyết định về nhà).",
+    "category": "grammar",
+    "tags": ["decide to", "quyết định", "decision", "choice"]
+  },
+  {
+    "question": "Từ 'subtle' phát âm như thế nào?",
+    "answer": "Từ 'subtle' /ˈsʌtəl/ có âm 'b' câm. Phát âm thành 'sut-le', không có âm /b/.",
+    "category": "pronunciation",
+    "tags": ["subtle", "âm b câm", "sut-le", "adjective"]
+  },
+  {
+    "question": "Phân biệt 'vain' và 'vein'?",
+    "answer": "'Vain' /veɪn/ là kiêu căng, vô ích. 'Vein' /veɪn/ là tĩnh mạch. Phát âm giống nhau.",
+    "category": "vocabulary",
+    "tags": ["vain", "vein", "kiêu căng", "tĩnh mạch"]
+  },
+  {
+    "question": "Cách sử dụng 'plan to'?",
+    "answer": "'Plan to' có nghĩa 'dự định': 'I plan to visit Japan' (Tôi dự định thăm Nhật Bản).",
+    "category": "grammar",
+    "tags": ["plan to", "dự định", "intention", "future"]
+  },
+  {
+    "question": "Từ 'comb' có âm 'b' cuối không?",
+    "answer": "Từ 'comb' /koʊm/ có âm 'b' câm. Phát âm thành 'come', tương tự 'tomb' /tuːm/.",
+    "category": "pronunciation",
+    "tags": ["comb", "âm b câm", "come", "hair"]
+  },
+  {
+    "question": "Phân biệt 'wait' và 'weight'?",
+    "answer": "'Wait' /weɪt/ là chờ đợi. 'Weight' /weɪt/ là cân nặng. Phát âm giống nhau nhưng nghĩa khác.",
+    "category": "vocabulary",
+    "tags": ["wait", "weight", "chờ đợi", "cân nặng"]
+  },
+  {
+    "question": "Cách sử dụng 'hope to'?",
+    "answer": "'Hope to' có nghĩa 'hy vọng': 'I hope to see you soon' (Tôi hy vọng sớm gặp bạn).",
+    "category": "grammar",
+    "tags": ["hope to", "hy vọng", "wish", "desire"]
+  },
+  {
+    "question": "Từ 'plumber' có phát âm âm 'b' không?",
+    "answer": "Từ 'plumber' /ˈplʌmər/ có âm 'b' câm. Phát âm thành 'plum-er', không có âm /b/.",
+    "category": "pronunciation",
+    "tags": ["plumber", "âm b câm", "plum-er", "job"]
+  },
+  {
+    "question": "Phân biệt 'weak' và 'week'?",
+    "answer": "'Weak' /wiːk/ là yếu. 'Week' /wiːk/ là tuần. Phát âm giống nhau nhưng nghĩa khác.",
+    "category": "vocabulary",
+    "tags": ["weak", "week", "yếu", "tuần"]
+  },
+  {
+    "question": "Cách sử dụng 'want to'?",
+    "answer": "'Want to' có nghĩa 'muốn': 'I want to learn English' (Tôi muốn học tiếng Anh). Thể hiện mong muốn.",
+    "category": "grammar",
+    "tags": ["want to", "muốn", "desire", "wish"]
+  },
+  {
+    "question": "Từ 'island' có âm 's' không?",
+    "answer": "Từ 'island' /ˈaɪlənd/ có âm 's' câm. Phát âm thành 'i-land', không có âm /s/.",
+    "category": "pronunciation",
+    "tags": ["island", "âm s câm", "i-land", "geography"]
+  },
+  {
+    "question": "Phân biệt 'wear' và 'where'?",
+    "answer": "'Wear' /weər/ là mặc. 'Where' /weər/ là ở đâu. Phát âm giống nhau nhưng nghĩa khác.",
+    "category": "vocabulary",
+    "tags": ["wear", "where", "mặc", "ở đâu"]
+  },
+  {
+    "question": "Cách sử dụng 'need to'?",
+    "answer": "'Need to' có nghĩa 'cần phải': 'You need to study harder' (Bạn cần học chăm chỉ hơn).",
+    "category": "grammar",
+    "tags": ["need to", "cần phải", "necessity", "requirement"]
+  },
+  {
+    "question": "Từ 'honest' có âm 'h' đầu không?",
+    "answer": "Từ 'honest' /ˈɒnɪst/ có âm 'h' câm. Phát âm bắt đầu bằng nguyên âm, dùng 'an honest'.",
+    "category": "pronunciation",
+    "tags": ["honest", "âm h câm", "an honest", "virtue"]
+  },
+  {
+    "question": "Phân biệt 'wood' và 'would'?",
+    "answer": "'Wood' /wʊd/ là gỗ. 'Would' /wʊd/ là sẽ (conditional). Phát âm giống nhau nhưng nghĩa khác.",
+    "category": "vocabulary",
+    "tags": ["wood", "would", "gỗ", "conditional"]
+  },
+  {
+    "question": "Cách sử dụng 'have to'?",
+    "answer": "'Have to' có nghĩa 'phải': 'I have to go now' (Tôi phải đi bây giờ). Thể hiện sự bắt buộc.",
+    "category": "grammar",
+    "tags": ["have to", "phải", "obligation", "must"]
+  },
+  {
+    "question": "Từ 'hour' có âm 'h' đầu không?",
+    "answer": "Từ 'hour' /ˈaʊər/ có âm 'h' câm. Phát âm bắt đầu bằng nguyên âm, dùng 'an hour'.",
+    "category": "pronunciation",
+    "tags": ["hour", "âm h câm", "an hour", "time"]
+  },
+  {
+    "question": "Phân biệt 'your' và 'you're'?",
+    "answer": "'Your' /jʊr/ là của bạn (sở hữu). 'You're' /jʊr/ là you are (viết tắt). Phát âm giống nhau.",
+    "category": "vocabulary",
+    "tags": ["your", "you're", "sở hữu", "viết tắt"]
+  },
+  {
+    "question": "Cách sử dụng 'ought to'?",
+    "answer": "'Ought to' có nghĩa 'nên': 'You ought to study more' (Bạn nên học nhiều hơn). Formal hơn 'should'.",
+    "category": "grammar",
+    "tags": ["ought to", "nên", "should", "formal"]
+  },
+  {
+    "question": "Từ 'write' có âm 'w' đầu không?",
+    "answer": "Từ 'write' /raɪt/ có âm 'w' câm. Phát âm thành 'rite', tương tự 'wrong' /rɒŋ/.",
+    "category": "pronunciation",
+    "tags": ["write", "âm w câm", "rite", "wrong"]
+  },
+  {
+    "question": "Phân biệt 'accept' và 'except'?",
+    "answer": "'Accept' /əkˈsept/ là chấp nhận. 'Except' /ɪkˈsept/ là ngoại trừ. Chú ý phát âm đầu từ khác nhau.",
+    "category": "vocabulary",
+    "tags": ["accept", "except", "chấp nhận", "ngoại trừ"]
+  },
+  {
+    "question": "Cách sử dụng 'must'?",
+    "answer": "'Must' có nghĩa 'phải' (bắt buộc mạnh): 'You must wear a helmet' (Bạn phải đội mũ bảo hiểm).",
+    "category": "grammar",
+    "tags": ["must", "phải", "strong obligation", "helmet"]
+  },
+  {
+    "question": "Từ 'answer' có âm 'w' không?",
+    "answer": "Từ 'answer' /ˈænsər/ có âm 'w' câm. Phát âm thành 'an-ser', không có âm /w/.",
+    "category": "pronunciation",
+    "tags": ["answer", "âm w câm", "an-ser", "response"]
+  },
+  {
+    "question": "Phân biệt 'brake' và 'break'?",
+    "answer": "'Brake' /breɪk/ là phanh xe. 'Break' /breɪk/ là nghỉ ngơi hoặc làm vỡ. Phát âm giống nhau.",
+    "category": "vocabulary",
+    "tags": ["brake", "break", "phanh", "nghỉ ngơi"]
+  },
+  {
+    "question": "Cách sử dụng 'can'?",
+    "answer": "'Can' có nghĩa 'có thể' (khả năng): 'I can swim' (Tôi có thể bơi). Cũng dùng để xin phép.",
+    "category": "grammar",
+    "tags": ["can", "có thể", "ability", "permission"]
+  },
+  {
+    "question": "Từ 'sword' có âm 'w' không?",
+    "answer": "Từ 'sword' /sɔːrd/ có âm 'w' câm. Phát âm thành 'sord', không có âm /w/.",
+    "category": "pronunciation",
+    "tags": ["sword", "âm w câm", "sord", "weapon"]
+  },
+  {
+    "question": "Phân biệt 'capital' và 'capitol'?",
+    "answer": "'Capital' /ˈkæpɪtl/ là thủ đô hoặc vốn. 'Capitol' /ˈkæpɪtl/ là tòa nhà quốc hội (Mỹ).",
+    "category": "vocabulary",
+    "tags": ["capital", "capitol", "thủ đô", "quốc hội"]
+  },
+  {
+    "question": "Cách sử dụng 'could'?",
+    "answer": "'Could' có nghĩa 'có thể' (quá khứ của can) hoặc lịch sự: 'Could you help me?' (Bạn có thể giúp tôi không?).",
+    "category": "grammar",
+    "tags": ["could", "có thể", "past", "polite"]
+  },
+  {
+    "question": "Từ 'two' có âm 'w' cuối không?",
+    "answer": "Từ 'two' /tuː/ có âm 'w' câm. Phát âm giống 'too' và 'to', không có âm /w/.",
+    "category": "pronunciation",
+    "tags": ["two", "âm w câm", "too", "to"]
+  },
+  {
+    "question": "Phân biệt 'dairy' và 'diary'?",
+    "answer": "'Dairy' /ˈdeəri/ là sản phẩm sữa. 'Diary' /ˈdaɪəri/ là nhật ký. Chú ý phát âm khác nhau.",
+    "category": "vocabulary",
+    "tags": ["dairy", "diary", "sữa", "nhật ký"]
+  },
+  {
+    "question": "Cách sử dụng 'may'?",
+    "answer": "'May' có nghĩa 'có thể' (cho phép) hoặc khả năng: 'May I go?' (Tôi có thể đi không?). Formal hơn 'can'.",
+    "category": "grammar",
+    "tags": ["may", "có thể", "permission", "formal"]
+  },
+  {
+    "question": "Từ 'knee' có âm 'k' đầu không?",
+    "answer": "Từ 'knee' /niː/ có âm 'k' câm. Phát âm thành 'nee', tương tự 'know' /noʊ/.",
+    "category": "pronunciation",
+    "tags": ["knee", "âm k câm", "nee", "know"]
+  },
+  {
+    "question": "Phân biệt 'flour' và 'flower'?",
+    "answer": "'Flour' /flaʊər/ là bột mì. 'Flower' /ˈflaʊər/ là hoa. Phát âm giống nhau nhưng nghĩa khác.",
+    "category": "vocabulary",
+    "tags": ["flour", "flower", "bột mì", "hoa"]
+  },
+  {
+    "question": "Cách sử dụng 'might'?",
+    "answer": "'Might' có nghĩa 'có thể' (khả năng thấp): 'It might rain' (Có thể trời sẽ mưa). Ít chắc chắn hơn 'may'.",
+    "category": "grammar",
+    "tags": ["might", "có thể", "low possibility", "uncertain"]
+  },
+  {
+    "question": "Từ 'lamb' có âm 'b' cuối không?",
+    "answer": "Từ 'lamb' /læm/ có âm 'b' câm. Phát âm thành 'lam', tương tự 'thumb' /θʌm/.",
+    "category": "pronunciation",
+    "tags": ["lamb", "âm b câm", "lam", "thumb"]
+  },
+  {
+    "question": "Phân biệt 'hear' và 'here'?",
+    "answer": "'Hear' /hɪər/ là nghe. 'Here' /hɪər/ là ở đây. Phát âm giống nhau nhưng nghĩa khác.",
+    "category": "vocabulary",
+    "tags": ["hear", "here", "nghe", "ở đây"]
+  },
+  {
+    "question": "Cách sử dụng 'shall'?",
+    "answer": "'Shall' dùng với I/we để đề nghị: 'Shall we go?' (Chúng ta đi nhé?). Formal và ít dùng trong American English.",
+    "category": "grammar",
+    "tags": ["shall", "đề nghị", "formal", "British"]
+  },
+  {
+    "question": "Từ 'listen' có âm 't' không?",
+    "answer": "Từ 'listen' /ˈlɪsn/ có âm 't' câm. Phát âm thành 'lis-en', tương tự 'fasten' /ˈfæsn/.",
+    "category": "pronunciation",
+    "tags": ["listen", "âm t câm", "lis-en", "fasten"]
+  },
+  {
+    "question": "Phân biệt 'meat' và 'meet'?",
+    "answer": "'Meat' /miːt/ là thịt. 'Meet' /miːt/ là gặp gỡ. Phát âm giống nhau nhưng nghĩa khác.",
+    "category": "vocabulary",
+    "tags": ["meat", "meet", "thịt", "gặp gỡ"]
+  },
+  {
+    "question": "Cách sử dụng 'should'?",
+    "answer": "'Should' có nghĩa 'nên': 'You should exercise' (Bạn nên tập thể dục). Thể hiện lời khuyên.",
+    "category": "grammar",
+    "tags": ["should", "nên", "advice", "recommendation"]
+  },
+  {
+    "question": "Từ 'castle' có âm 't' không?",
+    "answer": "Từ 'castle' /ˈkæsl/ có âm 't' câm trong nhiều accent. Phát âm thành 'cas-le'.",
+    "category": "pronunciation",
+    "tags": ["castle", "âm t câm", "cas-le", "building"]
+  },
+  {
+    "question": "Phân biệt 'peace' và 'piece'?",
+    "answer": "'Peace' /piːs/ là hòa bình. 'Piece' /piːs/ là mảnh, miếng. Phát âm giống nhau nhưng nghĩa khác.",
+    "category": "vocabulary",
+    "tags": ["peace", "piece", "hòa bình", "mảnh"]
+  },
+  {
+    "question": "Cách sử dụng 'will'?",
+    "answer": "'Will' có nghĩa 'sẽ' (tương lai): 'I will help you' (Tôi sẽ giúp bạn). Cũng thể hiện quyết định tức thời.",
+    "category": "grammar",
+    "tags": ["will", "sẽ", "future", "decision"]
+  },
+  {
+    "question": "Từ 'muscle' có âm 'c' không?",
+    "answer": "Từ 'muscle' /ˈmʌsl/ có âm 'c' câm. Phát âm thành 'mus-le', không có âm /k/.",
+    "category": "pronunciation",
+    "tags": ["muscle", "âm c câm", "mus-le", "body"]
+  },
+  {
+    "question": "Phân biệt 'right' và 'write'?",
+    "answer": "'Right' /raɪt/ là đúng hoặc bên phải. 'Write' /raɪt/ là viết. Phát âm giống nhau nhưng nghĩa khác.",
+    "category": "vocabulary",
+    "tags": ["right", "write", "đúng", "viết"]
+  },
+  {
+    "question": "Cách sử dụng 'would'?",
+    "answer": "'Would' có nghĩa 'sẽ' (conditional): 'I would go if I had time' (Tôi sẽ đi nếu có thời gian).",
+    "category": "grammar",
+    "tags": ["would", "sẽ", "conditional", "hypothetical"]
+  },
+  {
+    "question": "Từ 'debt' có âm 'b' không?",
+    "answer": "Từ 'debt' /det/ có âm 'b' câm. Phát âm thành 'det', tương tự 'doubt' /daʊt/.",
+    "category": "pronunciation",
+    "tags": ["debt", "âm b câm", "det", "doubt"]
+  },
+  {
+    "question": "Phân biệt 'sea' và 'see'?",
+    "answer": "'Sea' /siː/ là biển. 'See' /siː/ là nhìn thấy. Phát âm giống nhau nhưng nghĩa khác.",
+    "category": "vocabulary",
+    "tags": ["sea", "see", "biển", "nhìn thấy"]
+  },
+  {
+    "question": "Cách sử dụng 'used to'?",
+    "answer": "'Used to' có nghĩa 'đã từng' (thói quen quá khứ): 'I used to smoke' (Tôi đã từng hút thuốc).",
+    "category": "grammar",
+    "tags": ["used to", "đã từng", "past habit", "no longer"]
+  },
+  {
+    "question": "Từ 'sign' có âm 'g' cuối không?",
+    "answer": "Từ 'sign' /saɪn/ có âm 'g' câm. Phát âm thành 'sine', tương tự 'design' /dɪˈzaɪn/.",
+    "category": "pronunciation",
+    "tags": ["sign", "âm g câm", "sine", "design"]
+  },
+  {
+    "question": "Phân biệt 'son' và 'sun'?",
+    "answer": "'Son' /sʌn/ là con trai. 'Sun' /sʌn/ là mặt trời. Phát âm giống nhau nhưng nghĩa khác.",
+    "category": "vocabulary",
+    "tags": ["son", "sun", "con trai", "mặt trời"]
+  },
+  {
+    "question": "Cách sử dụng 'be going to'?",
+    "answer": "'Be going to' có nghĩa 'sắp sửa' (kế hoạch): 'I'm going to study tonight' (Tôi sắp học tối nay).",
+    "category": "grammar",
+    "tags": ["be going to", "sắp sửa", "plan", "intention"]
+  },
+  {
+    "question": "Từ 'foreign' có âm 'g' cuối không?",
+    "answer": "Từ 'foreign' /ˈfɒrən/ có âm 'g' câm. Phát âm thành 'for-en', không có âm /g/.",
+    "category": "pronunciation",
+    "tags": ["foreign", "âm g câm", "for-en", "country"]
+  },
+  {
+    "question": "Phân biệt 'steal' và 'steel'?",
+    "answer": "'Steal' /stiːl/ là ăn cắp. 'Steel' /stiːl/ là thép. Phát âm giống nhau nhưng nghĩa khác.",
+    "category": "vocabulary",
+    "tags": ["steal", "steel", "ăn cắp", "thép"]
+  },
+  {
+    "question": "Cách sử dụng 'be able to'?",
+    "answer": "'Be able to' có nghĩa 'có khả năng': 'I'm able to speak English' (Tôi có khả năng nói tiếng Anh).",
+    "category": "grammar",
+    "tags": ["be able to", "có khả năng", "ability", "capability"]
+  },
+  {
+    "question": "Từ 'receipt' có âm 'p' không?",
+    "answer": "Từ 'receipt' /rɪˈsiːt/ có âm 'p' câm. Phát âm giống 'receive' nhưng có âm 't' cuối.",
+    "category": "pronunciation",
+    "tags": ["receipt", "âm p câm", "receive", "shopping"]
+  },
+  {
+    "question": "Phân biệt 'there', 'their', 'they're'?",
+    "answer": "'There' /ðeər/ là ở đó. 'Their' /ðeər/ là của họ. 'They're' /ðeər/ là they are. Phát âm giống nhau.",
+    "category": "vocabulary",
+    "tags": ["there", "their", "they're", "homophones"]
+  },
+  {
+    "question": "Cách sử dụng 'had better'?",
+    "answer": "'Had better' có nghĩa 'tốt hơn nên': 'You'd better hurry' (Bạn tốt hơn nên nhanh lên). Mang tính cảnh báo.",
+    "category": "grammar",
+    "tags": ["had better", "tốt hơn nên", "warning", "advice"]
+  },
+  {
+    "question": "Từ 'salmon' có âm 'l' không?",
+    "answer": "Từ 'salmon' /ˈsæmən/ có âm 'l' câm. Phát âm thành 'sam-on', không có âm /l/.",
+    "category": "pronunciation",
+    "tags": ["salmon", "âm l câm", "sam-on", "fish"]
+  },
+  {
+    "question": "Phân biệt 'to', 'too', 'two'?",
+    "answer": "'To' /tuː/ là giới từ. 'Too' /tuː/ là quá, cũng. 'Two' /tuː/ là số 2. Phát âm giống nhau.",
+    "category": "vocabulary",
+    "tags": ["to", "too", "two", "homophones"]
+  },
+  {
+    "question": "Cách sử dụng 'would rather'?",
+    "answer": "'Would rather' có nghĩa 'thà...hơn': 'I'd rather stay home' (Tôi thà ở nhà hơn). Thể hiện sở thích.",
+    "category": "grammar",
+    "tags": ["would rather", "thà hơn", "preference", "choice"]
+  },
+  {
+    "question": "Từ 'yacht' có âm 'ch' không?",
+    "answer": "Từ 'yacht' /jɒt/ có âm 'ch' câm. Phát âm thành 'yot', không có âm /tʃ/.",
+    "category": "pronunciation",
+    "tags": ["yacht", "âm ch câm", "yot", "boat"]
+  },
+  {
+    "question": "Phân biệt 'buy' và 'by'?",
+    "answer": "'Buy' /baɪ/ là mua. 'By' /baɪ/ là bởi, bên cạnh. Phát âm giống nhau nhưng nghĩa khác.",
+    "category": "vocabulary",
+    "tags": ["buy", "by", "mua", "bởi"]
+  },
+  {
+    "question": "Cách sử dụng 'be supposed to'?",
+    "answer": "'Be supposed to' có nghĩa 'được cho là phải': 'Students are supposed to wear uniforms' (Học sinh phải mặc đồng phục).",
+    "category": "grammar",
+    "tags": ["be supposed to", "phải", "expectation", "rule"]
+  },
+  {
+    "question": "Từ 'half' có âm 'l' không?",
+    "answer": "Từ 'half' /hæf/ có âm 'l' câm trong nhiều accent. Phát âm thành 'haf', tương tự 'calf' /kæf/.",
+    "category": "pronunciation",
+    "tags": ["half", "âm l câm", "haf", "calf"]
+  },
+  {
+    "question": "Phân biệt 'know' và 'no'?",
+    "answer": "'Know' /noʊ/ là biết. 'No' /noʊ/ là không. Phát âm giống nhau nhưng nghĩa khác.",
+    "category": "vocabulary",
+    "tags": ["know", "no", "biết", "không"]
+  },
+  {
+    "question": "Cách sử dụng 'be meant to'?",
+    "answer": "'Be meant to' có nghĩa 'được dự định': 'This road is meant to reduce traffic' (Con đường này được dự định để giảm giao thông).",
+    "category": "grammar",
+    "tags": ["be meant to", "dự định", "intended", "purpose"]
+  },
+  {
+    "question": "Từ 'walk' có âm 'l' không?",
+    "answer": "Từ 'walk' /wɔːk/ có âm 'l' câm. Phát âm thành 'wawk', tương tự 'talk' /tɔːk/.",
+    "category": "pronunciation",
+    "tags": ["walk", "âm l câm", "wawk", "talk"]
+  },
+  {
+    "question": "Phân biệt 'for' và 'four'?",
+    "answer": "'For' /fɔːr/ là cho, vì. 'Four' /fɔːr/ là số 4. Phát âm giống nhau nhưng nghĩa khác.",
+    "category": "vocabulary",
+    "tags": ["for", "four", "cho", "số 4"]
+  },
+  {
+    "question": "Cách sử dụng 'be bound to'?",
+    "answer": "'Be bound to' có nghĩa 'chắc chắn sẽ': 'He's bound to succeed' (Chắc chắn anh ấy sẽ thành công).",
+    "category": "grammar",
+    "tags": ["be bound to", "chắc chắn", "certain", "inevitable"]
+  },
+  {
+    "question": "Từ 'calm' có âm 'l' không?",
+    "answer": "Từ 'calm' /kɑːm/ có âm 'l' câm. Phát âm thành 'cam', tương tự 'palm' /pɑːm/.",
+    "category": "pronunciation",
+    "tags": ["calm", "âm l câm", "cam", "palm"]
+  },
+  {
+    "question": "Phân biệt 'one' và 'won'?",
+    "answer": "'One' /wʌn/ là số 1. 'Won' /wʌn/ là thắng (quá khứ của win). Phát âm giống nhau.",
+    "category": "vocabulary",
+    "tags": ["one", "won", "số 1", "thắng"]
+  },
+  {
+    "question": "Cách sử dụng 'be likely to'?",
+    "answer": "'Be likely to' có nghĩa 'có khả năng': 'It's likely to rain tomorrow' (Có khả năng ngày mai sẽ mưa).",
+    "category": "grammar",
+    "tags": ["be likely to", "có khả năng", "probable", "chance"]
+  },
+  {
+    "question": "Từ 'folk' có âm 'l' không?",
+    "answer": "Từ 'folk' /foʊk/ có âm 'l' câm. Phát âm thành 'foke', không có âm /l/.",
+    "category": "pronunciation",
+    "tags": ["folk", "âm l câm", "foke", "people"]
+  },
+  {
+    "question": "Phân biệt 'ate' và 'eight'?",
+    "answer": "'Ate' /eɪt/ là ăn (quá khứ của eat). 'Eight' /eɪt/ là số 8. Phát âm giống nhau.",
+    "category": "vocabulary",
+    "tags": ["ate", "eight", "ăn", "số 8"]
+  },
+  {
+    "question": "Cách sử dụng 'be certain to'?",
+    "answer": "'Be certain to' có nghĩa 'chắc chắn sẽ': 'She's certain to win the competition' (Chắc chắn cô ấy sẽ thắng cuộc thi).",
+    "category": "grammar",
+    "tags": ["be certain to", "chắc chắn", "definite", "sure"]
+  },
+  {
+    "question": "Từ 'yolk' có âm 'l' không?",
+    "answer": "Từ 'yolk' /joʊk/ có âm 'l' câm. Phát âm thành 'yoke', không có âm /l/.",
+    "category": "pronunciation",
+    "tags": ["yolk", "âm l câm", "yoke", "egg"]
+  },
+  {
+    "question": "Phân biệt 'blue' và 'blew'?",
+    "answer": "'Blue' /bluː/ là màu xanh. 'Blew' /bluː/ là thổi (quá khứ của blow). Phát âm giống nhau.",
+    "category": "vocabulary",
+    "tags": ["blue", "blew", "xanh", "thổi"]
+  },
+  {
+    "question": "Cách sử dụng 'be sure to'?",
+    "answer": "'Be sure to' có nghĩa 'nhớ phải': 'Be sure to call me' (Nhớ gọi cho tôi). Thể hiện lời nhắc nhở quan trọng.",
+    "category": "grammar",
+    "tags": ["be sure to", "nhớ phải", "reminder", "important"]
+  },
+  {
+    "question": "Từ 'could' có âm 'l' không?",
+    "answer": "Từ 'could' /kʊd/ có âm 'l' câm. Phát âm thành 'cood', tương tự 'would' /wʊd/.",
+    "category": "pronunciation",
+    "tags": ["could", "âm l câm", "cood", "would"]
+  },
+  {
+    "question": "Phân biệt 'new' và 'knew'?",
+    "answer": "'New' /nuː/ là mới. 'Knew' /nuː/ là biết (quá khứ của know). Phát âm giống nhau.",
+    "category": "vocabulary",
+    "tags": ["new", "knew", "mới", "biết"]
+  },
+  {
+    "question": "Cách sử dụng 'be about to'?",
+    "answer": "'Be about to' có nghĩa 'sắp sửa': 'I'm about to leave' (Tôi sắp đi). Chỉ hành động sắp xảy ra ngay.",
+    "category": "grammar",
+    "tags": ["be about to", "sắp sửa", "immediate", "soon"]
+  },
+  {
+    "question": "Từ 'should' có âm 'l' không?",
+    "answer": "Từ 'should' /ʃʊd/ có âm 'l' câm. Phát âm thành 'shood', không có âm /l/.",
+    "category": "pronunciation",
+    "tags": ["should", "âm l câm", "shood", "modal"]
+  },
+  {
+    "question": "Phân biệt 'red' và 'read'?",
+    "answer": "'Red' /red/ là màu đỏ. 'Read' /red/ là đọc (quá khứ). 'Read' /riːd/ là đọc (hiện tại). Chú ý phát âm khác nhau.",
+    "category": "vocabulary",
+    "tags": ["red", "read", "đỏ", "đọc"]
+  },
+  {
+    "question": "Cách sử dụng 'be due to'?",
+    "answer": "'Be due to' có nghĩa 'dự kiến': 'The train is due to arrive at 5' (Tàu dự kiến đến lúc 5 giờ).",
+    "category": "grammar",
+    "tags": ["be due to", "dự kiến", "scheduled", "expected"]
+  },
+  {
+    "question": "Từ 'would' có âm 'l' không?",
+    "answer": "Từ 'would' /wʊd/ có âm 'l' câm. Phát âm thành 'wood', giống từ 'wood' (gỗ).",
+    "category": "pronunciation",
+    "tags": ["would", "âm l câm", "wood", "modal"]
+  },
+  {
+    "question": "Phân biệt 'made' và 'maid'?",
+    "answer": "'Made' /meɪd/ là làm (quá khứ của make). 'Maid' /meɪd/ là người giúp việc. Phát âm giống nhau.",
+    "category": "vocabulary",
+    "tags": ["made", "maid", "làm", "giúp việc"]
+  },
+  {
+    "question": "Cách sử dụng 'happen to'?",
+    "answer": "'Happen to' có nghĩa 'tình cờ': 'Do you happen to know his number?' (Bạn có tình cờ biết số của anh ấy không?).",
+    "category": "grammar",
+    "tags": ["happen to", "tình cờ", "by chance", "coincidentally"]
+  },
+  {
+    "question": "Từ 'Christmas' có âm 't' không?",
+    "answer": "Từ 'Christmas' /ˈkrɪsməs/ có âm 't' câm. Phát âm thành 'Chris-mas', không có âm /t/.",
+    "category": "pronunciation",
+    "tags": ["Christmas", "âm t câm", "Chris-mas", "holiday"]
+  },
+  {
+    "question": "Phân biệt 'sent' và 'scent'?",
+    "answer": "'Sent' /sent/ là gửi (quá khứ của send). 'Scent' /sent/ là mùi hương. Phát âm giống nhau.",
+    "category": "vocabulary",
+    "tags": ["sent", "scent", "gửi", "mùi hương"]
+  },
+  {
+    "question": "Cách sử dụng 'tend to'?",
+    "answer": "'Tend to' có nghĩa 'có xu hướng': 'People tend to be happier in summer' (Mọi người có xu hướng vui vẻ hơn vào mùa hè).",
+    "category": "grammar",
+    "tags": ["tend to", "xu hướng", "tendency", "usually"]
+  },
+  {
+    "question": "Từ 'often' có âm 't' không?",
+    "answer": "Từ 'often' có thể phát âm /ˈɔːfn/ (không có âm 't') hoặc /ˈɔːftən/ (có âm 't'). Cả hai đều đúng.",
+    "category": "pronunciation",
+    "tags": ["often", "âm t", "hai cách", "optional"]
+  },
+  {
+    "question": "Phân biệt 'cell' và 'sell'?",
+    "answer": "'Cell' /sel/ là tế bào hoặc phòng giam. 'Sell' /sel/ là bán. Phát âm giống nhau nhưng nghĩa khác.",
+    "category": "vocabulary",
+    "tags": ["cell", "sell", "tế bào", "bán"]
+  },
+  {
+    "question": "Cách sử dụng 'seem to'?",
+    "answer": "'Seem to' có nghĩa 'có vẻ như': 'You seem to be tired' (Bạn có vẻ mệt). Thể hiện ấn tượng chủ quan.",
+    "category": "grammar",
+    "tags": ["seem to", "có vẻ", "appear", "impression"]
+  },
+  {
+    "question": "Từ 'soften' có âm 't' không?",
+    "answer": "Từ 'soften' /ˈsɔːfn/ có âm 't' câm. Phát âm thành 'sof-en', tương tự 'listen' /ˈlɪsn/.",
+    "category": "pronunciation",
+    "tags": ["soften", "âm t câm", "sof-en", "listen"]
+  },
+  {
+    "question": "Phân biệt 'fair' và 'fare'?",
+    "answer": "'Fair' /feər/ là công bằng hoặc hội chợ. 'Fare' /feər/ là giá vé. Phát âm giống nhau nhưng nghĩa khác.",
+    "category": "vocabulary",
+    "tags": ["fair", "fare", "công bằng", "giá vé"]
+  },
+  {
+    "question": "Cách sử dụng 'appear to'?",
+    "answer": "'Appear to' có nghĩa 'có vẻ như': 'He appears to be honest' (Anh ấy có vẻ thành thật). Formal hơn 'seem to'.",
+    "category": "grammar",
+    "tags": ["appear to", "có vẻ", "formal", "seem"]
+  },
+  {
+    "question": "Từ 'fasten' có âm 't' không?",
+    "answer": "Từ 'fasten' /ˈfæsn/ có âm 't' câm. Phát âm thành 'fas-en', tương tự 'hasten' /ˈheɪsn/.",
+    "category": "pronunciation",
+    "tags": ["fasten", "âm t câm", "fas-en", "hasten"]
+  },
+  {
+    "question": "Phân biệt 'bear' và 'bare'?",
+    "answer": "'Bear' /beər/ là gấu hoặc chịu đựng. 'Bare' /beər/ là trần trụi. Phát âm giống nhau nhưng nghĩa khác.",
+    "category": "vocabulary",
+    "tags": ["bear", "bare", "gấu", "trần trụi"]
+  },
+  {
+    "question": "Cách sử dụng 'prove to be'?",
+    "answer": "'Prove to be' có nghĩa 'hóa ra là': 'The medicine proved to be effective' (Thuốc hóa ra hiệu quả).",
+    "category": "grammar",
+    "tags": ["prove to be", "hóa ra", "turn out", "result"]
+  },
+  {
+    "question": "Từ 'glisten' có âm 't' không?",
+    "answer": "Từ 'glisten' /ˈɡlɪsn/ có âm 't' câm. Phát âm thành 'glis-en', không có âm /t/.",
+    "category": "pronunciation",
+    "tags": ["glisten", "âm t câm", "glis-en", "shine"]
+  },
+  {
+    "question": "Phân biệt 'dear' và 'deer'?",
+    "answer": "'Dear' /dɪər/ là thân yêu hoặc đắt. 'Deer' /dɪər/ là hươu. Phát âm giống nhau nhưng nghĩa khác.",
+    "category": "vocabulary",
+    "tags": ["dear", "deer", "thân yêu", "hươu"]
+  },
+  {
+    "question": "Cách sử dụng 'turn out to be'?",
+    "answer": "'Turn out to be' có nghĩa 'hóa ra là': 'She turned out to be my cousin' (Hóa ra cô ấy là em họ tôi).",
+    "category": "grammar",
+    "tags": ["turn out to be", "hóa ra", "unexpected", "discovery"]
+  },
+  {
+    "question": "Từ 'moisten' có âm 't' không?",
+    "answer": "Từ 'moisten' /ˈmɔɪsn/ có âm 't' câm. Phát âm thành 'mois-en', tương tự các từ khác có '-sten'.",
+    "category": "pronunciation",
+    "tags": ["moisten", "âm t câm", "mois-en", "wet"]
+  },
+  {
+    "question": "Phân biệt 'flour' và 'floor'?",
+    "answer": "'Flour' /flaʊər/ là bột mì. 'Floor' /flɔːr/ là sàn nhà. Phát âm khác nhau: /aʊ/ vs /ɔː/.",
+    "category": "vocabulary",
+    "tags": ["flour", "floor", "bột mì", "sàn nhà"]
+  },
+  {
+    "question": "Cách sử dụng 'come to be'?",
+    "answer": "'Come to be' có nghĩa 'trở thành': 'How did you come to be interested in music?' (Làm sao bạn trở nên quan tâm đến âm nhạc?).",
+    "category": "grammar",
+    "tags": ["come to be", "trở thành", "become", "develop"]
+  },
+  {
+    "question": "Từ 'womb' có âm 'b' cuối không?",
+    "answer": "Từ 'womb' /wuːm/ có âm 'b' câm. Phát âm thành 'woom', tương tự 'tomb' /tuːm/.",
+    "category": "pronunciation",
+    "tags": ["womb", "âm b câm", "woom", "tomb"]
+  },
+  {
+    "question": "Phân biệt 'break' và 'brake'?",
+    "answer": "'Break' /breɪk/ là nghỉ ngơi hoặc làm vỡ. 'Brake' /breɪk/ là phanh xe. Phát âm giống nhau.",
+    "category": "vocabulary",
+    "tags": ["break", "brake", "nghỉ ngơi", "phanh"]
+  },
+  {
+    "question": "Cách sử dụng 'get to be'?",
+    "answer": "'Get to be' có nghĩa 'trở nên': 'It's getting to be difficult' (Nó đang trở nên khó khăn). Informal hơn 'become'.",
+    "category": "grammar",
+    "tags": ["get to be", "trở nên", "informal", "become"]
+  },
+  {
+    "question": "Từ 'crumb' có âm 'b' cuối không?",
+    "answer": "Từ 'crumb' /krʌm/ có âm 'b' câm. Phát âm thành 'crum', tương tự 'numb' /nʌm/.",
+    "category": "pronunciation",
+    "tags": ["crumb", "âm b câm", "crum", "numb"]
+  },
+  {
+    "question": "Phân biệt 'principal' và 'principle'?",
+    "answer": "'Principal' /ˈprɪnsəpl/ là hiệu trưởng hoặc chính yếu. 'Principle' /ˈprɪnsəpl/ là nguyên tắc.",
+    "category": "vocabulary",
+    "tags": ["principal", "principle", "hiệu trưởng", "nguyên tắc"]
+  },
+  {
+    "question": "Cách sử dụng 'end up being'?",
+    "answer": "'End up being' có nghĩa 'cuối cùng trở thành': 'He ended up being a doctor' (Cuối cùng anh ấy trở thành bác sĩ).",
+    "category": "grammar",
+    "tags": ["end up being", "cuối cùng", "finally", "result"]
+  },
+  {
+    "question": "Từ 'numb' có âm 'b' cuối không?",
+    "answer": "Từ 'numb' /nʌm/ có âm 'b' câm. Phát âm thành 'num', tương tự 'dumb' /dʌm/.",
+    "category": "pronunciation",
+    "tags": ["numb", "âm b câm", "num", "dumb"]
+  },
+  {
+    "question": "Phân biệt 'lose' và 'loose'?",
+    "answer": "'Lose' /luːz/ là mất, thua. 'Loose' /luːs/ là lỏng lẻo. Chú ý phát âm /z/ và /s/ khác nhau.",
+    "category": "vocabulary",
+    "tags": ["lose", "loose", "mất", "lỏng lẻo"]
+  },
+  {
+    "question": "Cách sử dụng 'wind up being'?",
+    "answer": "'Wind up being' có nghĩa 'cuối cùng trở thành': 'She wound up being the winner' (Cuối cùng cô ấy trở thành người thắng cuộc).",
+    "category": "grammar",
+    "tags": ["wind up being", "cuối cùng", "end up", "result"]
+  },
+  {
+    "question": "Từ 'dumb' có âm 'b' cuối không?",
+    "answer": "Từ 'dumb' /dʌm/ có âm 'b' câm. Phát âm thành 'dum', không có âm /b/.",
+    "category": "pronunciation",
+    "tags": ["dumb", "âm b câm", "dum", "silent"]
+  },
+  {
+    "question": "Phân biệt 'advice' và 'advise'?",
+    "answer": "'Advice' /ədˈvaɪs/ là danh từ (lời khuyên). 'Advise' /ədˈvaɪz/ là động từ (khuyên).",
+    "category": "vocabulary",
+    "tags": ["advice", "advise", "danh từ", "động từ"]
+  },
+  {
+    "question": "Cách sử dụng 'keep being'?",
+    "answer": "'Keep being' có nghĩa 'tiếp tục là': 'He keeps being late' (Anh ấy cứ tiếp tục đến muộn).",
+    "category": "grammar",
+    "tags": ["keep being", "tiếp tục", "continue", "repeatedly"]
+  },
+  {
+    "question": "Từ 'bomb' có âm 'b' cuối không?",
+    "answer": "Từ 'bomb' /bɒm/ có âm 'b' cuối câm. Phát âm thành 'bom', không có âm /b/ cuối.",
+    "category": "pronunciation",
+    "tags": ["bomb", "âm b câm", "bom", "explosive"]
+  },
+  {
+    "question": "Phân biệt 'effect' và 'affect'?",
+    "answer": "'Effect' /ɪˈfekt/ là danh từ (tác động). 'Affect' /əˈfekt/ là động từ (ảnh hưởng).",
+    "category": "vocabulary",
+    "tags": ["effect", "affect", "danh từ", "động từ"]
+  },
+  {
+    "question": "Cách sử dụng 'remain being'?",
+    "answer": "'Remain being' có nghĩa 'vẫn còn là': 'She remains being the best student' (Cô ấy vẫn còn là học sinh giỏi nhất).",
+    "category": "grammar",
+    "tags": ["remain being", "vẫn còn", "continue", "stay"]
+  },
+  {
+    "question": "Từ 'limb' có âm 'b' cuối không?",
+    "answer": "Từ 'limb' /lɪm/ có âm 'b' câm. Phát âm thành 'lim', không có âm /b/ cuối.",
+    "category": "pronunciation",
+    "tags": ["limb", "âm b câm", "lim", "body part"]
+  },
+  {
+    "question": "Phân biệt 'complement' và 'compliment'?",
+    "answer": "'Complement' /ˈkɒmplɪmənt/ là bổ sung. 'Compliment' /ˈkɒmplɪmənt/ là lời khen.",
+    "category": "vocabulary",
+    "tags": ["complement", "compliment", "bổ sung", "lời khen"]
+  },
+  {
+    "question": "Cách sử dụng 'stay being'?",
+    "answer": "'Stay being' có nghĩa 'tiếp tục là': 'Try to stay being positive' (Cố gắng tiếp tục tích cực).",
+    "category": "grammar",
+    "tags": ["stay being", "tiếp tục", "continue", "maintain"]
+  },
+  {
+    "question": "Từ 'thumb' có âm 'b' cuối không?",
+    "answer": "Từ 'thumb' /θʌm/ có âm 'b' câm. Phát âm thành 'thum', không có âm /b/ cuối.",
+    "category": "pronunciation",
+    "tags": ["thumb", "âm b câm", "thum", "finger"]
+  },
+  {
+    "question": "Phân biệt 'desert' và 'dessert'?",
+    "answer": "'Desert' /ˈdezərt/ là sa mạc (trọng âm đầu). 'Dessert' /dɪˈzɜːrt/ là món tráng miệng (trọng âm cuối).",
+    "category": "vocabulary",
+    "tags": ["desert", "dessert", "sa mạc", "tráng miệng"]
+  },
+  {
+    "question": "Cách sử dụng 'go on being'?",
+    "answer": "'Go on being' có nghĩa 'tiếp tục là': 'He went on being stubborn' (Anh ấy tiếp tục cứng đầu).",
+    "category": "grammar",
+    "tags": ["go on being", "tiếp tục", "continue", "persist"]
+  },
+  {
+    "question": "Từ 'plumb' có âm 'b' cuối không?",
+    "answer": "Từ 'plumb' /plʌm/ có âm 'b' câm. Phát âm thành 'plum', giống từ 'plum' (quả mận).",
+    "category": "pronunciation",
+    "tags": ["plumb", "âm b câm", "plum", "vertical"]
+  },
+  {
+    "question": "Phân biệt 'stationary' và 'stationery'?",
+    "answer": "'Stationary' /ˈsteɪʃəneri/ là đứng yên. 'Stationery' /ˈsteɪʃənəri/ là văn phòng phẩm.",
+    "category": "vocabulary",
+    "tags": ["stationary", "stationery", "đứng yên", "văn phòng phẩm"]
+  },
+  {
+    "question": "Cách sử dụng 'carry on being'?",
+    "answer": "'Carry on being' có nghĩa 'tiếp tục là': 'She carried on being cheerful' (Cô ấy tiếp tục vui vẻ).",
+    "category": "grammar",
+    "tags": ["carry on being", "tiếp tục", "continue", "maintain"]
+  },
+  {
+    "question": "Từ 'wrist' có âm 'w' đầu không?",
+    "answer": "Từ 'wrist' /rɪst/ có âm 'w' câm. Phát âm thành 'rist', không có âm /w/.",
+    "category": "pronunciation",
+    "tags": ["wrist", "âm w câm", "rist", "body part"]
+  },
+  {
+    "question": "Phân biệt 'personal' và 'personnel'?",
+    "answer": "'Personal' /ˈpɜːrsənl/ là cá nhân. 'Personnel' /ˌpɜːrsəˈnel/ là nhân sự (trọng âm khác nhau).",
+    "category": "vocabulary",
+    "tags": ["personal", "personnel", "cá nhân", "nhân sự"]
+  },
+  {
+    "question": "Cách sử dụng 'continue being'?",
+    "answer": "'Continue being' có nghĩa 'tiếp tục là': 'Please continue being patient' (Xin hãy tiếp tục kiên nhẫn).",
+    "category": "grammar",
+    "tags": ["continue being", "tiếp tục", "keep", "maintain"]
+  },
+  {
+    "question": "Từ 'wreck' có âm 'w' đầu không?",
+    "answer": "Từ 'wreck' /rek/ có âm 'w' câm. Phát âm thành 'reck', không có âm /w/.",
+    "category": "pronunciation",
+    "tags": ["wreck", "âm w câm", "reck", "destroy"]
+  },
+  {
+    "question": "Phân biệt 'moral' và 'morale'?",
+    "answer": "'Moral' /ˈmɔːrəl/ là đạo đức. 'Morale' /məˈræl/ là tinh thần (phát âm khác nhau).",
+    "category": "vocabulary",
+    "tags": ["moral", "morale", "đạo đức", "tinh thần"]
+  },
+  {
+    "question": "Cách sử dụng 'stop being'?",
+    "answer": "'Stop being' có nghĩa 'ngừng là': 'Stop being so negative' (Ngừng tiêu cực đi).",
+    "category": "grammar",
+    "tags": ["stop being", "ngừng", "cease", "quit"]
+  },
+  {
+    "question": "Từ 'wrap' có âm 'w' đầu không?",
+    "answer": "Từ 'wrap' /ræp/ có âm 'w' câm. Phát âm thành 'rap', giống từ 'rap' (nhạc rap).",
+    "category": "pronunciation",
+    "tags": ["wrap", "âm w câm", "rap", "cover"]
+  },
+  {
+    "question": "Phân biệt 'capital' và 'capitol'?",
+    "answer": "'Capital' /ˈkæpɪtl/ là thủ đô hoặc vốn. 'Capitol' /ˈkæpɪtl/ là tòa nhà quốc hội.",
+    "category": "vocabulary",
+    "tags": ["capital", "capitol", "thủ đô", "quốc hội"]
+  },
+  {
+    "question": "Cách sử dụng 'quit being'?",
+    "answer": "'Quit being' có nghĩa 'thôi không còn là': 'He quit being a teacher' (Anh ấy thôi không làm giáo viên nữa).",
+    "category": "grammar",
+    "tags": ["quit being", "thôi", "stop", "no longer"]
+  },
+  {
+    "question": "Từ 'wrong' có âm 'w' đầu không?",
+    "answer": "Từ 'wrong' /rɒŋ/ có âm 'w' câm. Phát âm thành 'rong', không có âm /w/.",
+    "category": "pronunciation",
+    "tags": ["wrong", "âm w câm", "rong", "incorrect"]
+  },
+  {
+    "question": "Phân biệt 'altar' và 'alter'?",
+    "answer": "'Altar' /ˈɔːltər/ là bàn thờ. 'Alter' /ˈɔːltər/ là thay đổi. Phát âm giống nhau.",
+    "category": "vocabulary",
+    "tags": ["altar", "alter", "bàn thờ", "thay đổi"]
+  },
+  {
+    "question": "Cách sử dụng 'finish being'?",
+    "answer": "'Finish being' có nghĩa 'kết thúc việc là': 'When did you finish being a student?' (Khi nào bạn kết thúc việc là sinh viên?).",
+    "category": "grammar",
+    "tags": ["finish being", "kết thúc", "complete", "end"]
+  },
+  {
+    "question": "Từ 'wring' có âm 'w' đầu không?",
+    "answer": "Từ 'wring' /rɪŋ/ có âm 'w' câm. Phát âm thành 'ring', giống từ 'ring' (nhẫn).",
+    "category": "pronunciation",
+    "tags": ["wring", "âm w câm", "ring", "twist"]
+  },
+  {
+    "question": "Phân biệt 'canvas' và 'canvass'?",
+    "answer": "'Canvas' /ˈkænvəs/ là vải bạt. 'Canvass' /ˈkænvəs/ là vận động, khảo sát.",
+    "category": "vocabulary",
+    "tags": ["canvas", "canvass", "vải bạt", "vận động"]
+  },
+  {
+    "question": "Cách sử dụng 'avoid being'?",
+    "answer": "'Avoid being' có nghĩa 'tránh việc là': 'Try to avoid being late' (Cố gắng tránh việc đến muộn).",
+    "category": "grammar",
+    "tags": ["avoid being", "tránh", "prevent", "escape"]
+  },
+  {
+    "question": "Từ 'wrist' có âm 't' cuối không?",
+    "answer": "Từ 'wrist' /rɪst/ có âm 't' cuối được phát âm. Khác với nhiều từ khác có âm 't' câm.",
+    "category": "pronunciation",
+    "tags": ["wrist", "âm t", "phát âm", "body part"]
+  },
+  {
+    "question": "Phân biệt 'council' và 'counsel'?",
+    "answer": "'Council' /ˈkaʊnsl/ là hội đồng. 'Counsel' /ˈkaʊnsl/ là lời khuyên hoặc luật sư.",
+    "category": "vocabulary",
+    "tags": ["council", "counsel", "hội đồng", "lời khuyên"]
+  },
+  {
+    "question": "Cách sử dụng 'risk being'?",
+    "answer": "'Risk being' có nghĩa 'có nguy cơ bị': 'You risk being fired' (Bạn có nguy cơ bị sa thải).",
+    "category": "grammar",
+    "tags": ["risk being", "nguy cơ", "danger", "possibility"]
+  },
+  {
+    "question": "Từ 'written' có âm 'w' đầu không?",
+    "answer": "Từ 'written' /ˈrɪtn/ có âm 'w' câm. Phát âm thành 'ritten', không có âm /w/.",
+    "category": "pronunciation",
+    "tags": ["written", "âm w câm", "ritten", "past participle"]
+  },
+  {
+    "question": "Phân biệt 'emigrate' và 'immigrate'?",
+    "answer": "'Emigrate' là rời khỏi đất nước. 'Immigrate' là đến đất nước mới để định cư.",
+    "category": "vocabulary",
+    "tags": ["emigrate", "immigrate", "rời khỏi", "đến"]
+  },
+  {
+    "question": "Cách sử dụng 'imagine being'?",
+    "answer": "'Imagine being' có nghĩa 'tưởng tượng việc là': 'Imagine being rich' (Tưởng tượng việc giàu có).",
+    "category": "grammar",
+    "tags": ["imagine being", "tưởng tượng", "visualize", "hypothetical"]
+  },
+  {
+    "question": "Từ 'wrinkle' có âm 'w' đầu không?",
+    "answer": "Từ 'wrinkle' /ˈrɪŋkəl/ có âm 'w' câm. Phát âm thành 'rinkle', không có âm /w/.",
+    "category": "pronunciation",
+    "tags": ["wrinkle", "âm w câm", "rinkle", "fold"]
+  },
+  {
+    "question": "Phân biệt 'farther' và 'further'?",
+    "answer": "'Farther' dùng cho khoảng cách vật lý. 'Further' dùng cho abstract concepts hoặc additional.",
+    "category": "vocabulary",
+    "tags": ["farther", "further", "vật lý", "abstract"]
+  },
+  {
+    "question": "Cách sử dụng 'consider being'?",
+    "answer": "'Consider being' có nghĩa 'cân nhắc việc là': 'I'm considering being a doctor' (Tôi đang cân nhắc việc làm bác sĩ).",
+    "category": "grammar",
+    "tags": ["consider being", "cân nhắc", "think about", "possibility"]
+  }
+]
