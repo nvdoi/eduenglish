@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 import { toast } from 'react-hot-toast';
+import { API_BASE_URL } from "../../config/api";
 
 interface Vocabulary {
   _id: string;
@@ -58,8 +59,8 @@ export default function VocabularyPage() {
       setIsLoading(true);
       const userId = user?.id || localStorage.getItem('userId');
       const url = userId 
-        ? `http://localhost:5001/api/vocabularies?userId=${userId}`
-        : 'http://localhost:5001/api/vocabularies';
+        ? `${API_BASE_URL}/api/vocabularies?userId=${userId}`
+        : `${API_BASE_URL}/api/vocabularies`;
       
       const response = await fetch(url);
       const data = await response.json();
@@ -101,7 +102,7 @@ export default function VocabularyPage() {
   const toggleFavourite = async (id: string) => {
     try {
       const token = localStorage.getItem('token');
-      const response = await fetch(`http://localhost:5001/api/vocabularies/${id}/favourite`, {
+      const response = await fetch(`${API_BASE_URL}/api/vocabularies/${id}/favourite`, {
         method: 'PATCH',
         headers: {
           'Authorization': `Bearer ${token}`,
@@ -132,7 +133,7 @@ export default function VocabularyPage() {
       const token = localStorage.getItem('token');
       const userId = user?.id || localStorage.getItem('userId');
       
-      const response = await fetch('http://localhost:5001/api/vocabularies', {
+      const response = await fetch(`${API_BASE_URL}/api/vocabularies`, {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${token}`,
@@ -166,7 +167,7 @@ export default function VocabularyPage() {
 
     try {
       const token = localStorage.getItem('token');
-      const response = await fetch(`http://localhost:5001/api/vocabularies/${id}`, {
+      const response = await fetch(`${API_BASE_URL}/api/vocabularies/${id}`, {
         method: 'DELETE',
         headers: {
           'Authorization': `Bearer ${token}`

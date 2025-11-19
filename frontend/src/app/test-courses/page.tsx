@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from 'react';
+import { API_BASE_URL } from "../config/api";
 
 interface Course {
   _id: string;
@@ -33,7 +34,7 @@ export default function TestCoursesPage() {
       console.log('🧪 Testing API from frontend...');
       
       // Test basic connection
-      const response = await fetch('http://localhost:5001/api/courses?isPublished=true');
+      const response = await fetch(`${API_BASE_URL}/api/courses?isPublished=true`);
       console.log('📡 Response status:', response.status);
       console.log('📡 Response headers:', Object.fromEntries(response.headers.entries()));
       

@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
 import { toast } from "react-hot-toast";
+import { API_BASE_URL } from "../../../../config/api";
 
 interface Question {
   id: number;
@@ -62,7 +63,7 @@ export default function CourseExamPage() {
   const fetchExamQuestions = async () => {
     try {
       setIsLoading(true);
-      const response = await fetch(`http://localhost:5001/api/results/exam/${params.id}/questions?count=10`);
+      const response = await fetch(`${API_BASE_URL}/api/results/exam/${params.id}/questions?count=10`);
       const data = await response.json();
       
       if (data.success) {
@@ -150,7 +151,7 @@ export default function CourseExamPage() {
     
     try {
       // Check answers
-      const checkResponse = await fetch(`http://localhost:5001/api/results/exam/${params.id}/check`, {
+      const checkResponse = await fetch(`${API_BASE_URL}/api/results/exam/${params.id}/check`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ answers: finalAnswers })
@@ -176,7 +177,7 @@ export default function CourseExamPage() {
           }))
         };
         
-        await fetch(`http://localhost:5001/api/results/exam/${userId}/${params.id}`, {
+        await fetch(`${API_BASE_URL}/api/results/exam/${userId}/${params.id}`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(examData)

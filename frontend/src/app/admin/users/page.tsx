@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { toast } from 'react-hot-toast';
+import { API_BASE_URL } from "../../../config/api";
 
 interface User {
   _id: string;
@@ -70,7 +71,7 @@ export default function UserManagement() {
         status
       });
 
-      const response = await fetch(`http://localhost:5001/api/users?${params}`, {
+      const response = await fetch(`${API_BASE_URL}/api/users?${params}`, {
         headers: {
           'Authorization': `Bearer ${token}`,
           'Content-Type': 'application/json',
@@ -102,7 +103,7 @@ export default function UserManagement() {
       
       console.log('Toggling user:', userId, 'Current status:', currentStatus);
       
-      const response = await fetch(`http://localhost:5001/api/users/${userId}/toggle-status`, {
+      const response = await fetch(`${API_BASE_URL}/api/users/${userId}/toggle-status`, {
         method: 'PUT',
         headers: {
           'Authorization': `Bearer ${token}`,
