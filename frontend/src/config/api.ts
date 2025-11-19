@@ -1,5 +1,12 @@
 // API Configuration
-export const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5001';
+// Ưu tiên dùng biến môi trường:
+// - NEXT_PUBLIC_API_URL (shared / project env)
+// - NEXT_PUBLIC_API_BASE_URL (tên bạn đang dùng trên Vercel)
+// Nếu không có, fallback về localhost cho development.
+export const API_BASE_URL =
+  process.env.NEXT_PUBLIC_API_URL ||
+  process.env.NEXT_PUBLIC_API_BASE_URL ||
+  'http://localhost:5001';
 
 // Fallback ports if main port fails (thử 5001 trước vì backend đang chạy trên port này)
 export const API_FALLBACK_PORTS = [5001, 5002, 5000];

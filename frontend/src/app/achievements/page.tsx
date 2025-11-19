@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../contexts/AuthContext';
+import { API_BASE_URL } from "../../config/api";
 
 interface ProgressData {
   vocabulary: {
@@ -64,7 +65,7 @@ const AchievementsPage = () => {
   const fetchCoursesAndProgress = async () => {
     try {
       setIsLoading(true);
-      const response = await fetch('http://localhost:5001/api/courses?isPublished=true');
+      const response = await fetch(`${API_BASE_URL}/api/courses?isPublished=true`);
       const data = await response.json();
       
       if (data.success && user) {
@@ -72,7 +73,7 @@ const AchievementsPage = () => {
           (data.courses || []).map(async (course: Course) => {
             try {
               const userId = user.id;
-              const progressResponse = await fetch(`http://localhost:5001/api/results/progress/${userId}/${course._id}`);
+              const progressResponse = await fetch(`${API_BASE_URL}/api/results/progress/${userId}/${course._id}`);
               const progressData = await progressResponse.json();
               
               if (progressData.success && progressData.result) {

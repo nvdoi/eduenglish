@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../contexts/AuthContext';
+import { API_BASE_URL } from "../config/api";
 import {
   BarChart,
   Bar,
@@ -76,7 +77,7 @@ const ProgressReportPage = () => {
       console.log('🔄 Starting to fetch progress data...');
       
       // Fetch all courses
-      const coursesResponse = await fetch('http://localhost:5001/api/courses?isPublished=true');
+      const coursesResponse = await fetch(`${API_BASE_URL}/api/courses?isPublished=true`);
       const coursesData = await coursesResponse.json();
       
       if (!coursesData.success) {
@@ -95,7 +96,7 @@ const ProgressReportPage = () => {
         console.log('🔑 Using token:', token ? 'Available' : 'Not found');
         
         // Try to get all users from the collection (based on screenshot showing 6 documents)
-        const usersResponse = await fetch('http://localhost:5001/api/users?limit=50', {
+        const usersResponse = await fetch(`${API_BASE_URL}/api/users?limit=50`, {
           headers: {
             'Authorization': `Bearer ${token}`,
             'Content-Type': 'application/json'
@@ -164,7 +165,7 @@ const ProgressReportPage = () => {
 
           for (const [courseIndex, course] of courses.entries()) {
             try {
-              const progressUrl = `http://localhost:5001/api/results/progress/${currentUser.id}/${course._id}`;
+              const progressUrl = `${API_BASE_URL}/api/results/progress/${currentUser.id}/${course._id}`;
               console.log(`📈 Fetching progress: ${progressUrl}`);
               
               const progressResponse = await fetch(progressUrl);
@@ -233,7 +234,7 @@ const ProgressReportPage = () => {
 
           for (const currentUser of users) {
             try {
-              const progressResponse = await fetch(`http://localhost:5001/api/results/progress/${currentUser.id}/${course._id}`);
+              const progressResponse = await fetch(`${API_BASE_URL}/api/results/progress/${currentUser.id}/${course._id}`);
               const progressData = await progressResponse.json();
               
               if (progressData.success && progressData.result) {
