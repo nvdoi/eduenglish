@@ -15,6 +15,7 @@ import time
 from datetime import datetime, timedelta
 import threading
 from contextlib import asynccontextmanager
+import re
 
 # Load environment variables từ .env file
 load_dotenv()
@@ -217,10 +218,6 @@ def background_sync_task():
             time.sleep(300)  # Wait 5 minutes on error
 
 
-# Admin router for indexing
-admin_router = APIRouter(prefix='/admin')
-
-
 def build_text_for_embedding(lesson):
     title = lesson.get('title') or lesson.get('name') or ''
     topics = lesson.get('topics', [])
@@ -232,6 +229,45 @@ def build_text_for_embedding(lesson):
     content_snip = content[:2000]
     text = f"Title: {title}\nTopics: {topics_text}\nContent: {content_snip}"
     return text
+
+
+# Admin router for indexing
+admin_router = APIRouter(prefix='/admin')
+
+
+def clean_markdown_response(text):
+    """Clean up excessive markdown formatting from AI responses"""
+    if not text:
+        return text
+    
+    # Remove excessive bold formatting (more than 2 consecutive **)
+    text = re.sub(r'\*{3,}', '', text)
+    
+    # Convert proper bold (**text**) to normal text for cleaner display
+    text = re.sub(r'\*\*(.*?)\*\*', r'\1', text)
+    
+    # Remove excessive asterisks at line beginnings
+    text = re.sub(r'^\*\s+', '', text, flags=re.MULTILINE)
+    
+    # Clean up multiple consecutive asterisks (but keep single ones for emphasis)
+    text = re.sub(r'\*{2,}', '', text)
+    
+    # Fix spacing around punctuation
+    text = re.sub(r'\s+([.,!?])', r'\1', text)
+    
+    # Remove excessive newlines
+    text = re.sub(r'\n{3,}', '\n\n', text)
+    
+    # Clean up bullet points with excessive asterisks
+    text = re.sub(r'^\*{2,}\s+', '• ', text, flags=re.MULTILINE)
+    
+    # Remove other markdown formatting
+    text = re.sub(r'__(.*?)__', r'\1', text)
+    text = re.sub(r'_(.*?)_', r'\1', text)
+    text = re.sub(r'`(.*?)`', r'\1', text)
+    text = re.sub(r'~~(.*?)~~', r'\1', text)
+    
+    return text.strip()
 
 
 @admin_router.post('/index_lesson')
@@ -452,6 +488,8 @@ async def receive_question(data: Question, background_tasks: BackgroundTasks):
 Bạn là English AI Assistant - một trợ lý ảo chuyên về học tiếng Anh. 
 Hãy trả lời câu hỏi của người dùng một cách thân thiện, hữu ích và chính xác.
 
+QUAN TRỌNG: Trả lời bằng văn bản thuần túy, KHÔNG dùng định dạng markdown (không dùng **bold**, *italic*, `code`, headers, v.v.).
+
 Nếu có thông tin từ cơ sở dữ liệu, hãy sử dụng và tham khảo. 
 Nếu không có thông tin cụ thể, hãy đưa ra lời khuyên chung về học tiếng Anh dựa trên kiến thức của bạn.
 Luôn trả lời bằng tiếng Việt và giữ giọng điệu thân thiện, hỗ trợ học tập.
@@ -474,7 +512,9 @@ Hãy trả lời một cách ngắn gọn, dễ hiểu và hữu ích cho việc
         
         # Gọi Gemini API với retry logic
         try:
-            answer = await retry_gemini_call(prompt, max_retries=3, base_delay=2.0)
+            raw_answer = await retry_gemini_call(prompt, max_retries=3, base_delay=2.0)
+            # Clean up markdown formatting
+            answer = clean_markdown_response(raw_answer)
             source = "rag" if not retrieval_docs.empty else "general"
             
         except Exception as gemini_error:
@@ -487,7 +527,7 @@ Hãy trả lời một cách ngắn gọn, dễ hiểu và hữu ích cho việc
 
 {best_match['answer']}
 
-💡 *Lưu ý: Đây là câu trả lời từ cơ sở dữ liệu do hệ thống AI tạm thời không khả dụng.*"""
+💡 Lưu ý: Đây là câu trả lời từ cơ sở dữ liệu do hệ thống AI tạm thời không khả dụng."""
                 source = "fallback_rag"
             else:
                 # Generic helpful response when no RAG data available
