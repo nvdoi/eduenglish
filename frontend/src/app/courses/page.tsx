@@ -3,7 +3,7 @@
 import { useParams, useRouter } from 'next/navigation';
 import { useState, useEffect } from 'react';
 import { useAuth } from '../contexts/AuthContext';
-import { API_BASE_URL } from "../config/api";
+import { API_BASE_URL } from "../../config/api";
 
 interface ProgressData {
   vocabulary: {
@@ -99,7 +99,8 @@ export default function CoursesPage() {
   const fetchCourses = async () => {
     try {
       setIsLoading(true);
-      const response = await fetch(`${API_BASE_URL}/api/courses?isPublished=true`);
+      const baseUrl = await API_BASE_URL;
+      const response = await fetch(`${baseUrl}/api/courses?isPublished=true`);
       const data = await response.json();
       
       if (data.success) {
@@ -109,7 +110,7 @@ export default function CoursesPage() {
               // Only fetch progress if user is logged in
               if (isLoggedIn && user) {
                 const userId = user.id;
-                const progressResponse = await fetch(`${API_BASE_URL}/api/results/progress/${userId}/${course._id}`);
+                const progressResponse = await fetch(`${baseUrl}/api/results/progress/${userId}/${course._id}`);
                 const progressData = await progressResponse.json();
                 
                 if (progressData.success && progressData.result) {

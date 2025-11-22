@@ -5,7 +5,7 @@ import { useParams, useRouter } from 'next/navigation';
 import { useAuth } from '../../contexts/AuthContext';
 import "./course-detail.css";
 import { toast } from 'react-hot-toast';
-import { API_BASE_URL } from "../../config/api";
+import { API_BASE_URL } from "../../../config/api";
 
 // Audio Button Component
 interface AudioButtonProps {
@@ -260,7 +260,8 @@ export default function CoursePage() {
   const fetchCourse = async (courseId: string) => {
     try {
       setIsLoading(true);
-      const response = await fetch(`${API_BASE_URL}/api/courses/${params.id}`);
+      const baseUrl = await API_BASE_URL;
+      const response = await fetch(`${baseUrl}/api/courses/${params.id}`);
       if (response.ok) {
         const data = await response.json();
         setCourse(data.course || data);
@@ -494,7 +495,8 @@ function VocabularySection({ vocabularies, courseId, onProgressUpdate }: {
   useEffect(() => {
     if (userId) {
       // Fetch study stats from backend
-      fetch(`${API_BASE_URL}/api/results/study/${userId}/${courseId}/vocabulary`)
+      API_BASE_URL.then(baseUrl => {
+        fetch(`${baseUrl}/api/results/study/${userId}/${courseId}/vocabulary`)
         .then(response => response.json())
         .then(data => {
           if (data.success && data.result?.studyStats) {
@@ -502,9 +504,11 @@ function VocabularySection({ vocabularies, courseId, onProgressUpdate }: {
           }
         })
         .catch(error => console.error('Error fetching study stats:', error));
+      });
       
       // Load favourite status for all vocabularies
-      fetch(`${API_BASE_URL}/api/vocabularies?userId=${userId}&favourite=true`)
+      API_BASE_URL.then(baseUrl => {
+        fetch(`${baseUrl}/api/vocabularies?userId=${userId}&favourite=true`)
         .then(response => response.json())
         .then(data => {
           if (data.success && data.data) {
@@ -519,6 +523,7 @@ function VocabularySection({ vocabularies, courseId, onProgressUpdate }: {
           }
         })
         .catch(error => console.error('Error loading favourites:', error));
+      });
     }
   }, [userId, courseId, vocabularies]);
 
@@ -533,9 +538,10 @@ function VocabularySection({ vocabularies, courseId, onProgressUpdate }: {
 
     try {
       const token = localStorage.getItem('token');
+      const baseUrl = await API_BASE_URL;
       
       // Check if THIS USER already has this vocabulary
-      const searchResponse = await fetch(`${API_BASE_URL}/api/vocabularies?word=${encodeURIComponent(vocab.word)}&userId=${userId}`);
+      const searchResponse = await fetch(`${baseUrl}/api/vocabularies?word=${encodeURIComponent(vocab.word)}&userId=${userId}`);
       const searchData = await searchResponse.json();
       
       // Find exact match for this user
@@ -548,7 +554,7 @@ function VocabularySection({ vocabularies, courseId, onProgressUpdate }: {
       
       if (existingVocab) {
         // User already has this vocabulary, toggle its favourite status
-        const response = await fetch(`${API_BASE_URL}/api/vocabularies/${existingVocab._id}/favourite`, {
+        const response = await fetch(`${baseUrl}/api/vocabularies/${existingVocab._id}/favourite`, {
           method: 'PATCH',
           headers: {
             'Authorization': `Bearer ${token}`,
@@ -568,7 +574,7 @@ function VocabularySection({ vocabularies, courseId, onProgressUpdate }: {
         }
       } else {
         // User doesn't have this vocabulary yet, create it as favourite
-        const response = await fetch(`${API_BASE_URL}/api/vocabularies`, {
+        const response = await fetch(`${baseUrl}/api/vocabularies`, {
           method: 'POST',
           headers: {
             'Authorization': `Bearer ${token}`,
@@ -605,7 +611,8 @@ function VocabularySection({ vocabularies, courseId, onProgressUpdate }: {
     }
     
     try {
-      const response = await fetch(`${API_BASE_URL}/api/results/progress/${userId}/${courseId}/vocabulary`, {
+      const baseUrl = await API_BASE_URL;
+      const response = await fetch(`${baseUrl}/api/results/progress/${userId}/${courseId}/vocabulary`, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ studied, known, total })

@@ -63,7 +63,8 @@ export default function CourseExamPage() {
   const fetchExamQuestions = async () => {
     try {
       setIsLoading(true);
-      const response = await fetch(`${API_BASE_URL}/api/results/exam/${params.id}/questions?count=10`);
+      const baseUrl = await API_BASE_URL;
+      const response = await fetch(`${baseUrl}/api/results/exam/${params.id}/questions?count=10`);
       const data = await response.json();
       
       if (data.success) {
@@ -150,8 +151,9 @@ export default function CourseExamPage() {
     setIsSubmitting(true);
     
     try {
+      const baseUrl = await API_BASE_URL;
       // Check answers
-      const checkResponse = await fetch(`${API_BASE_URL}/api/results/exam/${params.id}/check`, {
+      const checkResponse = await fetch(`${baseUrl}/api/results/exam/${params.id}/check`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ answers: finalAnswers })
@@ -177,7 +179,7 @@ export default function CourseExamPage() {
           }))
         };
         
-        await fetch(`${API_BASE_URL}/api/results/exam/${userId}/${params.id}`, {
+        await fetch(`${baseUrl}/api/results/exam/${userId}/${params.id}`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(examData)

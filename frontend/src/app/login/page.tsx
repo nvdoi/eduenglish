@@ -30,7 +30,8 @@ export default function LoginPage() {
     setError("");
 
     try {
-      const response = await fetch(`${API_BASE_URL}${API_ENDPOINTS.AUTH.LOGIN}`, {
+      const baseUrl = await API_BASE_URL;
+      const response = await fetch(`${baseUrl}${API_ENDPOINTS.AUTH.LOGIN}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

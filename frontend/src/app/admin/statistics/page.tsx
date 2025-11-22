@@ -174,6 +174,15 @@ export default function StatisticsPage() {
     return `${mins}m`;
   };
 
+  const formatDateTime = (dateString: string) => {
+    if (!dateString) return 'Chưa hoàn thành';
+    const date = new Date(dateString);
+    return date.toLocaleString('vi-VN', { 
+      year: 'numeric', month: 'numeric', day: 'numeric', 
+      hour: '2-digit', minute: '2-digit' 
+    });
+  };
+
   if (!isLoggedIn || user?.role !== 'admin') {
     return (
       <div className="min-h-screen flex items-center justify-center">
@@ -252,22 +261,22 @@ export default function StatisticsPage() {
                   <table className="min-w-full divide-y divide-gray-200">
                     <thead className="bg-gray-50">
                       <tr>
-                        <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                        <th className="px-8 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                          STT
+                        </th>
+                        <th className="px-8 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                           Người học
                         </th>
-                        <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                        <th className="px-8 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                           Khóa học
                         </th>
-                        <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                        <th className="px-8 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                           Tiến độ
                         </th>
-                        <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                          Thời gian học
+                        <th className="px-8 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                          Ngày hoàn thành
                         </th>
-                        <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                          Streak
-                        </th>
-                        <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                        <th className="px-8 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                           Trạng thái
                         </th>
                       </tr>
@@ -276,19 +285,22 @@ export default function StatisticsPage() {
                       {userLearningData.length > 0 ? (
                         userLearningData.map((data, index) => (
                           <tr key={index} className="hover:bg-gray-50 transition-colors">
-                            <td className="px-6 py-4 whitespace-nowrap">
+                            <td className="px-8 py-4 whitespace-nowrap text-sm text-gray-500">
+                              {(currentPage - 1) * 10 + index + 1}
+                            </td>
+                            <td className="px-8 py-4 whitespace-nowrap">
                               <div>
                                 <div className="text-sm font-medium text-gray-900">{data.username}</div>
                                 <div className="text-sm text-gray-500">{data.email}</div>
                               </div>
                             </td>
-                            <td className="px-6 py-4">
+                            <td className="px-8 py-4">
                               <div>
                                 <div className="text-sm font-medium text-gray-900">{data.courseName || courseMap[data.courseId]?.name || courseMap[data.courseId]?.title || 'Unknown Course'}</div>
                                 <div className="mt-1">{getLevelBadge(data.courseLevel)}</div>
                               </div>
                             </td>
-                            <td className="px-6 py-4 whitespace-nowrap">
+                            <td className="px-8 py-4 whitespace-nowrap">
                               <div className="flex items-center">
                                 <div className="flex-1 mr-3">
                                   <div className="w-full bg-gray-200 rounded-full h-2">
@@ -303,32 +315,19 @@ export default function StatisticsPage() {
                                 </span>
                               </div>
                             </td>
-                            <td className="px-6 py-4 whitespace-nowrap">
+                            <td className="px-8 py-4 whitespace-nowrap">
                               <div className="text-sm text-gray-900">
-                                {formatStudyTime(data.stats.totalStudyTime)}
-                              </div>
-                              <div className="text-xs text-gray-500">
-                                {data.stats.totalSessions} phiên học
+                                {formatDateTime(data.completedAt)}
                               </div>
                             </td>
-                            <td className="px-6 py-4 whitespace-nowrap">
-                              <div className="flex items-center">
-                                <svg className="w-5 h-5 text-orange-500 mr-1" fill="currentColor" viewBox="0 0 20 20">
-                                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                                </svg>
-                                <span className="text-sm font-medium text-gray-900">
-                                  {data.stats.streakDays} ngày
-                                </span>
-                              </div>
-                            </td>
-                            <td className="px-6 py-4 whitespace-nowrap">
+                            <td className="px-8 py-4 whitespace-nowrap">
                               {getStatusBadge(data.status)}
                             </td>
                           </tr>
                         ))
                       ) : (
                         <tr>
-                          <td colSpan={6} className="px-6 py-12 text-center text-gray-500">
+                          <td colSpan={6} className="px-8 py-12 text-center text-gray-500">
                             Chưa có dữ liệu học tập
                           </td>
                         </tr>

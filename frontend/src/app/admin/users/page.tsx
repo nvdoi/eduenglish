@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { toast } from 'react-hot-toast';
-import { API_BASE_URL } from "../../../config/api";
+import { getWorkingApiUrl } from "../../../config/api";
 
 interface User {
   _id: string;
@@ -71,7 +71,8 @@ export default function UserManagement() {
         status
       });
 
-      const response = await fetch(`${API_BASE_URL}/api/users?${params}`, {
+      const apiUrl = await getWorkingApiUrl();
+      const response = await fetch(`${apiUrl}/api/users?${params}`, {
         headers: {
           'Authorization': `Bearer ${token}`,
           'Content-Type': 'application/json',
@@ -84,10 +85,14 @@ export default function UserManagement() {
 
       const data: ApiResponse = await response.json();
       
-      if (data.success) {
-        setUsers(data.data.users);
-        setStats(data.data.stats);
-        setPagination(data.data.pagination);
+      if (data.success && data.data) {
+        setUsers(data.data.users || []);
+        if (data.data.stats) {
+          setStats(data.data.stats);
+        }
+        if (data.data.pagination) {
+          setPagination(data.data.pagination);
+        }
       }
     } catch (error) {
       console.error('Error fetching users:', error);
@@ -103,7 +108,8 @@ export default function UserManagement() {
       
       console.log('Toggling user:', userId, 'Current status:', currentStatus);
       
-      const response = await fetch(`${API_BASE_URL}/api/users/${userId}/toggle-status`, {
+      const apiUrl = await getWorkingApiUrl();
+      const response = await fetch(`${apiUrl}/api/users/${userId}/toggle-status`, {
         method: 'PUT',
         headers: {
           'Authorization': `Bearer ${token}`,
@@ -308,6 +314,9 @@ export default function UserManagement() {
               <thead className="bg-gray-50">
                 <tr>
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    STT
+                  </th>
+                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                     Người dùng
                   </th>
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
@@ -325,8 +334,11 @@ export default function UserManagement() {
                 </tr>
               </thead>
               <tbody className="bg-white divide-y divide-gray-200">
-                {users.map((user) => (
+                {users.map((user, index) => (
                   <tr key={user._id} className="hover:bg-gray-50">
+                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                      {(pagination.currentPage - 1) * pagination.itemsPerPage + index + 1}
+                    </td>
                     <td className="px-6 py-4 whitespace-nowrap">
                       <div className="flex items-center">
                         <div className="flex-shrink-0 h-10 w-10">

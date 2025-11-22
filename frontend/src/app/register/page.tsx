@@ -50,7 +50,8 @@ export default function RegisterPage() {
     setIsLoading(true);
     
     try {
-      const response = await fetch(`${API_BASE_URL}${API_ENDPOINTS.AUTH.REGISTER}`, {
+      const baseUrl = await API_BASE_URL;
+      const response = await fetch(`${baseUrl}${API_ENDPOINTS.AUTH.REGISTER}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
