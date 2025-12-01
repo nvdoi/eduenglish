@@ -68,18 +68,6 @@ export default function FeaturesPage() {
       color: "from-pink-500 to-rose-500",
       href: "/ipa"
     },
-    {
-      icon: "📊",
-      title: "Báo cáo tiến độ",
-      description: "Theo dõi tiến độ học tập chi tiết với biểu đồ trực quan. AI phân tích và đưa ra lời khuyên cải thiện.",
-      details: [
-        "Biểu đồ tiến độ trực quan",
-        "Thống kê chi tiết theo kỹ năng",
-        "So sánh với người học khác",
-        "Đề xuất cải thiện cá nhân"
-      ],
-      color: "from-indigo-500 to-blue-600"
-    }
   ];
 
   return (

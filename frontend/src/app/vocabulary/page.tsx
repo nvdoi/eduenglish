@@ -58,18 +58,45 @@ export default function VocabularyPage() {
     try {
       setIsLoading(true);
       const userId = user?.id || localStorage.getItem('userId');
-      const url = userId 
-        ? `${API_BASE_URL}/api/vocabularies?userId=${userId}`
-        : `${API_BASE_URL}/api/vocabularies`;
       
-      const response = await fetch(url);
+      // Get the resolved API base URL
+      let baseUrl = await API_BASE_URL;
+      
+      // Ensure baseUrl doesn't end with a slash
+      if (baseUrl.endsWith('/')) {
+        baseUrl = baseUrl.slice(0, -1);
+      }
+      
+      // Construct the URL properly
+      let url = `${baseUrl}/api/vocabularies`;
+      if (userId) {
+        url += `?userId=${userId}`;
+      }
+      
+      console.log('Fetching vocabularies from:', url);
+      
+      const response = await fetch(url, {
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      });
+      
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      
       const data = await response.json();
       
-      if (data.success) {
-        setVocabularies(data.data || []);
+      if (data && data.success) {
+        setVocabularies(Array.isArray(data.data) ? data.data : []);
+      } else {
+        console.error('Unexpected API response format:', data);
+        setVocabularies([]);
       }
     } catch (error) {
       console.error('Error fetching vocabularies:', error);
+      toast.error('Không thể tải từ vựng. Vui lòng thử lại sau.');
+      setVocabularies([]);
     } finally {
       setIsLoading(false);
     }
@@ -102,7 +129,10 @@ export default function VocabularyPage() {
   const toggleFavourite = async (id: string) => {
     try {
       const token = localStorage.getItem('token');
-      const response = await fetch(`${API_BASE_URL}/api/vocabularies/${id}/favourite`, {
+      const baseUrl = await API_BASE_URL;
+      const url = `${baseUrl}/api/vocabularies/${id}/favourite`;
+      
+      const response = await fetch(url, {
         method: 'PATCH',
         headers: {
           'Authorization': `Bearer ${token}`,
@@ -110,16 +140,23 @@ export default function VocabularyPage() {
         }
       });
 
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
       const data = await response.json();
-      if (data.success) {
+      if (data && data.success) {
         setVocabularies(prev =>
           prev.map(vocab =>
             vocab._id === id ? { ...vocab, favourite: data.data.favourite } : vocab
           )
         );
+      } else {
+        console.error('Unexpected response format when toggling favourite:', data);
       }
     } catch (error) {
       console.error('Error toggling favourite:', error);
+      toast.error('Không thể cập nhật yêu thích. Vui lòng thử lại sau.');
     }
   };
 
@@ -133,7 +170,15 @@ export default function VocabularyPage() {
       const token = localStorage.getItem('token');
       const userId = user?.id || localStorage.getItem('userId');
       
-      const response = await fetch(`${API_BASE_URL}/api/vocabularies`, {
+      // Lấy base URL và đảm bảo không có dấu / ở cuối
+      let baseUrl = await API_BASE_URL;
+      if (baseUrl.endsWith('/')) {
+        baseUrl = baseUrl.slice(0, -1);
+      }
+      
+      const url = `${baseUrl}/api/vocabularies`;
+      
+      const response = await fetch(url, {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${token}`,
@@ -145,8 +190,13 @@ export default function VocabularyPage() {
         })
       });
 
+      if (!response.ok) {
+        const errorData = await response.json().catch(() => ({}));
+        throw new Error(errorData.message || 'Không thể thêm từ vựng');
+      }
+
       const data = await response.json();
-      if (data.success) {
+      if (data && data.success && data.data) {
         setVocabularies(prev => [data.data, ...prev]);
         setNewVocabulary({
           word: '',
@@ -156,9 +206,14 @@ export default function VocabularyPage() {
           partOfSpeech: ''
         });
         setIsAddingNew(false);
+        toast.success('Thêm từ vựng thành công!');
+      } else {
+        throw new Error('Định dạng phản hồi không hợp lệ');
       }
-    } catch (error) {
-      console.error('Error adding vocabulary:', error);
+    } catch (error: unknown) {
+      console.error('Lỗi khi thêm từ vựng:', error);
+      const errorMessage = error instanceof Error ? error.message : 'Đã xảy ra lỗi';
+      toast.error(`Không thể thêm từ vựng: ${errorMessage}`);
     }
   };
 
@@ -167,19 +222,39 @@ export default function VocabularyPage() {
 
     try {
       const token = localStorage.getItem('token');
-      const response = await fetch(`${API_BASE_URL}/api/vocabularies/${id}`, {
+      
+      // Lấy base URL và đảm bảo không có dấu / ở cuối
+      let baseUrl = await API_BASE_URL;
+      if (baseUrl.endsWith('/')) {
+        baseUrl = baseUrl.slice(0, -1);
+      }
+      
+      const url = `${baseUrl}/api/vocabularies/${id}`;
+      
+      const response = await fetch(url, {
         method: 'DELETE',
         headers: {
-          'Authorization': `Bearer ${token}`
+          'Authorization': `Bearer ${token}`,
+          'Content-Type': 'application/json'
         }
       });
 
-      const data = await response.json();
-      if (data.success) {
-        setVocabularies(prev => prev.filter(vocab => vocab._id !== id));
+      if (!response.ok) {
+        const errorData = await response.json().catch(() => ({}));
+        throw new Error(errorData.message || 'Không thể xóa từ vựng');
       }
-    } catch (error) {
-      console.error('Error deleting vocabulary:', error);
+
+      const data = await response.json();
+      if (data && data.success) {
+        setVocabularies(prev => prev.filter(vocab => vocab._id !== id));
+        toast.success('Đã xóa từ vựng thành công!');
+      } else {
+        throw new Error('Định dạng phản hồi không hợp lệ');
+      }
+    } catch (error: unknown) {
+      console.error('Lỗi khi xóa từ vựng:', error);
+      const errorMessage = error instanceof Error ? error.message : 'Đã xảy ra lỗi';
+      toast.error(`Không thể xóa từ vựng: ${errorMessage}`);
     }
   };
 
